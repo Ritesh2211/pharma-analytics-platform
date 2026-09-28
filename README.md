@@ -1,4 +1,4 @@
-# Pharma Commercial Decision Analytics — ZS Portfolio Case Study
+# Pharma Commercial Decision Analytics
 
 ## Executive objective
 Determine where and how a fictional pharmaceutical company should commercialize `Drug_A` for type-2 diabetes in India. The project combines market sizing, physician segmentation, demand forecasting, pricing elasticity, scenario analysis, and executive storytelling.
@@ -6,7 +6,7 @@ Determine where and how a fictional pharmaceutical company should commercialize 
 > **Important:** All data are synthetic and generated deterministically. No real patients, physicians, hospitals, or confidential company data are used.
 
 ## Why this project is relevant to Decision Analytics
-The case is intentionally structured as **Business question → analytical framework → data synthesis → model → scenario → decision**. It mirrors the skills described in current ZS Decision Analytics postings: advanced statistical/forecasting work, synthesizing diverse sources, actionable business insights, scenario modeling, and communicating results.
+The case is intentionally structured as **Business question → analytical framework → data synthesis → model → scenario → decision**.
 
 
 ## Stack
