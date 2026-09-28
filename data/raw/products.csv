@@ -1,0 +1,5 @@
+drug,company,price_inr,efficacy_score,access_score,monthly_growth
+Drug_A,OurCo,1000,0.38,0.72,0.015
+Drug_B,Competitor_1,850,0.27,0.68,0.012
+Drug_C,Competitor_2,1100,0.2,0.75,0.01
+Drug_D,Competitor_3,950,0.15,0.7,0.008

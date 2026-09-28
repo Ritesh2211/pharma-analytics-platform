@@ -1,0 +1,2401 @@
+doctor_id,region,city,specialty,monthly_patient_volume,digital_engagement,current_competitor,adoption_propensity
+DOC00001,Gujarat,Vadodara,Internal Medicine,97,0.751,Drug_B,0.43
+DOC00002,Tamil Nadu,Madurai,Endocrinologist,171,0.781,Drug_C,0.462
+DOC00003,Rajasthan,Udaipur,Cardiologist,126,0.18,Drug_C,0.315
+DOC00004,Rajasthan,Jodhpur,Cardiologist,170,0.854,Drug_B,0.466
+DOC00005,Delhi NCR,Noida,Internal Medicine,55,0.479,Drug_D,0.357
+DOC00006,West Bengal,Siliguri,Endocrinologist,58,0.647,Drug_D,0.294
+DOC00007,Telangana,Hyderabad,Endocrinologist,105,0.773,Drug_C,0.465
+DOC00008,Gujarat,Vadodara,General Physician,314,0.216,Drug_B,0.3
+DOC00009,Gujarat,Ahmedabad,General Physician,80,0.906,Drug_D,0.454
+DOC00010,Gujarat,Ahmedabad,Endocrinologist,208,0.373,Drug_B,0.543
+DOC00011,Maharashtra,Pune,Endocrinologist,92,0.698,Drug_D,0.326
+DOC00012,Karnataka,Bengaluru,General Physician,58,0.427,Drug_C,0.325
+DOC00013,Karnataka,Hubballi,Diabetologist,179,0.798,Drug_B,0.543
+DOC00014,Rajasthan,Jaipur,Internal Medicine,116,0.306,Drug_D,0.344
+DOC00015,Delhi NCR,Delhi,Cardiologist,94,0.691,Drug_C,0.487
+DOC00016,Maharashtra,Mumbai,Endocrinologist,143,0.865,Drug_B,0.532
+DOC00017,Maharashtra,Pune,General Physician,147,0.869,Drug_D,0.403
+DOC00018,Karnataka,Bengaluru,Diabetologist,50,0.17,Drug_D,0.141
+DOC00019,Delhi NCR,Noida,Endocrinologist,200,0.558,Drug_B,0.32
+DOC00020,Tamil Nadu,Madurai,Diabetologist,285,0.424,Drug_C,0.525
+DOC00021,West Bengal,Siliguri,Diabetologist,125,0.204,Drug_D,0.369
+DOC00022,West Bengal,Siliguri,Internal Medicine,295,0.594,Drug_B,0.541
+DOC00023,Maharashtra,Nagpur,General Physician,384,0.576,Drug_B,0.514
+DOC00024,Karnataka,Hubballi,Internal Medicine,72,0.331,Drug_B,0.31
+DOC00025,Rajasthan,Udaipur,Internal Medicine,136,0.402,Drug_D,0.349
+DOC00026,Tamil Nadu,Coimbatore,Diabetologist,260,0.814,Drug_C,0.665
+DOC00027,Tamil Nadu,Chennai,Cardiologist,124,0.747,Drug_B,0.386
+DOC00028,Rajasthan,Jodhpur,Diabetologist,169,0.737,Drug_D,0.495
+DOC00029,Karnataka,Mysuru,General Physician,150,0.418,Drug_D,0.5
+DOC00030,Maharashtra,Pune,Cardiologist,98,0.254,Drug_B,0.444
+DOC00031,Gujarat,Vadodara,General Physician,159,0.522,Drug_C,0.379
+DOC00032,Delhi NCR,Noida,Diabetologist,150,0.595,Drug_B,0.472
+DOC00033,Karnataka,Bengaluru,General Physician,155,0.784,Drug_C,0.466
+DOC00034,Maharashtra,Mumbai,Internal Medicine,221,0.932,Drug_B,0.552
+DOC00035,West Bengal,Siliguri,Cardiologist,80,0.362,Drug_C,0.104
+DOC00036,West Bengal,Siliguri,Internal Medicine,109,0.613,Drug_C,0.322
+DOC00037,Karnataka,Hubballi,Internal Medicine,157,0.712,Drug_D,0.351
+DOC00038,Karnataka,Mysuru,General Physician,98,0.774,Drug_D,0.537
+DOC00039,Delhi NCR,Noida,Diabetologist,124,0.59,Drug_C,0.383
+DOC00040,Delhi NCR,Delhi,Internal Medicine,154,0.422,Drug_B,0.426
+DOC00041,Karnataka,Bengaluru,Endocrinologist,238,0.559,Drug_B,0.452
+DOC00042,Karnataka,Bengaluru,Cardiologist,183,0.859,Drug_B,0.472
+DOC00043,Tamil Nadu,Chennai,General Physician,361,0.654,Drug_D,0.582
+DOC00044,Maharashtra,Nashik,Internal Medicine,151,0.531,Drug_B,0.32
+DOC00045,Delhi NCR,Delhi,Internal Medicine,189,0.638,Drug_D,0.511
+DOC00046,Delhi NCR,Gurugram,General Physician,125,0.308,Drug_C,0.318
+DOC00047,Tamil Nadu,Chennai,Internal Medicine,159,0.827,Drug_B,0.484
+DOC00048,Maharashtra,Nagpur,Internal Medicine,120,0.886,Drug_D,0.335
+DOC00049,Karnataka,Hubballi,Endocrinologist,127,0.501,Drug_B,0.426
+DOC00050,Telangana,Warangal,Cardiologist,50,0.444,Drug_B,0.261
+DOC00051,Maharashtra,Nagpur,General Physician,255,0.407,Drug_C,0.512
+DOC00052,Tamil Nadu,Coimbatore,Diabetologist,92,0.725,Drug_C,0.389
+DOC00053,West Bengal,Kolkata,Internal Medicine,333,0.615,Drug_B,0.687
+DOC00054,West Bengal,Kolkata,General Physician,104,0.525,Drug_B,0.349
+DOC00055,Maharashtra,Mumbai,Cardiologist,89,0.416,Drug_B,0.36
+DOC00056,Karnataka,Mysuru,General Physician,118,0.268,Drug_C,0.312
+DOC00057,Telangana,Warangal,Cardiologist,291,0.654,Drug_C,0.595
+DOC00058,Maharashtra,Nagpur,Internal Medicine,81,0.826,Drug_B,0.54
+DOC00059,West Bengal,Kolkata,General Physician,156,0.692,Drug_B,0.484
+DOC00060,Maharashtra,Pune,Internal Medicine,130,0.315,Drug_B,0.165
+DOC00061,West Bengal,Siliguri,General Physician,317,0.579,Drug_C,0.549
+DOC00062,Delhi NCR,Gurugram,Diabetologist,50,0.407,Drug_B,0.373
+DOC00063,West Bengal,Kolkata,Cardiologist,172,0.505,Drug_D,0.218
+DOC00064,Karnataka,Mysuru,Diabetologist,121,0.767,Drug_D,0.583
+DOC00065,Maharashtra,Nagpur,Internal Medicine,51,0.614,Drug_C,0.356
+DOC00066,Karnataka,Bengaluru,Internal Medicine,71,0.622,Drug_B,0.337
+DOC00067,Tamil Nadu,Madurai,General Physician,344,0.622,Drug_C,0.483
+DOC00068,Telangana,Hyderabad,Diabetologist,82,0.314,Drug_D,0.24
+DOC00069,Gujarat,Ahmedabad,Diabetologist,174,0.753,Drug_B,0.367
+DOC00070,Maharashtra,Mumbai,Internal Medicine,76,0.581,Drug_D,0.284
+DOC00071,Gujarat,Ahmedabad,Cardiologist,201,0.861,Drug_C,0.343
+DOC00072,Gujarat,Ahmedabad,Diabetologist,95,0.51,Drug_D,0.274
+DOC00073,Gujarat,Vadodara,Internal Medicine,154,0.585,Drug_C,0.541
+DOC00074,Delhi NCR,Gurugram,Internal Medicine,99,0.522,Drug_B,0.44
+DOC00075,Gujarat,Vadodara,Internal Medicine,144,0.481,Drug_C,0.508
+DOC00076,Rajasthan,Jaipur,Diabetologist,182,0.638,Drug_C,0.438
+DOC00077,Telangana,Hyderabad,Internal Medicine,229,0.854,Drug_B,0.613
+DOC00078,Karnataka,Hubballi,Endocrinologist,119,0.138,Drug_D,0.187
+DOC00079,Tamil Nadu,Madurai,Diabetologist,50,0.736,Drug_C,0.473
+DOC00080,Gujarat,Vadodara,Internal Medicine,77,0.652,Drug_D,0.358
+DOC00081,Delhi NCR,Gurugram,Internal Medicine,97,0.84,Drug_C,0.461
+DOC00082,Karnataka,Mysuru,Endocrinologist,223,0.169,Drug_D,0.519
+DOC00083,Maharashtra,Nagpur,General Physician,131,0.405,Drug_D,0.541
+DOC00084,Maharashtra,Nagpur,General Physician,245,0.499,Drug_B,0.528
+DOC00085,West Bengal,Siliguri,Internal Medicine,112,0.626,Drug_D,0.465
+DOC00086,Karnataka,Bengaluru,Diabetologist,79,0.629,Drug_D,0.403
+DOC00087,Rajasthan,Udaipur,General Physician,201,0.404,Drug_C,0.386
+DOC00088,Gujarat,Ahmedabad,Diabetologist,156,0.711,Drug_D,0.571
+DOC00089,Maharashtra,Pune,Diabetologist,413,0.599,Drug_B,0.604
+DOC00090,Maharashtra,Mumbai,Endocrinologist,107,0.599,Drug_B,0.352
+DOC00091,Tamil Nadu,Coimbatore,Cardiologist,314,0.312,Drug_B,0.462
+DOC00092,Tamil Nadu,Madurai,Diabetologist,320,0.5,Drug_C,0.591
+DOC00093,Rajasthan,Jodhpur,Endocrinologist,60,0.726,Drug_C,0.469
+DOC00094,Gujarat,Ahmedabad,Endocrinologist,69,0.736,Drug_C,0.365
+DOC00095,Delhi NCR,Noida,General Physician,140,0.576,Drug_C,0.549
+DOC00096,Tamil Nadu,Chennai,Internal Medicine,99,0.313,Drug_C,0.199
+DOC00097,Karnataka,Mysuru,Endocrinologist,275,0.649,Drug_B,0.416
+DOC00098,Maharashtra,Nagpur,Diabetologist,190,0.634,Drug_B,0.531
+DOC00099,Delhi NCR,Noida,Diabetologist,105,0.807,Drug_C,0.461
+DOC00100,Telangana,Hyderabad,General Physician,77,0.314,Drug_C,0.33
+DOC00101,Karnataka,Hubballi,Diabetologist,159,0.472,Drug_B,0.412
+DOC00102,Rajasthan,Jodhpur,Internal Medicine,124,0.405,Drug_B,0.18
+DOC00103,Delhi NCR,Gurugram,Internal Medicine,254,0.625,Drug_D,0.435
+DOC00104,West Bengal,Kolkata,General Physician,235,0.427,Drug_B,0.381
+DOC00105,Karnataka,Bengaluru,Diabetologist,99,0.803,Drug_B,0.492
+DOC00106,West Bengal,Kolkata,Diabetologist,119,0.833,Drug_B,0.36
+DOC00107,Karnataka,Bengaluru,Internal Medicine,150,0.585,Drug_B,0.419
+DOC00108,Tamil Nadu,Coimbatore,Cardiologist,179,0.673,Drug_B,0.332
+DOC00109,Gujarat,Ahmedabad,Diabetologist,115,0.404,Drug_D,0.379
+DOC00110,Gujarat,Ahmedabad,Cardiologist,353,0.262,Drug_B,0.473
+DOC00111,Delhi NCR,Delhi,General Physician,131,0.605,Drug_B,0.352
+DOC00112,Gujarat,Ahmedabad,Diabetologist,55,0.561,Drug_D,0.428
+DOC00113,Rajasthan,Udaipur,General Physician,355,0.861,Drug_D,0.648
+DOC00114,West Bengal,Siliguri,Cardiologist,56,0.764,Drug_D,0.193
+DOC00115,Maharashtra,Nashik,Internal Medicine,138,0.846,Drug_B,0.515
+DOC00116,Telangana,Hyderabad,Internal Medicine,62,0.542,Drug_D,0.247
+DOC00117,Tamil Nadu,Coimbatore,Cardiologist,101,0.597,Drug_B,0.252
+DOC00118,Rajasthan,Udaipur,Diabetologist,130,0.269,Drug_B,0.201
+DOC00119,Telangana,Hyderabad,Internal Medicine,104,0.658,Drug_D,0.355
+DOC00120,Telangana,Warangal,Diabetologist,69,0.456,Drug_B,0.18
+DOC00121,Maharashtra,Pune,General Physician,160,0.065,Drug_C,0.376
+DOC00122,Rajasthan,Jodhpur,General Physician,50,0.852,Drug_D,0.361
+DOC00123,Maharashtra,Pune,Endocrinologist,68,0.325,Drug_D,0.243
+DOC00124,West Bengal,Kolkata,Internal Medicine,141,0.864,Drug_B,0.369
+DOC00125,Maharashtra,Pune,Diabetologist,119,0.924,Drug_D,0.43
+DOC00126,West Bengal,Siliguri,Diabetologist,242,0.625,Drug_B,0.55
+DOC00127,Tamil Nadu,Coimbatore,Internal Medicine,154,0.545,Drug_B,0.398
+DOC00128,Maharashtra,Nagpur,Diabetologist,89,0.889,Drug_D,0.34
+DOC00129,Delhi NCR,Delhi,Cardiologist,70,0.41,Drug_C,0.114
+DOC00130,Rajasthan,Udaipur,Internal Medicine,289,0.702,Drug_B,0.556
+DOC00131,Delhi NCR,Gurugram,General Physician,124,0.676,Drug_C,0.454
+DOC00132,Tamil Nadu,Madurai,Internal Medicine,156,0.264,Drug_D,0.185
+DOC00133,Karnataka,Hubballi,Diabetologist,162,0.384,Drug_C,0.207
+DOC00134,Rajasthan,Jaipur,Diabetologist,211,0.326,Drug_D,0.382
+DOC00135,West Bengal,Siliguri,Diabetologist,186,0.655,Drug_C,0.39
+DOC00136,Gujarat,Ahmedabad,Endocrinologist,240,0.834,Drug_C,0.52
+DOC00137,Gujarat,Ahmedabad,Internal Medicine,125,0.809,Drug_D,0.484
+DOC00138,Tamil Nadu,Chennai,Internal Medicine,81,0.734,Drug_B,0.453
+DOC00139,Tamil Nadu,Madurai,Diabetologist,108,0.737,Drug_B,0.565
+DOC00140,Gujarat,Ahmedabad,Diabetologist,221,0.761,Drug_C,0.432
+DOC00141,West Bengal,Siliguri,General Physician,260,0.916,Drug_B,0.463
+DOC00142,Gujarat,Vadodara,Endocrinologist,82,0.42,Drug_D,0.228
+DOC00143,Maharashtra,Nashik,Cardiologist,188,0.389,Drug_C,0.154
+DOC00144,Gujarat,Vadodara,Internal Medicine,124,0.214,Drug_C,0.298
+DOC00145,Gujarat,Vadodara,General Physician,238,0.772,Drug_C,0.425
+DOC00146,West Bengal,Siliguri,Diabetologist,78,0.772,Drug_C,0.231
+DOC00147,Maharashtra,Pune,Internal Medicine,90,0.46,Drug_B,0.285
+DOC00148,Delhi NCR,Delhi,General Physician,244,0.529,Drug_C,0.456
+DOC00149,Maharashtra,Mumbai,Endocrinologist,169,0.464,Drug_B,0.409
+DOC00150,Tamil Nadu,Madurai,Diabetologist,226,0.117,Drug_B,0.315
+DOC00151,Gujarat,Vadodara,Internal Medicine,126,0.784,Drug_D,0.49
+DOC00152,Maharashtra,Nagpur,Internal Medicine,155,0.684,Drug_D,0.409
+DOC00153,Delhi NCR,Noida,Endocrinologist,68,0.891,Drug_B,0.326
+DOC00154,Rajasthan,Udaipur,Internal Medicine,147,0.792,Drug_B,0.504
+DOC00155,Delhi NCR,Noida,Diabetologist,142,0.291,Drug_B,0.298
+DOC00156,Rajasthan,Jodhpur,Diabetologist,213,0.424,Drug_B,0.347
+DOC00157,Karnataka,Mysuru,Diabetologist,425,0.701,Drug_B,0.673
+DOC00158,Gujarat,Surat,Endocrinologist,75,0.698,Drug_D,0.24
+DOC00159,Telangana,Hyderabad,Cardiologist,382,0.707,Drug_C,0.63
+DOC00160,Rajasthan,Jodhpur,Diabetologist,122,0.417,Drug_B,0.249
+DOC00161,Gujarat,Surat,Diabetologist,89,0.855,Drug_D,0.497
+DOC00162,Delhi NCR,Gurugram,Internal Medicine,104,0.572,Drug_B,0.384
+DOC00163,West Bengal,Siliguri,Cardiologist,54,0.955,Drug_B,0.409
+DOC00164,West Bengal,Kolkata,Internal Medicine,83,0.413,Drug_B,0.336
+DOC00165,Gujarat,Vadodara,General Physician,157,0.549,Drug_B,0.418
+DOC00166,Delhi NCR,Gurugram,Endocrinologist,499,0.354,Drug_D,0.608
+DOC00167,Rajasthan,Udaipur,Endocrinologist,170,0.526,Drug_D,0.634
+DOC00168,Tamil Nadu,Madurai,General Physician,101,0.531,Drug_B,0.422
+DOC00169,Maharashtra,Pune,General Physician,206,0.546,Drug_B,0.376
+DOC00170,Rajasthan,Jodhpur,Internal Medicine,303,0.499,Drug_D,0.458
+DOC00171,Gujarat,Ahmedabad,Internal Medicine,125,0.395,Drug_B,0.397
+DOC00172,Tamil Nadu,Coimbatore,Diabetologist,168,0.321,Drug_B,0.408
+DOC00173,Karnataka,Hubballi,Diabetologist,151,0.672,Drug_B,0.374
+DOC00174,Delhi NCR,Delhi,General Physician,156,0.742,Drug_D,0.509
+DOC00175,Gujarat,Vadodara,Cardiologist,302,0.8,Drug_C,0.54
+DOC00176,West Bengal,Siliguri,Internal Medicine,97,0.821,Drug_C,0.479
+DOC00177,West Bengal,Siliguri,Internal Medicine,82,0.592,Drug_D,0.356
+DOC00178,Karnataka,Mysuru,Diabetologist,291,0.327,Drug_B,0.338
+DOC00179,Maharashtra,Nashik,General Physician,83,0.964,Drug_B,0.484
+DOC00180,Delhi NCR,Delhi,Internal Medicine,200,0.164,Drug_B,0.414
+DOC00181,Karnataka,Bengaluru,Internal Medicine,115,0.565,Drug_B,0.138
+DOC00182,Karnataka,Hubballi,Diabetologist,109,0.25,Drug_B,0.336
+DOC00183,Telangana,Hyderabad,Diabetologist,253,0.186,Drug_B,0.492
+DOC00184,Maharashtra,Nashik,General Physician,98,0.634,Drug_B,0.352
+DOC00185,Gujarat,Ahmedabad,Internal Medicine,149,0.644,Drug_C,0.435
+DOC00186,Tamil Nadu,Madurai,Internal Medicine,126,0.716,Drug_B,0.521
+DOC00187,Karnataka,Hubballi,Endocrinologist,50,0.638,Drug_B,0.37
+DOC00188,Maharashtra,Pune,Endocrinologist,155,0.749,Drug_C,0.446
+DOC00189,Gujarat,Surat,Internal Medicine,87,0.349,Drug_C,0.357
+DOC00190,Telangana,Hyderabad,General Physician,77,0.176,Drug_D,0.381
+DOC00191,Rajasthan,Udaipur,Internal Medicine,597,0.829,Drug_D,0.747
+DOC00192,Karnataka,Mysuru,General Physician,356,0.469,Drug_C,0.545
+DOC00193,West Bengal,Siliguri,Internal Medicine,111,0.922,Drug_B,0.466
+DOC00194,Rajasthan,Jodhpur,Endocrinologist,59,0.848,Drug_B,0.358
+DOC00195,Tamil Nadu,Coimbatore,General Physician,173,0.4,Drug_B,0.412
+DOC00196,Delhi NCR,Gurugram,General Physician,110,0.832,Drug_D,0.554
+DOC00197,Tamil Nadu,Chennai,Internal Medicine,50,0.122,Drug_B,0.311
+DOC00198,Gujarat,Surat,Cardiologist,147,0.671,Drug_B,0.416
+DOC00199,West Bengal,Siliguri,Internal Medicine,86,0.676,Drug_C,0.31
+DOC00200,Karnataka,Bengaluru,General Physician,621,0.422,Drug_B,0.72
+DOC00201,Rajasthan,Udaipur,Internal Medicine,155,0.951,Drug_B,0.407
+DOC00202,Maharashtra,Nashik,Diabetologist,100,0.283,Drug_C,0.264
+DOC00203,Maharashtra,Nashik,Cardiologist,90,0.582,Drug_B,0.513
+DOC00204,Tamil Nadu,Madurai,General Physician,145,0.581,Drug_B,0.411
+DOC00205,Rajasthan,Udaipur,Diabetologist,97,0.763,Drug_B,0.517
+DOC00206,Maharashtra,Mumbai,Diabetologist,258,0.528,Drug_C,0.561
+DOC00207,Gujarat,Surat,Endocrinologist,167,0.805,Drug_D,0.529
+DOC00208,Tamil Nadu,Chennai,Internal Medicine,395,0.298,Drug_B,0.511
+DOC00209,Gujarat,Ahmedabad,Internal Medicine,199,0.68,Drug_B,0.41
+DOC00210,Maharashtra,Mumbai,Internal Medicine,210,0.733,Drug_D,0.462
+DOC00211,Maharashtra,Pune,Diabetologist,195,0.393,Drug_D,0.374
+DOC00212,Delhi NCR,Gurugram,Diabetologist,326,0.774,Drug_B,0.695
+DOC00213,Tamil Nadu,Chennai,Internal Medicine,54,0.571,Drug_D,0.33
+DOC00214,Delhi NCR,Gurugram,Internal Medicine,87,0.886,Drug_D,0.468
+DOC00215,West Bengal,Kolkata,General Physician,322,0.799,Drug_B,0.664
+DOC00216,Telangana,Hyderabad,Internal Medicine,293,0.482,Drug_D,0.498
+DOC00217,Gujarat,Surat,Internal Medicine,85,0.833,Drug_C,0.378
+DOC00218,Gujarat,Ahmedabad,Internal Medicine,102,0.756,Drug_B,0.366
+DOC00219,West Bengal,Kolkata,Internal Medicine,136,0.871,Drug_C,0.398
+DOC00220,Gujarat,Ahmedabad,General Physician,277,0.786,Drug_C,0.615
+DOC00221,Gujarat,Vadodara,General Physician,328,0.69,Drug_D,0.5
+DOC00222,Karnataka,Hubballi,Endocrinologist,301,0.6,Drug_C,0.527
+DOC00223,West Bengal,Kolkata,Internal Medicine,122,0.342,Drug_D,0.331
+DOC00224,Karnataka,Mysuru,Internal Medicine,326,0.59,Drug_C,0.599
+DOC00225,Maharashtra,Pune,Endocrinologist,131,0.922,Drug_C,0.466
+DOC00226,Karnataka,Hubballi,General Physician,73,0.514,Drug_C,0.377
+DOC00227,Delhi NCR,Gurugram,Cardiologist,237,0.249,Drug_C,0.434
+DOC00228,Rajasthan,Udaipur,Endocrinologist,139,0.622,Drug_C,0.422
+DOC00229,Karnataka,Mysuru,Endocrinologist,81,0.914,Drug_C,0.414
+DOC00230,Rajasthan,Jaipur,Diabetologist,408,0.691,Drug_C,0.647
+DOC00231,Gujarat,Surat,General Physician,573,0.681,Drug_B,0.86
+DOC00232,Telangana,Warangal,Diabetologist,114,0.789,Drug_B,0.309
+DOC00233,Karnataka,Hubballi,Internal Medicine,210,0.514,Drug_D,0.404
+DOC00234,Delhi NCR,Gurugram,Diabetologist,101,0.182,Drug_D,0.322
+DOC00235,Tamil Nadu,Madurai,Diabetologist,632,0.611,Drug_B,0.755
+DOC00236,Tamil Nadu,Coimbatore,Diabetologist,183,0.639,Drug_D,0.575
+DOC00237,Telangana,Hyderabad,Internal Medicine,271,0.743,Drug_B,0.532
+DOC00238,Maharashtra,Nashik,Internal Medicine,86,0.229,Drug_B,0.166
+DOC00239,Karnataka,Bengaluru,Internal Medicine,110,0.87,Drug_B,0.523
+DOC00240,Karnataka,Bengaluru,Endocrinologist,215,0.463,Drug_C,0.305
+DOC00241,Rajasthan,Jodhpur,Cardiologist,253,0.468,Drug_B,0.565
+DOC00242,Gujarat,Ahmedabad,Internal Medicine,271,0.797,Drug_B,0.517
+DOC00243,Telangana,Hyderabad,Endocrinologist,326,0.778,Drug_C,0.534
+DOC00244,Tamil Nadu,Coimbatore,Internal Medicine,96,0.957,Drug_C,0.471
+DOC00245,Tamil Nadu,Madurai,Diabetologist,82,0.832,Drug_D,0.357
+DOC00246,Karnataka,Mysuru,Internal Medicine,242,0.711,Drug_D,0.533
+DOC00247,Rajasthan,Jodhpur,Diabetologist,187,0.722,Drug_D,0.383
+DOC00248,Tamil Nadu,Coimbatore,Diabetologist,92,0.907,Drug_C,0.418
+DOC00249,Maharashtra,Pune,Internal Medicine,76,0.4,Drug_C,0.339
+DOC00250,Maharashtra,Nashik,Internal Medicine,406,0.596,Drug_C,0.572
+DOC00251,West Bengal,Kolkata,Internal Medicine,172,0.536,Drug_B,0.506
+DOC00252,Tamil Nadu,Chennai,Diabetologist,56,0.868,Drug_B,0.414
+DOC00253,Karnataka,Bengaluru,General Physician,357,0.482,Drug_B,0.532
+DOC00254,Telangana,Warangal,Internal Medicine,84,0.655,Drug_C,0.379
+DOC00255,West Bengal,Kolkata,Diabetologist,61,0.491,Drug_B,0.317
+DOC00256,Gujarat,Ahmedabad,Cardiologist,158,0.874,Drug_C,0.446
+DOC00257,Karnataka,Bengaluru,Endocrinologist,133,0.73,Drug_B,0.457
+DOC00258,Tamil Nadu,Madurai,Internal Medicine,363,0.697,Drug_B,0.801
+DOC00259,Delhi NCR,Delhi,Cardiologist,216,0.845,Drug_C,0.619
+DOC00260,Karnataka,Bengaluru,Diabetologist,543,0.539,Drug_B,0.669
+DOC00261,Tamil Nadu,Madurai,General Physician,110,0.873,Drug_B,0.413
+DOC00262,Rajasthan,Jodhpur,Diabetologist,93,0.555,Drug_C,0.45
+DOC00263,Rajasthan,Jaipur,Diabetologist,93,0.627,Drug_C,0.397
+DOC00264,Karnataka,Bengaluru,Endocrinologist,197,0.57,Drug_C,0.444
+DOC00265,Telangana,Warangal,Internal Medicine,114,0.317,Drug_D,0.334
+DOC00266,West Bengal,Siliguri,Diabetologist,170,0.812,Drug_C,0.363
+DOC00267,Telangana,Hyderabad,Diabetologist,147,0.175,Drug_B,0.33
+DOC00268,Maharashtra,Nashik,Cardiologist,222,0.387,Drug_C,0.371
+DOC00269,Maharashtra,Mumbai,Endocrinologist,79,0.891,Drug_D,0.52
+DOC00270,Maharashtra,Mumbai,Internal Medicine,225,0.778,Drug_B,0.654
+DOC00271,West Bengal,Kolkata,Diabetologist,102,0.824,Drug_B,0.493
+DOC00272,Maharashtra,Mumbai,Endocrinologist,201,0.744,Drug_D,0.443
+DOC00273,Maharashtra,Mumbai,Endocrinologist,79,0.683,Drug_B,0.627
+DOC00274,Maharashtra,Mumbai,Diabetologist,119,0.686,Drug_B,0.438
+DOC00275,Telangana,Hyderabad,Internal Medicine,106,0.541,Drug_B,0.366
+DOC00276,Rajasthan,Jaipur,Diabetologist,215,0.693,Drug_B,0.4
+DOC00277,Tamil Nadu,Chennai,General Physician,151,0.576,Drug_C,0.445
+DOC00278,West Bengal,Kolkata,Endocrinologist,100,0.891,Drug_B,0.424
+DOC00279,Gujarat,Ahmedabad,Diabetologist,155,0.253,Drug_C,0.419
+DOC00280,Telangana,Hyderabad,General Physician,281,0.49,Drug_B,0.523
+DOC00281,Maharashtra,Mumbai,Internal Medicine,143,0.543,Drug_C,0.497
+DOC00282,Delhi NCR,Delhi,Internal Medicine,325,0.921,Drug_D,0.567
+DOC00283,Karnataka,Hubballi,General Physician,208,0.172,Drug_D,0.321
+DOC00284,Tamil Nadu,Madurai,Internal Medicine,223,0.555,Drug_B,0.488
+DOC00285,Delhi NCR,Noida,General Physician,70,0.545,Drug_B,0.42
+DOC00286,Karnataka,Hubballi,Endocrinologist,103,0.834,Drug_B,0.467
+DOC00287,Gujarat,Vadodara,Endocrinologist,50,0.761,Drug_D,0.366
+DOC00288,Maharashtra,Nashik,Endocrinologist,79,0.841,Drug_C,0.485
+DOC00289,Tamil Nadu,Madurai,Diabetologist,258,0.457,Drug_C,0.493
+DOC00290,Delhi NCR,Delhi,General Physician,107,0.706,Drug_B,0.456
+DOC00291,Delhi NCR,Delhi,Diabetologist,811,0.567,Drug_C,0.9
+DOC00292,Delhi NCR,Noida,Diabetologist,160,0.768,Drug_D,0.532
+DOC00293,Maharashtra,Mumbai,Internal Medicine,227,0.636,Drug_D,0.47
+DOC00294,Karnataka,Hubballi,Internal Medicine,52,0.609,Drug_B,0.257
+DOC00295,Tamil Nadu,Chennai,Endocrinologist,375,0.75,Drug_B,0.681
+DOC00296,Maharashtra,Nashik,General Physician,187,0.772,Drug_B,0.593
+DOC00297,Tamil Nadu,Madurai,Diabetologist,143,0.363,Drug_B,0.358
+DOC00298,Gujarat,Ahmedabad,Internal Medicine,158,0.852,Drug_B,0.441
+DOC00299,Rajasthan,Udaipur,Cardiologist,127,0.359,Drug_B,0.375
+DOC00300,Telangana,Warangal,General Physician,63,0.871,Drug_B,0.465
+DOC00301,Gujarat,Surat,Internal Medicine,53,0.395,Drug_C,0.17
+DOC00302,Tamil Nadu,Coimbatore,Internal Medicine,372,0.908,Drug_D,0.513
+DOC00303,Maharashtra,Nagpur,General Physician,153,0.607,Drug_B,0.415
+DOC00304,Telangana,Warangal,Internal Medicine,697,0.577,Drug_C,0.723
+DOC00305,Rajasthan,Udaipur,General Physician,73,0.668,Drug_D,0.534
+DOC00306,Gujarat,Vadodara,Internal Medicine,120,0.806,Drug_B,0.445
+DOC00307,Delhi NCR,Delhi,General Physician,220,0.746,Drug_D,0.574
+DOC00308,Rajasthan,Jaipur,Diabetologist,72,0.141,Drug_D,0.357
+DOC00309,Tamil Nadu,Chennai,Internal Medicine,271,0.587,Drug_C,0.605
+DOC00310,Delhi NCR,Gurugram,Cardiologist,242,0.6,Drug_D,0.515
+DOC00311,West Bengal,Siliguri,Diabetologist,87,0.341,Drug_C,0.391
+DOC00312,West Bengal,Kolkata,General Physician,129,0.908,Drug_C,0.466
+DOC00313,Karnataka,Mysuru,Diabetologist,196,0.219,Drug_D,0.39
+DOC00314,Delhi NCR,Noida,Diabetologist,143,0.751,Drug_B,0.325
+DOC00315,Karnataka,Bengaluru,Internal Medicine,71,0.157,Drug_B,0.274
+DOC00316,Gujarat,Ahmedabad,Cardiologist,248,0.724,Drug_C,0.517
+DOC00317,Telangana,Warangal,Diabetologist,358,0.655,Drug_B,0.683
+DOC00318,Karnataka,Mysuru,General Physician,129,0.48,Drug_B,0.382
+DOC00319,Gujarat,Ahmedabad,Diabetologist,373,0.628,Drug_B,0.668
+DOC00320,Maharashtra,Pune,Internal Medicine,144,0.455,Drug_C,0.272
+DOC00321,Gujarat,Surat,Endocrinologist,143,0.828,Drug_B,0.428
+DOC00322,West Bengal,Kolkata,Diabetologist,399,0.319,Drug_B,0.407
+DOC00323,Karnataka,Hubballi,Diabetologist,69,0.665,Drug_B,0.434
+DOC00324,Telangana,Hyderabad,Internal Medicine,97,0.885,Drug_C,0.393
+DOC00325,Maharashtra,Nagpur,Internal Medicine,105,0.481,Drug_D,0.28
+DOC00326,West Bengal,Kolkata,General Physician,221,0.773,Drug_D,0.499
+DOC00327,West Bengal,Siliguri,Cardiologist,63,0.869,Drug_C,0.532
+DOC00328,Maharashtra,Nashik,Cardiologist,152,0.655,Drug_B,0.463
+DOC00329,Delhi NCR,Delhi,General Physician,148,0.697,Drug_C,0.316
+DOC00330,Telangana,Hyderabad,Internal Medicine,57,0.542,Drug_D,0.222
+DOC00331,Maharashtra,Pune,Endocrinologist,101,0.528,Drug_D,0.279
+DOC00332,Telangana,Hyderabad,General Physician,187,0.777,Drug_D,0.388
+DOC00333,West Bengal,Kolkata,Diabetologist,135,0.444,Drug_C,0.307
+DOC00334,Gujarat,Vadodara,Endocrinologist,134,0.739,Drug_B,0.43
+DOC00335,Maharashtra,Pune,Diabetologist,226,0.627,Drug_D,0.562
+DOC00336,Tamil Nadu,Chennai,Endocrinologist,318,0.598,Drug_B,0.61
+DOC00337,West Bengal,Siliguri,Internal Medicine,116,0.674,Drug_B,0.351
+DOC00338,Tamil Nadu,Madurai,Internal Medicine,692,0.404,Drug_C,0.782
+DOC00339,West Bengal,Kolkata,Internal Medicine,130,0.566,Drug_C,0.252
+DOC00340,Karnataka,Bengaluru,Internal Medicine,175,0.505,Drug_D,0.49
+DOC00341,Telangana,Hyderabad,Internal Medicine,187,0.834,Drug_C,0.503
+DOC00342,Tamil Nadu,Chennai,Internal Medicine,53,0.523,Drug_D,0.284
+DOC00343,Gujarat,Surat,Cardiologist,220,0.259,Drug_D,0.458
+DOC00344,Karnataka,Hubballi,Endocrinologist,98,0.414,Drug_B,0.345
+DOC00345,Maharashtra,Nagpur,Endocrinologist,125,0.343,Drug_D,0.35
+DOC00346,West Bengal,Kolkata,Internal Medicine,251,0.788,Drug_C,0.616
+DOC00347,Tamil Nadu,Madurai,Diabetologist,87,0.903,Drug_C,0.492
+DOC00348,Maharashtra,Pune,Cardiologist,135,0.322,Drug_B,0.152
+DOC00349,Tamil Nadu,Coimbatore,Endocrinologist,95,0.891,Drug_D,0.299
+DOC00350,Maharashtra,Pune,General Physician,118,0.549,Drug_B,0.244
+DOC00351,Rajasthan,Jaipur,Endocrinologist,176,0.848,Drug_B,0.401
+DOC00352,Delhi NCR,Noida,Endocrinologist,80,0.608,Drug_B,0.392
+DOC00353,Karnataka,Hubballi,Endocrinologist,86,0.696,Drug_B,0.206
+DOC00354,Maharashtra,Mumbai,Diabetologist,61,0.399,Drug_B,0.28
+DOC00355,Maharashtra,Nashik,Diabetologist,83,0.241,Drug_C,0.171
+DOC00356,Delhi NCR,Gurugram,Endocrinologist,124,0.438,Drug_B,0.271
+DOC00357,Tamil Nadu,Coimbatore,Internal Medicine,229,0.523,Drug_D,0.492
+DOC00358,Rajasthan,Jaipur,Internal Medicine,166,0.746,Drug_C,0.445
+DOC00359,Maharashtra,Mumbai,Diabetologist,293,0.929,Drug_B,0.558
+DOC00360,Delhi NCR,Gurugram,Diabetologist,118,0.758,Drug_C,0.368
+DOC00361,West Bengal,Kolkata,Diabetologist,115,0.77,Drug_B,0.352
+DOC00362,Maharashtra,Nashik,General Physician,168,0.758,Drug_C,0.534
+DOC00363,Karnataka,Bengaluru,Internal Medicine,121,0.503,Drug_B,0.468
+DOC00364,Karnataka,Bengaluru,Internal Medicine,84,0.461,Drug_B,0.313
+DOC00365,West Bengal,Kolkata,Diabetologist,242,0.423,Drug_B,0.487
+DOC00366,Tamil Nadu,Chennai,Diabetologist,181,0.382,Drug_C,0.511
+DOC00367,West Bengal,Siliguri,Internal Medicine,165,0.901,Drug_C,0.456
+DOC00368,West Bengal,Siliguri,General Physician,165,0.307,Drug_D,0.372
+DOC00369,Telangana,Warangal,Internal Medicine,134,0.634,Drug_C,0.404
+DOC00370,Gujarat,Surat,Internal Medicine,134,0.642,Drug_C,0.464
+DOC00371,Gujarat,Vadodara,Internal Medicine,238,0.722,Drug_B,0.469
+DOC00372,Karnataka,Bengaluru,Internal Medicine,186,0.498,Drug_B,0.411
+DOC00373,Delhi NCR,Gurugram,Cardiologist,94,0.184,Drug_C,0.34
+DOC00374,Tamil Nadu,Coimbatore,General Physician,260,0.902,Drug_D,0.766
+DOC00375,Maharashtra,Mumbai,Internal Medicine,201,0.191,Drug_C,0.404
+DOC00376,Rajasthan,Jaipur,Endocrinologist,410,0.96,Drug_C,0.72
+DOC00377,Karnataka,Hubballi,Internal Medicine,200,0.302,Drug_C,0.327
+DOC00378,Telangana,Hyderabad,Endocrinologist,85,0.679,Drug_B,0.371
+DOC00379,West Bengal,Siliguri,Endocrinologist,179,0.719,Drug_D,0.392
+DOC00380,Karnataka,Mysuru,Diabetologist,992,0.426,Drug_C,0.95
+DOC00381,Karnataka,Mysuru,Endocrinologist,330,0.782,Drug_C,0.716
+DOC00382,Maharashtra,Nashik,Endocrinologist,71,0.69,Drug_B,0.288
+DOC00383,Telangana,Warangal,Internal Medicine,266,0.812,Drug_B,0.599
+DOC00384,Gujarat,Surat,General Physician,96,0.924,Drug_B,0.489
+DOC00385,Maharashtra,Nashik,Diabetologist,476,0.649,Drug_C,0.625
+DOC00386,Gujarat,Vadodara,Internal Medicine,50,0.944,Drug_D,0.537
+DOC00387,Maharashtra,Mumbai,Internal Medicine,275,0.507,Drug_B,0.487
+DOC00388,Tamil Nadu,Chennai,Cardiologist,192,0.58,Drug_C,0.353
+DOC00389,Karnataka,Hubballi,Endocrinologist,433,0.319,Drug_B,0.689
+DOC00390,West Bengal,Siliguri,Endocrinologist,166,0.536,Drug_B,0.327
+DOC00391,Karnataka,Mysuru,Cardiologist,167,0.522,Drug_B,0.393
+DOC00392,Maharashtra,Nagpur,General Physician,54,0.849,Drug_B,0.376
+DOC00393,Tamil Nadu,Madurai,General Physician,90,0.795,Drug_B,0.513
+DOC00394,Delhi NCR,Noida,Endocrinologist,81,0.602,Drug_B,0.346
+DOC00395,Gujarat,Ahmedabad,Internal Medicine,50,0.779,Drug_C,0.33
+DOC00396,West Bengal,Kolkata,Internal Medicine,116,0.175,Drug_B,0.266
+DOC00397,West Bengal,Siliguri,Endocrinologist,116,0.829,Drug_D,0.471
+DOC00398,Gujarat,Vadodara,Endocrinologist,50,0.652,Drug_B,0.349
+DOC00399,Karnataka,Mysuru,Internal Medicine,782,0.812,Drug_B,0.943
+DOC00400,Karnataka,Bengaluru,Cardiologist,202,0.557,Drug_B,0.497
+DOC00401,Karnataka,Mysuru,Diabetologist,150,0.389,Drug_C,0.323
+DOC00402,Maharashtra,Mumbai,General Physician,50,0.704,Drug_B,0.249
+DOC00403,Maharashtra,Nagpur,Internal Medicine,121,0.48,Drug_B,0.319
+DOC00404,Rajasthan,Jodhpur,Diabetologist,189,0.459,Drug_C,0.325
+DOC00405,Karnataka,Mysuru,Cardiologist,64,0.838,Drug_B,0.449
+DOC00406,Maharashtra,Nashik,Diabetologist,120,0.873,Drug_B,0.567
+DOC00407,Delhi NCR,Delhi,General Physician,170,0.805,Drug_B,0.45
+DOC00408,Gujarat,Surat,Diabetologist,141,0.727,Drug_B,0.559
+DOC00409,Karnataka,Mysuru,Diabetologist,135,0.414,Drug_D,0.454
+DOC00410,Tamil Nadu,Coimbatore,General Physician,101,0.414,Drug_C,0.215
+DOC00411,Delhi NCR,Delhi,Internal Medicine,182,0.859,Drug_C,0.433
+DOC00412,Karnataka,Bengaluru,Cardiologist,145,0.679,Drug_B,0.548
+DOC00413,Karnataka,Bengaluru,General Physician,70,0.316,Drug_B,0.239
+DOC00414,Maharashtra,Nagpur,Internal Medicine,144,0.596,Drug_D,0.389
+DOC00415,Gujarat,Surat,Diabetologist,98,0.879,Drug_D,0.407
+DOC00416,Rajasthan,Jodhpur,Internal Medicine,167,0.567,Drug_B,0.561
+DOC00417,Telangana,Hyderabad,Diabetologist,390,0.673,Drug_C,0.592
+DOC00418,Rajasthan,Jaipur,Internal Medicine,112,0.65,Drug_D,0.53
+DOC00419,Karnataka,Bengaluru,Internal Medicine,207,0.366,Drug_C,0.484
+DOC00420,Rajasthan,Jodhpur,Internal Medicine,126,0.198,Drug_B,0.289
+DOC00421,Karnataka,Bengaluru,Diabetologist,130,0.411,Drug_B,0.5
+DOC00422,Karnataka,Mysuru,Endocrinologist,181,0.703,Drug_B,0.492
+DOC00423,Delhi NCR,Delhi,General Physician,150,0.467,Drug_C,0.415
+DOC00424,Delhi NCR,Noida,Endocrinologist,180,0.872,Drug_B,0.564
+DOC00425,Karnataka,Hubballi,Diabetologist,195,0.6,Drug_D,0.384
+DOC00426,Maharashtra,Mumbai,General Physician,366,0.485,Drug_C,0.369
+DOC00427,Telangana,Warangal,Diabetologist,230,0.689,Drug_D,0.626
+DOC00428,Gujarat,Vadodara,Diabetologist,134,0.683,Drug_B,0.457
+DOC00429,Karnataka,Bengaluru,Cardiologist,177,0.644,Drug_B,0.497
+DOC00430,Tamil Nadu,Coimbatore,Diabetologist,82,0.822,Drug_C,0.387
+DOC00431,Gujarat,Surat,Diabetologist,50,0.345,Drug_B,0.282
+DOC00432,Karnataka,Hubballi,Diabetologist,183,0.672,Drug_C,0.339
+DOC00433,Maharashtra,Nashik,Internal Medicine,76,0.304,Drug_D,0.285
+DOC00434,Delhi NCR,Delhi,Cardiologist,143,0.537,Drug_B,0.433
+DOC00435,Tamil Nadu,Chennai,Endocrinologist,92,0.794,Drug_B,0.468
+DOC00436,Karnataka,Mysuru,Cardiologist,241,0.501,Drug_C,0.46
+DOC00437,Telangana,Hyderabad,Endocrinologist,172,0.651,Drug_C,0.579
+DOC00438,Telangana,Hyderabad,Internal Medicine,105,0.777,Drug_B,0.381
+DOC00439,Delhi NCR,Gurugram,Internal Medicine,98,0.472,Drug_B,0.347
+DOC00440,Tamil Nadu,Coimbatore,Internal Medicine,54,0.553,Drug_B,0.267
+DOC00441,Gujarat,Vadodara,Cardiologist,273,0.234,Drug_D,0.45
+DOC00442,Maharashtra,Nashik,Endocrinologist,90,0.563,Drug_B,0.278
+DOC00443,Maharashtra,Mumbai,Endocrinologist,126,0.872,Drug_B,0.541
+DOC00444,Delhi NCR,Gurugram,Internal Medicine,127,0.613,Drug_D,0.465
+DOC00445,Maharashtra,Nagpur,Diabetologist,239,0.881,Drug_C,0.575
+DOC00446,Tamil Nadu,Chennai,Diabetologist,109,0.587,Drug_C,0.413
+DOC00447,West Bengal,Kolkata,Endocrinologist,357,0.36,Drug_B,0.507
+DOC00448,Telangana,Warangal,Internal Medicine,72,0.67,Drug_B,0.4
+DOC00449,West Bengal,Kolkata,Internal Medicine,149,0.963,Drug_C,0.502
+DOC00450,Rajasthan,Jodhpur,Diabetologist,179,0.785,Drug_B,0.533
+DOC00451,West Bengal,Siliguri,Diabetologist,71,0.877,Drug_C,0.395
+DOC00452,Karnataka,Mysuru,Internal Medicine,163,0.201,Drug_D,0.293
+DOC00453,Tamil Nadu,Coimbatore,Internal Medicine,225,0.56,Drug_B,0.365
+DOC00454,Karnataka,Hubballi,Cardiologist,94,0.814,Drug_C,0.461
+DOC00455,Maharashtra,Mumbai,Diabetologist,79,0.454,Drug_C,0.329
+DOC00456,Maharashtra,Pune,Diabetologist,455,0.157,Drug_D,0.511
+DOC00457,Rajasthan,Jodhpur,Diabetologist,214,0.668,Drug_D,0.661
+DOC00458,Maharashtra,Mumbai,General Physician,163,0.608,Drug_C,0.479
+DOC00459,Tamil Nadu,Coimbatore,Internal Medicine,172,0.434,Drug_C,0.524
+DOC00460,Gujarat,Ahmedabad,Diabetologist,201,0.532,Drug_C,0.493
+DOC00461,Tamil Nadu,Madurai,Cardiologist,50,0.593,Drug_B,0.401
+DOC00462,Tamil Nadu,Coimbatore,Endocrinologist,140,0.423,Drug_B,0.376
+DOC00463,Karnataka,Mysuru,General Physician,253,0.529,Drug_D,0.574
+DOC00464,West Bengal,Siliguri,Endocrinologist,337,0.865,Drug_D,0.605
+DOC00465,Tamil Nadu,Madurai,Internal Medicine,218,0.563,Drug_D,0.452
+DOC00466,Tamil Nadu,Coimbatore,Diabetologist,180,0.422,Drug_C,0.254
+DOC00467,Karnataka,Mysuru,Endocrinologist,50,0.8,Drug_B,0.351
+DOC00468,Gujarat,Surat,General Physician,118,0.365,Drug_B,0.415
+DOC00469,Rajasthan,Jaipur,Internal Medicine,161,0.803,Drug_B,0.343
+DOC00470,West Bengal,Siliguri,Internal Medicine,186,0.752,Drug_C,0.482
+DOC00471,Rajasthan,Jaipur,Cardiologist,268,0.553,Drug_B,0.479
+DOC00472,Tamil Nadu,Chennai,Internal Medicine,168,0.265,Drug_B,0.413
+DOC00473,Karnataka,Bengaluru,General Physician,148,0.818,Drug_C,0.544
+DOC00474,Gujarat,Surat,Cardiologist,119,0.472,Drug_B,0.456
+DOC00475,Karnataka,Bengaluru,Endocrinologist,259,0.516,Drug_D,0.487
+DOC00476,Gujarat,Ahmedabad,Internal Medicine,54,0.134,Drug_C,0.308
+DOC00477,Maharashtra,Nagpur,Endocrinologist,99,0.67,Drug_B,0.399
+DOC00478,Telangana,Hyderabad,Endocrinologist,86,0.517,Drug_C,0.294
+DOC00479,Maharashtra,Mumbai,General Physician,425,0.566,Drug_B,0.699
+DOC00480,Karnataka,Hubballi,Internal Medicine,104,0.506,Drug_B,0.301
+DOC00481,Karnataka,Bengaluru,Cardiologist,193,0.297,Drug_B,0.564
+DOC00482,Tamil Nadu,Madurai,Endocrinologist,91,0.807,Drug_B,0.496
+DOC00483,West Bengal,Kolkata,Internal Medicine,133,0.441,Drug_B,0.431
+DOC00484,Maharashtra,Nashik,Diabetologist,212,0.698,Drug_B,0.613
+DOC00485,West Bengal,Kolkata,Endocrinologist,155,0.456,Drug_B,0.362
+DOC00486,Karnataka,Mysuru,Internal Medicine,107,0.99,Drug_B,0.349
+DOC00487,Rajasthan,Jaipur,Cardiologist,148,0.403,Drug_C,0.422
+DOC00488,Karnataka,Mysuru,General Physician,194,0.526,Drug_B,0.451
+DOC00489,Tamil Nadu,Madurai,Internal Medicine,81,0.627,Drug_C,0.295
+DOC00490,Karnataka,Bengaluru,Diabetologist,475,0.857,Drug_B,0.739
+DOC00491,Rajasthan,Udaipur,Diabetologist,168,0.573,Drug_B,0.436
+DOC00492,Maharashtra,Pune,Cardiologist,203,0.764,Drug_B,0.486
+DOC00493,Maharashtra,Nashik,Cardiologist,77,0.661,Drug_B,0.27
+DOC00494,West Bengal,Siliguri,Internal Medicine,109,0.69,Drug_D,0.48
+DOC00495,Karnataka,Mysuru,General Physician,312,0.602,Drug_C,0.58
+DOC00496,Rajasthan,Jaipur,Cardiologist,62,0.656,Drug_B,0.391
+DOC00497,Rajasthan,Udaipur,Cardiologist,101,0.549,Drug_D,0.35
+DOC00498,Tamil Nadu,Madurai,Internal Medicine,91,0.335,Drug_B,0.206
+DOC00499,West Bengal,Siliguri,Diabetologist,169,0.602,Drug_C,0.427
+DOC00500,Rajasthan,Jaipur,Internal Medicine,223,0.313,Drug_B,0.354
+DOC00501,Karnataka,Mysuru,Endocrinologist,116,0.769,Drug_D,0.459
+DOC00502,West Bengal,Kolkata,Diabetologist,97,0.655,Drug_B,0.585
+DOC00503,Gujarat,Vadodara,General Physician,145,0.816,Drug_D,0.565
+DOC00504,Gujarat,Surat,Internal Medicine,159,0.442,Drug_B,0.427
+DOC00505,Maharashtra,Mumbai,General Physician,225,0.731,Drug_B,0.46
+DOC00506,Delhi NCR,Delhi,Endocrinologist,363,0.755,Drug_B,0.661
+DOC00507,Karnataka,Bengaluru,Internal Medicine,82,0.665,Drug_D,0.398
+DOC00508,Delhi NCR,Delhi,Endocrinologist,141,0.286,Drug_B,0.289
+DOC00509,Delhi NCR,Gurugram,Cardiologist,132,0.694,Drug_B,0.44
+DOC00510,Telangana,Warangal,Diabetologist,174,0.585,Drug_D,0.495
+DOC00511,Maharashtra,Nagpur,Endocrinologist,154,0.774,Drug_D,0.565
+DOC00512,Maharashtra,Pune,Internal Medicine,182,0.921,Drug_B,0.504
+DOC00513,Tamil Nadu,Coimbatore,Diabetologist,104,0.37,Drug_B,0.373
+DOC00514,West Bengal,Kolkata,Diabetologist,285,0.822,Drug_B,0.676
+DOC00515,Gujarat,Vadodara,Cardiologist,195,0.795,Drug_D,0.373
+DOC00516,Telangana,Hyderabad,Internal Medicine,128,0.675,Drug_D,0.478
+DOC00517,Gujarat,Surat,Endocrinologist,258,0.8,Drug_B,0.481
+DOC00518,Maharashtra,Nagpur,Diabetologist,142,0.661,Drug_B,0.425
+DOC00519,Rajasthan,Udaipur,General Physician,145,0.791,Drug_C,0.381
+DOC00520,Tamil Nadu,Madurai,Diabetologist,53,0.631,Drug_B,0.265
+DOC00521,Tamil Nadu,Madurai,Internal Medicine,231,0.65,Drug_D,0.535
+DOC00522,Tamil Nadu,Madurai,Endocrinologist,82,0.322,Drug_B,0.254
+DOC00523,Tamil Nadu,Madurai,Internal Medicine,229,0.912,Drug_C,0.373
+DOC00524,Maharashtra,Mumbai,Internal Medicine,228,0.563,Drug_B,0.434
+DOC00525,Maharashtra,Nashik,Internal Medicine,154,0.725,Drug_D,0.487
+DOC00526,Gujarat,Ahmedabad,Internal Medicine,304,0.418,Drug_D,0.612
+DOC00527,Tamil Nadu,Chennai,Diabetologist,211,0.514,Drug_B,0.465
+DOC00528,Delhi NCR,Gurugram,Endocrinologist,99,0.667,Drug_D,0.324
+DOC00529,West Bengal,Siliguri,Internal Medicine,159,0.859,Drug_B,0.629
+DOC00530,Gujarat,Surat,Endocrinologist,85,0.617,Drug_D,0.385
+DOC00531,Tamil Nadu,Chennai,Internal Medicine,70,0.731,Drug_B,0.43
+DOC00532,Maharashtra,Mumbai,Endocrinologist,138,0.704,Drug_B,0.526
+DOC00533,West Bengal,Siliguri,Cardiologist,93,0.664,Drug_B,0.346
+DOC00534,West Bengal,Siliguri,Endocrinologist,228,0.575,Drug_B,0.508
+DOC00535,Karnataka,Bengaluru,General Physician,100,0.391,Drug_C,0.358
+DOC00536,Gujarat,Ahmedabad,General Physician,131,0.547,Drug_B,0.337
+DOC00537,Rajasthan,Jaipur,Endocrinologist,139,0.515,Drug_B,0.443
+DOC00538,Karnataka,Hubballi,Endocrinologist,291,0.508,Drug_B,0.663
+DOC00539,Tamil Nadu,Coimbatore,General Physician,248,0.534,Drug_B,0.529
+DOC00540,Tamil Nadu,Coimbatore,General Physician,217,0.413,Drug_D,0.458
+DOC00541,West Bengal,Siliguri,General Physician,109,0.653,Drug_C,0.431
+DOC00542,Tamil Nadu,Coimbatore,Diabetologist,173,0.688,Drug_C,0.502
+DOC00543,West Bengal,Kolkata,General Physician,125,0.872,Drug_D,0.536
+DOC00544,Karnataka,Bengaluru,Diabetologist,120,0.84,Drug_B,0.504
+DOC00545,Telangana,Warangal,Internal Medicine,128,0.473,Drug_C,0.322
+DOC00546,West Bengal,Kolkata,Internal Medicine,278,0.846,Drug_C,0.618
+DOC00547,Rajasthan,Jodhpur,Diabetologist,50,0.898,Drug_B,0.378
+DOC00548,West Bengal,Siliguri,Internal Medicine,161,0.294,Drug_C,0.215
+DOC00549,Telangana,Warangal,General Physician,50,0.612,Drug_B,0.379
+DOC00550,Maharashtra,Pune,Internal Medicine,276,0.619,Drug_B,0.595
+DOC00551,Rajasthan,Udaipur,Endocrinologist,138,0.485,Drug_C,0.401
+DOC00552,West Bengal,Kolkata,Endocrinologist,177,0.398,Drug_B,0.352
+DOC00553,Delhi NCR,Delhi,Internal Medicine,287,0.513,Drug_C,0.517
+DOC00554,Karnataka,Hubballi,Internal Medicine,106,0.8,Drug_B,0.576
+DOC00555,Karnataka,Bengaluru,Endocrinologist,316,0.811,Drug_B,0.637
+DOC00556,Karnataka,Mysuru,Diabetologist,166,0.584,Drug_C,0.518
+DOC00557,Maharashtra,Pune,Endocrinologist,136,0.252,Drug_B,0.392
+DOC00558,Delhi NCR,Noida,Endocrinologist,172,0.512,Drug_B,0.427
+DOC00559,Maharashtra,Nashik,Diabetologist,252,0.897,Drug_D,0.592
+DOC00560,Maharashtra,Pune,Internal Medicine,50,0.734,Drug_B,0.351
+DOC00561,Delhi NCR,Delhi,General Physician,222,0.645,Drug_D,0.575
+DOC00562,Maharashtra,Nagpur,Internal Medicine,93,0.578,Drug_D,0.465
+DOC00563,West Bengal,Siliguri,Endocrinologist,114,0.918,Drug_D,0.508
+DOC00564,West Bengal,Kolkata,General Physician,570,0.856,Drug_B,0.768
+DOC00565,Telangana,Warangal,Cardiologist,121,0.472,Drug_B,0.523
+DOC00566,Rajasthan,Jodhpur,Endocrinologist,234,0.827,Drug_D,0.527
+DOC00567,Karnataka,Hubballi,Internal Medicine,190,0.652,Drug_B,0.446
+DOC00568,Delhi NCR,Delhi,Internal Medicine,220,0.742,Drug_B,0.554
+DOC00569,West Bengal,Kolkata,Internal Medicine,190,0.308,Drug_C,0.278
+DOC00570,Karnataka,Hubballi,Endocrinologist,242,0.605,Drug_C,0.493
+DOC00571,Gujarat,Vadodara,General Physician,225,0.928,Drug_D,0.34
+DOC00572,Karnataka,Bengaluru,Diabetologist,236,0.126,Drug_D,0.226
+DOC00573,Delhi NCR,Delhi,Endocrinologist,89,0.52,Drug_D,0.479
+DOC00574,Maharashtra,Nagpur,Diabetologist,290,0.461,Drug_B,0.511
+DOC00575,Gujarat,Vadodara,General Physician,148,0.664,Drug_B,0.554
+DOC00576,Karnataka,Bengaluru,Endocrinologist,218,0.18,Drug_B,0.33
+DOC00577,Karnataka,Bengaluru,Diabetologist,124,0.412,Drug_C,0.241
+DOC00578,Tamil Nadu,Madurai,General Physician,238,0.605,Drug_B,0.477
+DOC00579,Gujarat,Ahmedabad,Internal Medicine,225,0.798,Drug_B,0.615
+DOC00580,Rajasthan,Jaipur,Internal Medicine,58,0.839,Drug_B,0.355
+DOC00581,Gujarat,Ahmedabad,General Physician,361,0.816,Drug_D,0.686
+DOC00582,Karnataka,Hubballi,General Physician,479,0.847,Drug_B,0.815
+DOC00583,Delhi NCR,Noida,Internal Medicine,99,0.263,Drug_C,0.345
+DOC00584,Karnataka,Bengaluru,Endocrinologist,83,0.681,Drug_B,0.426
+DOC00585,Karnataka,Bengaluru,Internal Medicine,220,0.657,Drug_C,0.513
+DOC00586,Delhi NCR,Delhi,Endocrinologist,459,0.781,Drug_C,0.741
+DOC00587,Karnataka,Mysuru,Endocrinologist,227,0.812,Drug_B,0.508
+DOC00588,West Bengal,Kolkata,Endocrinologist,259,0.583,Drug_D,0.446
+DOC00589,Gujarat,Ahmedabad,Cardiologist,163,0.362,Drug_D,0.354
+DOC00590,Maharashtra,Pune,General Physician,188,0.907,Drug_B,0.687
+DOC00591,Karnataka,Mysuru,Endocrinologist,126,0.28,Drug_B,0.304
+DOC00592,Karnataka,Mysuru,Diabetologist,242,0.358,Drug_B,0.422
+DOC00593,Telangana,Warangal,Cardiologist,436,0.693,Drug_B,0.507
+DOC00594,Karnataka,Hubballi,Internal Medicine,125,0.757,Drug_D,0.607
+DOC00595,Telangana,Warangal,General Physician,255,0.642,Drug_C,0.558
+DOC00596,Tamil Nadu,Chennai,Diabetologist,143,0.97,Drug_D,0.644
+DOC00597,Gujarat,Ahmedabad,Internal Medicine,97,0.814,Drug_B,0.276
+DOC00598,Maharashtra,Mumbai,General Physician,66,0.379,Drug_C,0.366
+DOC00599,Telangana,Warangal,Internal Medicine,131,0.397,Drug_C,0.275
+DOC00600,Rajasthan,Udaipur,Internal Medicine,336,0.516,Drug_D,0.661
+DOC00601,Delhi NCR,Delhi,Internal Medicine,105,0.726,Drug_B,0.415
+DOC00602,Karnataka,Bengaluru,Internal Medicine,101,0.777,Drug_D,0.401
+DOC00603,Maharashtra,Nashik,Diabetologist,138,0.635,Drug_D,0.4
+DOC00604,Maharashtra,Nashik,Internal Medicine,83,0.538,Drug_B,0.475
+DOC00605,Rajasthan,Jaipur,Internal Medicine,402,0.526,Drug_C,0.621
+DOC00606,Delhi NCR,Delhi,Diabetologist,149,0.542,Drug_D,0.353
+DOC00607,Maharashtra,Pune,Diabetologist,276,0.536,Drug_D,0.753
+DOC00608,Gujarat,Ahmedabad,Internal Medicine,223,0.453,Drug_B,0.464
+DOC00609,Telangana,Warangal,Internal Medicine,154,0.253,Drug_C,0.245
+DOC00610,Delhi NCR,Gurugram,General Physician,157,0.499,Drug_B,0.314
+DOC00611,West Bengal,Kolkata,General Physician,470,0.218,Drug_B,0.604
+DOC00612,Gujarat,Ahmedabad,Diabetologist,433,0.777,Drug_D,0.67
+DOC00613,Karnataka,Bengaluru,Endocrinologist,608,0.425,Drug_D,0.756
+DOC00614,Delhi NCR,Gurugram,Internal Medicine,60,0.589,Drug_D,0.326
+DOC00615,Maharashtra,Nashik,Endocrinologist,86,0.787,Drug_D,0.446
+DOC00616,Delhi NCR,Noida,General Physician,107,0.675,Drug_B,0.337
+DOC00617,Gujarat,Ahmedabad,Diabetologist,128,0.684,Drug_C,0.348
+DOC00618,Delhi NCR,Noida,Endocrinologist,476,0.677,Drug_B,0.755
+DOC00619,Delhi NCR,Noida,General Physician,90,0.626,Drug_B,0.258
+DOC00620,Maharashtra,Pune,Endocrinologist,142,0.37,Drug_C,0.45
+DOC00621,Maharashtra,Nagpur,Internal Medicine,269,0.758,Drug_C,0.52
+DOC00622,Tamil Nadu,Madurai,Internal Medicine,103,0.908,Drug_D,0.378
+DOC00623,Telangana,Hyderabad,Internal Medicine,140,0.619,Drug_B,0.326
+DOC00624,Rajasthan,Jaipur,Diabetologist,293,0.539,Drug_B,0.546
+DOC00625,Maharashtra,Nashik,Endocrinologist,228,0.751,Drug_B,0.523
+DOC00626,Maharashtra,Nagpur,Cardiologist,147,0.405,Drug_D,0.395
+DOC00627,Maharashtra,Mumbai,Endocrinologist,171,0.347,Drug_C,0.434
+DOC00628,Rajasthan,Udaipur,Internal Medicine,214,0.401,Drug_B,0.435
+DOC00629,West Bengal,Siliguri,Diabetologist,144,0.266,Drug_B,0.304
+DOC00630,Rajasthan,Jaipur,Internal Medicine,109,0.749,Drug_D,0.391
+DOC00631,Gujarat,Vadodara,Endocrinologist,50,0.529,Drug_B,0.438
+DOC00632,Gujarat,Vadodara,Diabetologist,162,0.717,Drug_D,0.407
+DOC00633,Delhi NCR,Gurugram,General Physician,51,0.547,Drug_D,0.413
+DOC00634,Delhi NCR,Gurugram,Internal Medicine,207,0.489,Drug_B,0.25
+DOC00635,Telangana,Warangal,Diabetologist,352,0.622,Drug_B,0.562
+DOC00636,Tamil Nadu,Coimbatore,Endocrinologist,215,0.748,Drug_D,0.282
+DOC00637,West Bengal,Siliguri,Internal Medicine,128,0.585,Drug_B,0.362
+DOC00638,Karnataka,Mysuru,General Physician,56,0.474,Drug_B,0.232
+DOC00639,Maharashtra,Nashik,General Physician,295,0.838,Drug_B,0.455
+DOC00640,Tamil Nadu,Coimbatore,Internal Medicine,50,0.469,Drug_D,0.375
+DOC00641,Maharashtra,Pune,General Physician,183,0.635,Drug_C,0.436
+DOC00642,Tamil Nadu,Madurai,General Physician,297,0.624,Drug_C,0.436
+DOC00643,Delhi NCR,Gurugram,Diabetologist,105,0.165,Drug_C,0.322
+DOC00644,Tamil Nadu,Coimbatore,Internal Medicine,272,0.746,Drug_B,0.585
+DOC00645,Tamil Nadu,Chennai,Internal Medicine,129,0.468,Drug_C,0.263
+DOC00646,Gujarat,Surat,General Physician,124,0.522,Drug_B,0.334
+DOC00647,Gujarat,Ahmedabad,Internal Medicine,96,0.715,Drug_C,0.439
+DOC00648,Tamil Nadu,Chennai,Internal Medicine,131,0.458,Drug_C,0.361
+DOC00649,Rajasthan,Jaipur,Endocrinologist,231,0.631,Drug_D,0.361
+DOC00650,Gujarat,Surat,Internal Medicine,137,0.847,Drug_B,0.45
+DOC00651,Gujarat,Vadodara,Diabetologist,337,0.749,Drug_B,0.567
+DOC00652,Gujarat,Ahmedabad,Internal Medicine,114,0.72,Drug_B,0.55
+DOC00653,Karnataka,Mysuru,Endocrinologist,122,0.53,Drug_B,0.318
+DOC00654,Rajasthan,Udaipur,Cardiologist,116,0.658,Drug_B,0.361
+DOC00655,Karnataka,Bengaluru,Endocrinologist,273,0.892,Drug_C,0.565
+DOC00656,Gujarat,Ahmedabad,Internal Medicine,215,0.87,Drug_C,0.657
+DOC00657,Tamil Nadu,Coimbatore,General Physician,138,0.736,Drug_D,0.415
+DOC00658,Gujarat,Vadodara,Internal Medicine,95,0.613,Drug_D,0.518
+DOC00659,Telangana,Warangal,Internal Medicine,125,0.852,Drug_B,0.604
+DOC00660,Delhi NCR,Gurugram,Internal Medicine,463,0.827,Drug_C,0.72
+DOC00661,Tamil Nadu,Madurai,Endocrinologist,145,0.49,Drug_B,0.337
+DOC00662,Gujarat,Vadodara,Endocrinologist,223,0.701,Drug_B,0.657
+DOC00663,Tamil Nadu,Madurai,Diabetologist,342,0.565,Drug_B,0.529
+DOC00664,Telangana,Warangal,Cardiologist,227,0.646,Drug_C,0.513
+DOC00665,Maharashtra,Nagpur,Endocrinologist,159,0.725,Drug_C,0.48
+DOC00666,West Bengal,Kolkata,General Physician,50,0.6,Drug_C,0.249
+DOC00667,Maharashtra,Pune,Internal Medicine,111,0.521,Drug_D,0.364
+DOC00668,Maharashtra,Mumbai,Endocrinologist,125,0.493,Drug_C,0.34
+DOC00669,Maharashtra,Nagpur,Diabetologist,508,0.878,Drug_D,0.753
+DOC00670,Tamil Nadu,Chennai,Diabetologist,160,0.379,Drug_C,0.362
+DOC00671,Rajasthan,Jaipur,Diabetologist,113,0.901,Drug_C,0.435
+DOC00672,Karnataka,Bengaluru,Endocrinologist,138,0.284,Drug_D,0.221
+DOC00673,Telangana,Hyderabad,Diabetologist,156,0.218,Drug_D,0.262
+DOC00674,West Bengal,Siliguri,Diabetologist,151,0.512,Drug_B,0.57
+DOC00675,Tamil Nadu,Coimbatore,General Physician,117,0.339,Drug_B,0.412
+DOC00676,Karnataka,Hubballi,Internal Medicine,70,0.543,Drug_B,0.351
+DOC00677,Rajasthan,Udaipur,Internal Medicine,99,0.546,Drug_B,0.321
+DOC00678,Gujarat,Surat,Endocrinologist,287,0.637,Drug_C,0.687
+DOC00679,Karnataka,Hubballi,Internal Medicine,145,0.705,Drug_B,0.58
+DOC00680,Maharashtra,Pune,Internal Medicine,330,0.859,Drug_B,0.646
+DOC00681,Telangana,Hyderabad,Internal Medicine,328,0.205,Drug_D,0.592
+DOC00682,Karnataka,Mysuru,Endocrinologist,75,0.675,Drug_B,0.282
+DOC00683,Karnataka,Mysuru,Endocrinologist,151,0.754,Drug_B,0.497
+DOC00684,Rajasthan,Udaipur,Cardiologist,99,0.459,Drug_B,0.317
+DOC00685,Karnataka,Mysuru,Endocrinologist,119,0.686,Drug_D,0.352
+DOC00686,Maharashtra,Pune,General Physician,289,0.825,Drug_D,0.691
+DOC00687,Gujarat,Surat,Endocrinologist,134,0.844,Drug_C,0.513
+DOC00688,Maharashtra,Nagpur,Internal Medicine,72,0.952,Drug_C,0.457
+DOC00689,Tamil Nadu,Madurai,Endocrinologist,256,0.597,Drug_B,0.36
+DOC00690,Tamil Nadu,Chennai,General Physician,337,0.745,Drug_B,0.732
+DOC00691,West Bengal,Kolkata,Cardiologist,141,0.512,Drug_C,0.485
+DOC00692,Tamil Nadu,Coimbatore,Internal Medicine,123,0.274,Drug_D,0.387
+DOC00693,Tamil Nadu,Chennai,Internal Medicine,104,0.869,Drug_D,0.407
+DOC00694,Maharashtra,Mumbai,Diabetologist,72,0.54,Drug_C,0.388
+DOC00695,Maharashtra,Nagpur,Endocrinologist,186,0.567,Drug_B,0.534
+DOC00696,Karnataka,Bengaluru,General Physician,139,0.707,Drug_D,0.451
+DOC00697,Delhi NCR,Noida,General Physician,197,0.708,Drug_B,0.496
+DOC00698,Gujarat,Surat,Diabetologist,122,0.898,Drug_D,0.362
+DOC00699,Gujarat,Ahmedabad,Endocrinologist,132,0.445,Drug_B,0.331
+DOC00700,Gujarat,Ahmedabad,Diabetologist,159,0.777,Drug_C,0.371
+DOC00701,Maharashtra,Nagpur,Internal Medicine,178,0.502,Drug_B,0.561
+DOC00702,Karnataka,Hubballi,Endocrinologist,122,0.318,Drug_B,0.377
+DOC00703,Maharashtra,Mumbai,Internal Medicine,116,0.547,Drug_B,0.307
+DOC00704,West Bengal,Kolkata,Cardiologist,82,0.836,Drug_C,0.41
+DOC00705,Maharashtra,Nashik,Internal Medicine,222,0.772,Drug_B,0.582
+DOC00706,Tamil Nadu,Madurai,Endocrinologist,125,0.506,Drug_C,0.251
+DOC00707,Rajasthan,Udaipur,Diabetologist,212,0.64,Drug_B,0.379
+DOC00708,Tamil Nadu,Coimbatore,Internal Medicine,245,0.783,Drug_C,0.635
+DOC00709,Karnataka,Bengaluru,Internal Medicine,126,0.683,Drug_C,0.459
+DOC00710,Rajasthan,Jodhpur,Endocrinologist,244,0.631,Drug_B,0.511
+DOC00711,Delhi NCR,Noida,Diabetologist,319,0.26,Drug_B,0.515
+DOC00712,Tamil Nadu,Chennai,Internal Medicine,208,0.736,Drug_D,0.537
+DOC00713,Telangana,Warangal,Endocrinologist,129,0.694,Drug_D,0.43
+DOC00714,Karnataka,Hubballi,Diabetologist,119,0.639,Drug_C,0.389
+DOC00715,Delhi NCR,Delhi,Diabetologist,131,0.565,Drug_B,0.352
+DOC00716,Karnataka,Mysuru,Endocrinologist,116,0.784,Drug_C,0.569
+DOC00717,Delhi NCR,Gurugram,Endocrinologist,147,0.61,Drug_C,0.33
+DOC00718,West Bengal,Siliguri,Internal Medicine,306,0.831,Drug_C,0.608
+DOC00719,West Bengal,Kolkata,Diabetologist,136,0.892,Drug_B,0.383
+DOC00720,West Bengal,Siliguri,General Physician,152,0.483,Drug_B,0.442
+DOC00721,Rajasthan,Udaipur,General Physician,153,0.617,Drug_D,0.48
+DOC00722,Karnataka,Mysuru,Internal Medicine,115,0.747,Drug_B,0.537
+DOC00723,Telangana,Warangal,Diabetologist,69,0.623,Drug_B,0.253
+DOC00724,Karnataka,Hubballi,General Physician,95,0.444,Drug_D,0.353
+DOC00725,Gujarat,Ahmedabad,Cardiologist,139,0.778,Drug_D,0.501
+DOC00726,West Bengal,Kolkata,Internal Medicine,149,0.884,Drug_B,0.468
+DOC00727,West Bengal,Kolkata,Internal Medicine,169,0.789,Drug_D,0.377
+DOC00728,Delhi NCR,Noida,Internal Medicine,126,0.424,Drug_D,0.373
+DOC00729,Telangana,Hyderabad,Internal Medicine,135,0.538,Drug_D,0.314
+DOC00730,Telangana,Warangal,Endocrinologist,157,0.675,Drug_B,0.355
+DOC00731,Delhi NCR,Gurugram,General Physician,294,0.635,Drug_B,0.571
+DOC00732,Gujarat,Vadodara,General Physician,104,0.636,Drug_C,0.402
+DOC00733,Delhi NCR,Noida,Diabetologist,161,0.655,Drug_B,0.54
+DOC00734,Tamil Nadu,Chennai,Cardiologist,163,0.101,Drug_C,0.064
+DOC00735,Karnataka,Hubballi,Internal Medicine,251,0.832,Drug_D,0.411
+DOC00736,Tamil Nadu,Madurai,Internal Medicine,127,0.922,Drug_B,0.438
+DOC00737,Maharashtra,Mumbai,Internal Medicine,99,0.426,Drug_B,0.239
+DOC00738,Maharashtra,Pune,Internal Medicine,251,0.628,Drug_C,0.297
+DOC00739,Tamil Nadu,Chennai,General Physician,111,0.723,Drug_D,0.394
+DOC00740,Delhi NCR,Gurugram,Diabetologist,348,0.259,Drug_B,0.477
+DOC00741,Tamil Nadu,Coimbatore,Internal Medicine,107,0.319,Drug_C,0.353
+DOC00742,Maharashtra,Mumbai,Internal Medicine,159,0.675,Drug_C,0.408
+DOC00743,Tamil Nadu,Chennai,General Physician,95,0.841,Drug_D,0.537
+DOC00744,Maharashtra,Pune,Diabetologist,211,0.529,Drug_C,0.449
+DOC00745,Telangana,Hyderabad,Cardiologist,248,0.523,Drug_C,0.401
+DOC00746,Karnataka,Mysuru,General Physician,87,0.809,Drug_B,0.421
+DOC00747,Rajasthan,Udaipur,General Physician,170,0.353,Drug_B,0.361
+DOC00748,Telangana,Warangal,Diabetologist,147,0.407,Drug_B,0.315
+DOC00749,Karnataka,Hubballi,General Physician,315,0.736,Drug_C,0.586
+DOC00750,Tamil Nadu,Madurai,Diabetologist,133,0.902,Drug_C,0.559
+DOC00751,Karnataka,Mysuru,Diabetologist,118,0.503,Drug_C,0.407
+DOC00752,Telangana,Warangal,Internal Medicine,316,0.598,Drug_B,0.508
+DOC00753,Maharashtra,Mumbai,Internal Medicine,168,0.615,Drug_C,0.524
+DOC00754,Karnataka,Bengaluru,General Physician,246,0.675,Drug_B,0.518
+DOC00755,Delhi NCR,Delhi,Internal Medicine,132,0.669,Drug_B,0.413
+DOC00756,Maharashtra,Nagpur,Internal Medicine,64,0.604,Drug_B,0.315
+DOC00757,Gujarat,Vadodara,Endocrinologist,250,0.618,Drug_C,0.487
+DOC00758,Maharashtra,Nagpur,Endocrinologist,156,0.782,Drug_B,0.425
+DOC00759,Tamil Nadu,Madurai,Internal Medicine,99,0.25,Drug_B,0.187
+DOC00760,Maharashtra,Nashik,Internal Medicine,50,0.608,Drug_D,0.255
+DOC00761,Tamil Nadu,Madurai,General Physician,87,0.631,Drug_B,0.422
+DOC00762,Karnataka,Mysuru,Internal Medicine,50,0.713,Drug_B,0.264
+DOC00763,Tamil Nadu,Madurai,Diabetologist,303,0.644,Drug_B,0.595
+DOC00764,Rajasthan,Jaipur,Internal Medicine,51,0.738,Drug_B,0.372
+DOC00765,Maharashtra,Pune,Endocrinologist,143,0.792,Drug_C,0.374
+DOC00766,Maharashtra,Nashik,Endocrinologist,143,0.695,Drug_D,0.349
+DOC00767,Rajasthan,Udaipur,Internal Medicine,123,0.855,Drug_B,0.556
+DOC00768,Rajasthan,Jodhpur,Internal Medicine,90,0.698,Drug_B,0.286
+DOC00769,Karnataka,Mysuru,Internal Medicine,184,0.548,Drug_C,0.492
+DOC00770,West Bengal,Siliguri,Internal Medicine,212,0.238,Drug_B,0.391
+DOC00771,Telangana,Hyderabad,Internal Medicine,214,0.669,Drug_C,0.511
+DOC00772,Telangana,Hyderabad,Cardiologist,77,0.338,Drug_B,0.105
+DOC00773,Gujarat,Ahmedabad,Endocrinologist,256,0.906,Drug_D,0.681
+DOC00774,Telangana,Hyderabad,Cardiologist,119,0.492,Drug_C,0.28
+DOC00775,Tamil Nadu,Chennai,Diabetologist,75,0.754,Drug_D,0.484
+DOC00776,Maharashtra,Nagpur,Endocrinologist,108,0.691,Drug_B,0.47
+DOC00777,Rajasthan,Jaipur,Endocrinologist,342,0.546,Drug_B,0.61
+DOC00778,Maharashtra,Pune,General Physician,119,0.671,Drug_B,0.396
+DOC00779,Rajasthan,Udaipur,General Physician,269,0.403,Drug_B,0.376
+DOC00780,Telangana,Hyderabad,Internal Medicine,128,0.797,Drug_B,0.461
+DOC00781,Rajasthan,Jaipur,Endocrinologist,274,0.55,Drug_B,0.444
+DOC00782,Telangana,Warangal,Diabetologist,110,0.469,Drug_B,0.312
+DOC00783,Rajasthan,Jaipur,General Physician,141,0.652,Drug_B,0.474
+DOC00784,Karnataka,Hubballi,Diabetologist,299,0.367,Drug_D,0.348
+DOC00785,Delhi NCR,Delhi,Internal Medicine,133,0.641,Drug_B,0.467
+DOC00786,Karnataka,Mysuru,Diabetologist,154,0.567,Drug_B,0.553
+DOC00787,Telangana,Hyderabad,Internal Medicine,82,0.793,Drug_B,0.408
+DOC00788,Telangana,Warangal,Internal Medicine,121,0.266,Drug_D,0.273
+DOC00789,West Bengal,Kolkata,Cardiologist,170,0.702,Drug_B,0.477
+DOC00790,Rajasthan,Jaipur,Diabetologist,95,0.514,Drug_C,0.256
+DOC00791,Gujarat,Ahmedabad,Internal Medicine,279,0.579,Drug_B,0.478
+DOC00792,Gujarat,Vadodara,General Physician,249,0.708,Drug_B,0.569
+DOC00793,Tamil Nadu,Chennai,Diabetologist,138,0.17,Drug_C,0.363
+DOC00794,Gujarat,Ahmedabad,Endocrinologist,181,0.05,Drug_B,0.378
+DOC00795,Gujarat,Ahmedabad,Diabetologist,158,0.281,Drug_D,0.27
+DOC00796,Gujarat,Ahmedabad,Endocrinologist,177,0.739,Drug_B,0.607
+DOC00797,Gujarat,Vadodara,Endocrinologist,481,0.259,Drug_C,0.541
+DOC00798,Gujarat,Surat,Internal Medicine,76,0.41,Drug_B,0.281
+DOC00799,Gujarat,Vadodara,General Physician,215,0.89,Drug_C,0.502
+DOC00800,Maharashtra,Mumbai,Diabetologist,294,0.373,Drug_B,0.535
+DOC00801,Tamil Nadu,Coimbatore,Cardiologist,139,0.834,Drug_C,0.513
+DOC00802,West Bengal,Kolkata,Diabetologist,224,0.744,Drug_D,0.393
+DOC00803,Telangana,Hyderabad,General Physician,101,0.758,Drug_B,0.472
+DOC00804,West Bengal,Siliguri,Endocrinologist,190,0.634,Drug_B,0.358
+DOC00805,Delhi NCR,Delhi,Endocrinologist,189,0.726,Drug_B,0.511
+DOC00806,West Bengal,Siliguri,Internal Medicine,56,0.726,Drug_B,0.433
+DOC00807,Rajasthan,Jodhpur,General Physician,79,0.52,Drug_B,0.335
+DOC00808,Tamil Nadu,Chennai,General Physician,101,0.311,Drug_B,0.342
+DOC00809,Karnataka,Mysuru,Cardiologist,390,0.396,Drug_B,0.606
+DOC00810,Maharashtra,Pune,Internal Medicine,104,0.818,Drug_B,0.301
+DOC00811,West Bengal,Siliguri,General Physician,122,0.622,Drug_C,0.391
+DOC00812,Karnataka,Hubballi,Endocrinologist,73,0.847,Drug_B,0.32
+DOC00813,Tamil Nadu,Coimbatore,Diabetologist,244,0.817,Drug_B,0.586
+DOC00814,Rajasthan,Jodhpur,Internal Medicine,154,0.672,Drug_B,0.457
+DOC00815,Karnataka,Bengaluru,Internal Medicine,333,0.597,Drug_D,0.475
+DOC00816,Maharashtra,Pune,Endocrinologist,102,0.375,Drug_C,0.371
+DOC00817,Rajasthan,Udaipur,Internal Medicine,63,0.628,Drug_C,0.464
+DOC00818,Delhi NCR,Gurugram,General Physician,214,0.297,Drug_B,0.371
+DOC00819,West Bengal,Kolkata,Endocrinologist,185,0.733,Drug_B,0.549
+DOC00820,Telangana,Hyderabad,Diabetologist,103,0.432,Drug_B,0.389
+DOC00821,Tamil Nadu,Coimbatore,Endocrinologist,111,0.666,Drug_C,0.294
+DOC00822,Rajasthan,Jaipur,General Physician,209,0.796,Drug_C,0.452
+DOC00823,Maharashtra,Nashik,Endocrinologist,50,0.944,Drug_C,0.47
+DOC00824,Tamil Nadu,Coimbatore,Endocrinologist,96,0.398,Drug_D,0.428
+DOC00825,Karnataka,Bengaluru,Endocrinologist,63,0.785,Drug_C,0.251
+DOC00826,Tamil Nadu,Chennai,Internal Medicine,173,0.431,Drug_C,0.295
+DOC00827,Karnataka,Hubballi,Diabetologist,50,0.792,Drug_D,0.458
+DOC00828,Telangana,Warangal,General Physician,147,0.47,Drug_C,0.347
+DOC00829,Karnataka,Bengaluru,Endocrinologist,246,0.285,Drug_B,0.41
+DOC00830,Delhi NCR,Gurugram,Internal Medicine,132,0.413,Drug_B,0.33
+DOC00831,Tamil Nadu,Madurai,Internal Medicine,193,0.465,Drug_C,0.382
+DOC00832,Karnataka,Mysuru,General Physician,160,0.576,Drug_B,0.503
+DOC00833,Tamil Nadu,Madurai,Internal Medicine,96,0.524,Drug_C,0.44
+DOC00834,Maharashtra,Nagpur,Diabetologist,120,0.657,Drug_B,0.42
+DOC00835,Maharashtra,Mumbai,Diabetologist,166,0.444,Drug_B,0.305
+DOC00836,Gujarat,Surat,Diabetologist,86,0.73,Drug_D,0.513
+DOC00837,Maharashtra,Mumbai,Diabetologist,266,0.443,Drug_B,0.533
+DOC00838,Rajasthan,Udaipur,Endocrinologist,183,0.803,Drug_B,0.546
+DOC00839,Rajasthan,Udaipur,Endocrinologist,202,0.619,Drug_B,0.336
+DOC00840,West Bengal,Kolkata,General Physician,73,0.602,Drug_D,0.366
+DOC00841,Gujarat,Ahmedabad,Endocrinologist,102,0.1,Drug_B,0.224
+DOC00842,Tamil Nadu,Chennai,Diabetologist,447,0.775,Drug_B,0.586
+DOC00843,Telangana,Hyderabad,General Physician,66,0.822,Drug_C,0.359
+DOC00844,West Bengal,Kolkata,Internal Medicine,50,0.543,Drug_B,0.325
+DOC00845,Gujarat,Ahmedabad,Internal Medicine,144,0.785,Drug_B,0.485
+DOC00846,Tamil Nadu,Chennai,Endocrinologist,108,0.462,Drug_C,0.282
+DOC00847,West Bengal,Siliguri,General Physician,97,0.521,Drug_B,0.378
+DOC00848,Gujarat,Surat,Diabetologist,313,0.294,Drug_B,0.555
+DOC00849,Rajasthan,Jaipur,Endocrinologist,76,0.46,Drug_B,0.241
+DOC00850,West Bengal,Siliguri,General Physician,85,0.714,Drug_C,0.53
+DOC00851,Tamil Nadu,Chennai,Diabetologist,76,0.492,Drug_C,0.154
+DOC00852,Delhi NCR,Gurugram,Internal Medicine,154,0.618,Drug_B,0.44
+DOC00853,Tamil Nadu,Madurai,General Physician,109,0.808,Drug_D,0.412
+DOC00854,Gujarat,Ahmedabad,General Physician,112,0.518,Drug_C,0.087
+DOC00855,West Bengal,Siliguri,General Physician,304,0.795,Drug_B,0.497
+DOC00856,Gujarat,Vadodara,Endocrinologist,163,0.634,Drug_B,0.456
+DOC00857,Tamil Nadu,Chennai,Internal Medicine,240,0.965,Drug_B,0.573
+DOC00858,Tamil Nadu,Madurai,Internal Medicine,128,0.595,Drug_B,0.412
+DOC00859,West Bengal,Kolkata,Endocrinologist,216,0.523,Drug_C,0.245
+DOC00860,West Bengal,Siliguri,Endocrinologist,118,0.606,Drug_D,0.386
+DOC00861,Maharashtra,Mumbai,Endocrinologist,124,0.351,Drug_C,0.335
+DOC00862,Karnataka,Mysuru,Diabetologist,72,0.42,Drug_B,0.3
+DOC00863,West Bengal,Siliguri,Cardiologist,281,0.827,Drug_B,0.582
+DOC00864,Tamil Nadu,Coimbatore,Internal Medicine,114,0.675,Drug_C,0.364
+DOC00865,Telangana,Hyderabad,Diabetologist,292,0.302,Drug_B,0.642
+DOC00866,Karnataka,Bengaluru,Endocrinologist,251,0.808,Drug_B,0.606
+DOC00867,Maharashtra,Mumbai,Endocrinologist,136,0.439,Drug_B,0.413
+DOC00868,Karnataka,Bengaluru,Internal Medicine,64,0.876,Drug_C,0.418
+DOC00869,Tamil Nadu,Coimbatore,Diabetologist,438,0.6,Drug_B,0.623
+DOC00870,Delhi NCR,Delhi,General Physician,152,0.536,Drug_B,0.416
+DOC00871,Telangana,Hyderabad,Internal Medicine,251,0.886,Drug_B,0.48
+DOC00872,Maharashtra,Nagpur,Diabetologist,143,0.987,Drug_D,0.642
+DOC00873,Delhi NCR,Delhi,Internal Medicine,62,0.735,Drug_C,0.48
+DOC00874,Tamil Nadu,Madurai,Internal Medicine,122,0.742,Drug_D,0.566
+DOC00875,Tamil Nadu,Chennai,General Physician,193,0.455,Drug_C,0.382
+DOC00876,West Bengal,Kolkata,General Physician,134,0.284,Drug_D,0.389
+DOC00877,Karnataka,Mysuru,Internal Medicine,55,0.722,Drug_C,0.282
+DOC00878,Maharashtra,Nashik,Diabetologist,118,0.823,Drug_D,0.514
+DOC00879,West Bengal,Kolkata,Internal Medicine,50,0.468,Drug_C,0.265
+DOC00880,Karnataka,Hubballi,Internal Medicine,78,0.89,Drug_B,0.404
+DOC00881,Telangana,Hyderabad,Endocrinologist,320,0.802,Drug_B,0.456
+DOC00882,Karnataka,Hubballi,Endocrinologist,84,0.733,Drug_C,0.395
+DOC00883,Karnataka,Bengaluru,Internal Medicine,398,0.32,Drug_C,0.606
+DOC00884,Telangana,Hyderabad,General Physician,204,0.573,Drug_D,0.625
+DOC00885,Delhi NCR,Noida,Internal Medicine,362,0.94,Drug_C,0.737
+DOC00886,West Bengal,Kolkata,Diabetologist,196,0.656,Drug_C,0.383
+DOC00887,Telangana,Hyderabad,Internal Medicine,176,0.414,Drug_B,0.339
+DOC00888,Rajasthan,Udaipur,Diabetologist,85,0.387,Drug_B,0.423
+DOC00889,Gujarat,Surat,Internal Medicine,275,0.548,Drug_B,0.474
+DOC00890,Gujarat,Surat,General Physician,250,0.296,Drug_B,0.375
+DOC00891,Karnataka,Bengaluru,Internal Medicine,132,0.902,Drug_C,0.454
+DOC00892,Maharashtra,Mumbai,Internal Medicine,79,0.672,Drug_C,0.513
+DOC00893,Telangana,Hyderabad,Internal Medicine,106,0.96,Drug_C,0.577
+DOC00894,Karnataka,Mysuru,Internal Medicine,85,0.966,Drug_D,0.46
+DOC00895,Gujarat,Ahmedabad,General Physician,327,0.825,Drug_C,0.713
+DOC00896,Rajasthan,Jaipur,General Physician,104,0.061,Drug_B,0.301
+DOC00897,Rajasthan,Jaipur,General Physician,154,0.439,Drug_B,0.418
+DOC00898,Gujarat,Vadodara,Internal Medicine,198,0.378,Drug_B,0.595
+DOC00899,Tamil Nadu,Coimbatore,Diabetologist,391,0.578,Drug_D,0.706
+DOC00900,Karnataka,Mysuru,Internal Medicine,156,0.175,Drug_C,0.215
+DOC00901,Maharashtra,Mumbai,Internal Medicine,190,0.691,Drug_D,0.546
+DOC00902,Tamil Nadu,Madurai,Endocrinologist,264,0.355,Drug_D,0.377
+DOC00903,Karnataka,Bengaluru,Endocrinologist,265,0.744,Drug_D,0.493
+DOC00904,Maharashtra,Pune,Endocrinologist,127,0.766,Drug_D,0.307
+DOC00905,Karnataka,Hubballi,Endocrinologist,268,0.602,Drug_B,0.479
+DOC00906,Karnataka,Mysuru,Internal Medicine,190,0.665,Drug_B,0.359
+DOC00907,Karnataka,Mysuru,Internal Medicine,234,0.525,Drug_C,0.213
+DOC00908,Gujarat,Ahmedabad,Internal Medicine,184,0.195,Drug_B,0.301
+DOC00909,Maharashtra,Nagpur,Diabetologist,156,0.37,Drug_B,0.336
+DOC00910,Delhi NCR,Noida,Diabetologist,53,0.933,Drug_C,0.473
+DOC00911,Karnataka,Bengaluru,Internal Medicine,170,0.819,Drug_D,0.507
+DOC00912,Rajasthan,Udaipur,Endocrinologist,105,0.803,Drug_B,0.364
+DOC00913,Gujarat,Vadodara,Cardiologist,82,0.691,Drug_B,0.383
+DOC00914,West Bengal,Kolkata,Internal Medicine,258,0.183,Drug_D,0.331
+DOC00915,Tamil Nadu,Coimbatore,Internal Medicine,240,0.793,Drug_C,0.517
+DOC00916,Gujarat,Surat,Diabetologist,488,0.644,Drug_D,0.664
+DOC00917,Maharashtra,Pune,Diabetologist,50,0.679,Drug_D,0.247
+DOC00918,Karnataka,Mysuru,Internal Medicine,301,0.71,Drug_C,0.495
+DOC00919,Tamil Nadu,Chennai,General Physician,94,0.343,Drug_B,0.134
+DOC00920,Rajasthan,Jodhpur,Diabetologist,232,0.679,Drug_B,0.355
+DOC00921,Rajasthan,Udaipur,Endocrinologist,130,0.19,Drug_C,0.352
+DOC00922,Karnataka,Hubballi,Internal Medicine,74,0.504,Drug_B,0.222
+DOC00923,Rajasthan,Udaipur,Cardiologist,143,0.435,Drug_D,0.408
+DOC00924,Gujarat,Surat,Cardiologist,134,0.487,Drug_B,0.421
+DOC00925,Karnataka,Mysuru,Internal Medicine,144,0.44,Drug_B,0.241
+DOC00926,Maharashtra,Nagpur,Internal Medicine,179,0.783,Drug_D,0.413
+DOC00927,Karnataka,Hubballi,Cardiologist,151,0.674,Drug_C,0.375
+DOC00928,West Bengal,Kolkata,Diabetologist,222,0.743,Drug_B,0.577
+DOC00929,Karnataka,Bengaluru,Endocrinologist,489,0.748,Drug_B,0.684
+DOC00930,Telangana,Warangal,Internal Medicine,114,0.711,Drug_B,0.443
+DOC00931,Gujarat,Ahmedabad,Internal Medicine,103,0.696,Drug_C,0.358
+DOC00932,Karnataka,Mysuru,General Physician,120,0.714,Drug_C,0.456
+DOC00933,Tamil Nadu,Coimbatore,Internal Medicine,755,0.837,Drug_D,0.909
+DOC00934,West Bengal,Kolkata,Diabetologist,133,0.424,Drug_D,0.348
+DOC00935,Delhi NCR,Delhi,Diabetologist,239,0.668,Drug_C,0.529
+DOC00936,Karnataka,Mysuru,Cardiologist,143,0.857,Drug_C,0.489
+DOC00937,Karnataka,Bengaluru,Internal Medicine,146,0.586,Drug_D,0.269
+DOC00938,West Bengal,Kolkata,General Physician,342,0.277,Drug_D,0.656
+DOC00939,Gujarat,Ahmedabad,Endocrinologist,219,0.732,Drug_B,0.415
+DOC00940,Delhi NCR,Gurugram,Internal Medicine,147,0.605,Drug_B,0.341
+DOC00941,Gujarat,Surat,Cardiologist,119,0.751,Drug_B,0.331
+DOC00942,Rajasthan,Jaipur,Cardiologist,169,0.648,Drug_C,0.424
+DOC00943,Maharashtra,Mumbai,General Physician,214,0.618,Drug_B,0.497
+DOC00944,Maharashtra,Nagpur,General Physician,67,0.942,Drug_C,0.491
+DOC00945,Tamil Nadu,Coimbatore,Internal Medicine,102,0.65,Drug_D,0.373
+DOC00946,Karnataka,Mysuru,Endocrinologist,159,0.741,Drug_B,0.369
+DOC00947,West Bengal,Siliguri,Internal Medicine,157,0.355,Drug_D,0.28
+DOC00948,Gujarat,Ahmedabad,Internal Medicine,75,0.684,Drug_B,0.378
+DOC00949,Rajasthan,Udaipur,Endocrinologist,362,0.552,Drug_C,0.532
+DOC00950,West Bengal,Kolkata,General Physician,210,0.596,Drug_D,0.358
+DOC00951,Maharashtra,Nashik,Internal Medicine,50,0.611,Drug_C,0.375
+DOC00952,Delhi NCR,Gurugram,Internal Medicine,148,0.349,Drug_C,0.29
+DOC00953,Tamil Nadu,Coimbatore,Endocrinologist,655,0.437,Drug_C,0.75
+DOC00954,Karnataka,Hubballi,Internal Medicine,134,0.912,Drug_B,0.388
+DOC00955,Maharashtra,Nashik,Diabetologist,50,0.415,Drug_B,0.417
+DOC00956,Telangana,Hyderabad,General Physician,83,0.768,Drug_D,0.494
+DOC00957,Gujarat,Vadodara,Endocrinologist,103,0.506,Drug_D,0.487
+DOC00958,Rajasthan,Udaipur,Internal Medicine,58,0.464,Drug_C,0.321
+DOC00959,West Bengal,Kolkata,General Physician,255,0.928,Drug_D,0.712
+DOC00960,Tamil Nadu,Chennai,Diabetologist,208,0.593,Drug_B,0.469
+DOC00961,Maharashtra,Nashik,Internal Medicine,50,0.355,Drug_C,0.292
+DOC00962,Delhi NCR,Delhi,Endocrinologist,148,0.724,Drug_B,0.421
+DOC00963,Maharashtra,Mumbai,Endocrinologist,195,0.916,Drug_D,0.425
+DOC00964,Karnataka,Hubballi,Diabetologist,361,0.381,Drug_D,0.602
+DOC00965,Rajasthan,Jaipur,Internal Medicine,159,0.68,Drug_D,0.523
+DOC00966,Rajasthan,Udaipur,Diabetologist,79,0.077,Drug_C,0.266
+DOC00967,Gujarat,Vadodara,Endocrinologist,135,0.41,Drug_C,0.386
+DOC00968,Maharashtra,Nashik,General Physician,285,0.589,Drug_D,0.557
+DOC00969,Maharashtra,Mumbai,Internal Medicine,381,0.425,Drug_B,0.582
+DOC00970,Karnataka,Hubballi,General Physician,100,0.418,Drug_B,0.386
+DOC00971,West Bengal,Siliguri,Internal Medicine,191,0.772,Drug_C,0.453
+DOC00972,Telangana,Hyderabad,Endocrinologist,292,0.576,Drug_D,0.531
+DOC00973,Maharashtra,Mumbai,Internal Medicine,113,0.78,Drug_B,0.507
+DOC00974,West Bengal,Kolkata,Endocrinologist,148,0.435,Drug_C,0.279
+DOC00975,West Bengal,Siliguri,Diabetologist,451,0.99,Drug_B,0.832
+DOC00976,Karnataka,Hubballi,Endocrinologist,50,0.486,Drug_B,0.353
+DOC00977,Maharashtra,Pune,Cardiologist,209,0.341,Drug_B,0.351
+DOC00978,Maharashtra,Pune,Internal Medicine,168,0.543,Drug_B,0.274
+DOC00979,Karnataka,Bengaluru,Cardiologist,204,0.838,Drug_C,0.554
+DOC00980,Rajasthan,Jaipur,Cardiologist,179,0.227,Drug_C,0.23
+DOC00981,Delhi NCR,Noida,Internal Medicine,189,0.738,Drug_B,0.38
+DOC00982,Karnataka,Mysuru,Endocrinologist,139,0.67,Drug_C,0.393
+DOC00983,Gujarat,Ahmedabad,Diabetologist,103,0.456,Drug_B,0.209
+DOC00984,Tamil Nadu,Madurai,Endocrinologist,223,0.891,Drug_D,0.526
+DOC00985,West Bengal,Siliguri,General Physician,122,0.474,Drug_C,0.215
+DOC00986,Tamil Nadu,Madurai,Endocrinologist,210,0.422,Drug_D,0.361
+DOC00987,Tamil Nadu,Chennai,Diabetologist,233,0.8,Drug_B,0.701
+DOC00988,Maharashtra,Pune,Internal Medicine,131,0.773,Drug_B,0.388
+DOC00989,Maharashtra,Pune,Diabetologist,154,0.715,Drug_B,0.408
+DOC00990,West Bengal,Kolkata,Internal Medicine,268,0.282,Drug_B,0.534
+DOC00991,Gujarat,Vadodara,Internal Medicine,101,0.575,Drug_C,0.395
+DOC00992,Maharashtra,Mumbai,Diabetologist,418,0.747,Drug_C,0.643
+DOC00993,Tamil Nadu,Coimbatore,Internal Medicine,63,0.623,Drug_B,0.352
+DOC00994,Gujarat,Surat,General Physician,66,0.886,Drug_B,0.417
+DOC00995,West Bengal,Kolkata,Diabetologist,115,0.452,Drug_B,0.494
+DOC00996,Rajasthan,Udaipur,Endocrinologist,96,0.344,Drug_C,0.306
+DOC00997,West Bengal,Siliguri,General Physician,123,0.576,Drug_B,0.381
+DOC00998,Gujarat,Surat,Endocrinologist,102,0.84,Drug_C,0.442
+DOC00999,Maharashtra,Mumbai,General Physician,175,0.639,Drug_C,0.505
+DOC01000,Maharashtra,Nagpur,Diabetologist,143,0.661,Drug_B,0.348
+DOC01001,Karnataka,Mysuru,Internal Medicine,234,0.889,Drug_D,0.629
+DOC01002,Gujarat,Surat,Endocrinologist,223,0.446,Drug_C,0.424
+DOC01003,Rajasthan,Jaipur,Diabetologist,109,0.8,Drug_B,0.478
+DOC01004,Delhi NCR,Gurugram,Diabetologist,200,0.959,Drug_B,0.472
+DOC01005,Maharashtra,Mumbai,Internal Medicine,195,0.961,Drug_D,0.486
+DOC01006,Karnataka,Hubballi,General Physician,133,0.259,Drug_D,0.221
+DOC01007,Maharashtra,Pune,General Physician,196,0.408,Drug_C,0.348
+DOC01008,Tamil Nadu,Coimbatore,Internal Medicine,542,0.653,Drug_C,0.546
+DOC01009,Telangana,Hyderabad,Diabetologist,159,0.14,Drug_B,0.172
+DOC01010,Karnataka,Hubballi,Endocrinologist,56,0.487,Drug_D,0.379
+DOC01011,Maharashtra,Pune,Cardiologist,792,0.736,Drug_D,0.95
+DOC01012,Rajasthan,Jaipur,Diabetologist,70,0.236,Drug_B,0.207
+DOC01013,Tamil Nadu,Madurai,Internal Medicine,113,0.925,Drug_D,0.442
+DOC01014,Karnataka,Hubballi,Internal Medicine,60,0.274,Drug_D,0.309
+DOC01015,Maharashtra,Nagpur,Diabetologist,53,0.685,Drug_B,0.439
+DOC01016,Tamil Nadu,Chennai,Endocrinologist,116,0.666,Drug_B,0.445
+DOC01017,Telangana,Warangal,Internal Medicine,226,0.437,Drug_D,0.512
+DOC01018,Rajasthan,Jodhpur,Endocrinologist,144,0.502,Drug_B,0.394
+DOC01019,Maharashtra,Mumbai,Internal Medicine,116,0.909,Drug_C,0.504
+DOC01020,Karnataka,Bengaluru,Internal Medicine,140,0.896,Drug_B,0.39
+DOC01021,Maharashtra,Nashik,Diabetologist,653,0.456,Drug_B,0.782
+DOC01022,Rajasthan,Udaipur,Internal Medicine,262,0.266,Drug_B,0.557
+DOC01023,Rajasthan,Jaipur,Diabetologist,60,0.535,Drug_C,0.185
+DOC01024,Tamil Nadu,Madurai,Endocrinologist,439,0.626,Drug_C,0.66
+DOC01025,Karnataka,Mysuru,General Physician,317,0.455,Drug_B,0.533
+DOC01026,Rajasthan,Udaipur,Endocrinologist,223,0.566,Drug_B,0.282
+DOC01027,Tamil Nadu,Madurai,Internal Medicine,214,0.235,Drug_C,0.41
+DOC01028,West Bengal,Kolkata,Diabetologist,230,0.392,Drug_C,0.466
+DOC01029,Maharashtra,Nagpur,Internal Medicine,106,0.767,Drug_B,0.404
+DOC01030,Tamil Nadu,Madurai,Cardiologist,98,0.122,Drug_D,0.226
+DOC01031,Maharashtra,Nagpur,Internal Medicine,194,0.467,Drug_C,0.401
+DOC01032,Delhi NCR,Gurugram,Cardiologist,120,0.468,Drug_D,0.255
+DOC01033,Gujarat,Ahmedabad,Internal Medicine,111,0.461,Drug_D,0.333
+DOC01034,Maharashtra,Nagpur,General Physician,93,0.662,Drug_C,0.362
+DOC01035,Karnataka,Hubballi,Diabetologist,77,0.862,Drug_D,0.47
+DOC01036,West Bengal,Siliguri,Internal Medicine,160,0.449,Drug_C,0.458
+DOC01037,Telangana,Hyderabad,Cardiologist,134,0.601,Drug_B,0.344
+DOC01038,Delhi NCR,Gurugram,Diabetologist,110,0.343,Drug_B,0.26
+DOC01039,Rajasthan,Jodhpur,Diabetologist,374,0.369,Drug_B,0.481
+DOC01040,Rajasthan,Jodhpur,General Physician,494,0.846,Drug_C,0.631
+DOC01041,Maharashtra,Pune,Internal Medicine,115,0.491,Drug_B,0.438
+DOC01042,Rajasthan,Jodhpur,Internal Medicine,100,0.61,Drug_C,0.446
+DOC01043,Delhi NCR,Gurugram,Diabetologist,67,0.34,Drug_B,0.313
+DOC01044,Telangana,Warangal,General Physician,221,0.8,Drug_C,0.575
+DOC01045,Maharashtra,Mumbai,Endocrinologist,80,0.422,Drug_C,0.403
+DOC01046,Telangana,Hyderabad,Endocrinologist,102,0.444,Drug_C,0.306
+DOC01047,West Bengal,Siliguri,Internal Medicine,73,0.526,Drug_C,0.416
+DOC01048,West Bengal,Siliguri,General Physician,172,0.679,Drug_C,0.54
+DOC01049,Tamil Nadu,Coimbatore,Internal Medicine,263,0.625,Drug_B,0.509
+DOC01050,West Bengal,Siliguri,Endocrinologist,197,0.816,Drug_D,0.644
+DOC01051,Telangana,Hyderabad,General Physician,175,0.779,Drug_B,0.575
+DOC01052,Gujarat,Surat,Diabetologist,187,0.656,Drug_D,0.438
+DOC01053,Delhi NCR,Delhi,General Physician,195,0.63,Drug_B,0.478
+DOC01054,Delhi NCR,Gurugram,General Physician,232,0.438,Drug_B,0.283
+DOC01055,Tamil Nadu,Chennai,Diabetologist,263,0.571,Drug_B,0.557
+DOC01056,Maharashtra,Pune,Diabetologist,156,0.529,Drug_C,0.418
+DOC01057,Karnataka,Hubballi,General Physician,90,0.722,Drug_D,0.394
+DOC01058,Rajasthan,Jodhpur,Endocrinologist,85,0.879,Drug_B,0.481
+DOC01059,Tamil Nadu,Coimbatore,Diabetologist,89,0.699,Drug_B,0.477
+DOC01060,Maharashtra,Nagpur,Endocrinologist,50,0.267,Drug_B,0.341
+DOC01061,Delhi NCR,Noida,Internal Medicine,65,0.45,Drug_B,0.361
+DOC01062,Telangana,Hyderabad,Diabetologist,345,0.872,Drug_D,0.649
+DOC01063,Karnataka,Hubballi,Diabetologist,203,0.45,Drug_C,0.473
+DOC01064,Tamil Nadu,Madurai,General Physician,167,0.41,Drug_C,0.42
+DOC01065,West Bengal,Siliguri,Diabetologist,310,0.446,Drug_D,0.633
+DOC01066,Maharashtra,Pune,General Physician,138,0.924,Drug_B,0.479
+DOC01067,Maharashtra,Mumbai,General Physician,264,0.718,Drug_B,0.481
+DOC01068,Karnataka,Hubballi,Diabetologist,236,0.595,Drug_D,0.511
+DOC01069,Maharashtra,Nashik,Diabetologist,153,0.203,Drug_B,0.39
+DOC01070,Rajasthan,Jaipur,General Physician,428,0.642,Drug_B,0.457
+DOC01071,West Bengal,Kolkata,Internal Medicine,115,0.882,Drug_C,0.519
+DOC01072,Rajasthan,Jaipur,Diabetologist,156,0.687,Drug_B,0.416
+DOC01073,Tamil Nadu,Madurai,Cardiologist,110,0.777,Drug_D,0.532
+DOC01074,West Bengal,Kolkata,Internal Medicine,341,0.517,Drug_D,0.699
+DOC01075,Rajasthan,Udaipur,Internal Medicine,256,0.971,Drug_C,0.592
+DOC01076,Delhi NCR,Gurugram,Cardiologist,259,0.635,Drug_B,0.442
+DOC01077,Karnataka,Hubballi,Diabetologist,186,0.542,Drug_B,0.344
+DOC01078,Karnataka,Mysuru,Endocrinologist,50,0.32,Drug_B,0.153
+DOC01079,West Bengal,Siliguri,General Physician,134,0.71,Drug_D,0.327
+DOC01080,Maharashtra,Pune,General Physician,123,0.548,Drug_C,0.44
+DOC01081,Rajasthan,Jaipur,Internal Medicine,201,0.858,Drug_D,0.553
+DOC01082,Karnataka,Mysuru,General Physician,179,0.465,Drug_B,0.484
+DOC01083,Delhi NCR,Delhi,Cardiologist,132,0.21,Drug_B,0.105
+DOC01084,Karnataka,Hubballi,Internal Medicine,123,0.907,Drug_B,0.624
+DOC01085,West Bengal,Kolkata,Diabetologist,84,0.826,Drug_B,0.386
+DOC01086,Karnataka,Mysuru,Diabetologist,121,0.447,Drug_B,0.531
+DOC01087,Maharashtra,Mumbai,Diabetologist,82,0.706,Drug_D,0.449
+DOC01088,Telangana,Warangal,Diabetologist,265,0.746,Drug_C,0.354
+DOC01089,Telangana,Warangal,Endocrinologist,229,0.75,Drug_D,0.455
+DOC01090,Tamil Nadu,Coimbatore,Internal Medicine,65,0.449,Drug_B,0.308
+DOC01091,Delhi NCR,Noida,Internal Medicine,158,0.642,Drug_D,0.382
+DOC01092,Telangana,Hyderabad,Endocrinologist,80,0.6,Drug_D,0.259
+DOC01093,Karnataka,Mysuru,Cardiologist,121,0.455,Drug_B,0.485
+DOC01094,Karnataka,Bengaluru,General Physician,128,0.888,Drug_B,0.444
+DOC01095,Maharashtra,Pune,Diabetologist,149,0.783,Drug_B,0.449
+DOC01096,Karnataka,Bengaluru,General Physician,148,0.532,Drug_D,0.241
+DOC01097,West Bengal,Siliguri,General Physician,202,0.767,Drug_C,0.581
+DOC01098,Tamil Nadu,Chennai,Diabetologist,123,0.341,Drug_D,0.337
+DOC01099,Karnataka,Mysuru,Internal Medicine,222,0.471,Drug_B,0.405
+DOC01100,Maharashtra,Pune,Endocrinologist,50,0.795,Drug_B,0.392
+DOC01101,Tamil Nadu,Madurai,Endocrinologist,236,0.39,Drug_B,0.44
+DOC01102,Gujarat,Vadodara,Internal Medicine,154,0.369,Drug_B,0.434
+DOC01103,Karnataka,Hubballi,Internal Medicine,432,0.333,Drug_C,0.662
+DOC01104,Delhi NCR,Noida,General Physician,50,0.644,Drug_D,0.271
+DOC01105,Karnataka,Hubballi,Diabetologist,173,0.21,Drug_C,0.384
+DOC01106,Karnataka,Mysuru,Diabetologist,454,0.564,Drug_B,0.708
+DOC01107,Maharashtra,Nashik,Internal Medicine,115,0.4,Drug_B,0.296
+DOC01108,Gujarat,Surat,Endocrinologist,150,0.394,Drug_C,0.299
+DOC01109,West Bengal,Siliguri,Cardiologist,324,0.3,Drug_B,0.547
+DOC01110,Delhi NCR,Delhi,General Physician,326,0.64,Drug_D,0.596
+DOC01111,West Bengal,Kolkata,Internal Medicine,136,0.428,Drug_C,0.321
+DOC01112,Karnataka,Hubballi,Endocrinologist,303,0.702,Drug_B,0.482
+DOC01113,Delhi NCR,Gurugram,Endocrinologist,92,0.827,Drug_C,0.458
+DOC01114,Gujarat,Vadodara,Internal Medicine,346,0.309,Drug_B,0.591
+DOC01115,Karnataka,Bengaluru,Diabetologist,75,0.766,Drug_D,0.365
+DOC01116,Gujarat,Ahmedabad,Endocrinologist,143,0.296,Drug_B,0.486
+DOC01117,West Bengal,Siliguri,General Physician,105,0.476,Drug_C,0.416
+DOC01118,Karnataka,Mysuru,Internal Medicine,145,0.62,Drug_B,0.308
+DOC01119,Karnataka,Bengaluru,Diabetologist,188,0.558,Drug_C,0.421
+DOC01120,Karnataka,Mysuru,Diabetologist,59,0.643,Drug_D,0.248
+DOC01121,Maharashtra,Pune,General Physician,121,0.328,Drug_C,0.219
+DOC01122,Delhi NCR,Noida,Diabetologist,114,0.569,Drug_C,0.389
+DOC01123,Delhi NCR,Noida,Cardiologist,500,0.307,Drug_C,0.504
+DOC01124,Maharashtra,Nashik,Endocrinologist,170,0.44,Drug_C,0.462
+DOC01125,Gujarat,Surat,General Physician,209,0.816,Drug_B,0.497
+DOC01126,West Bengal,Kolkata,Diabetologist,201,0.447,Drug_B,0.33
+DOC01127,Karnataka,Mysuru,General Physician,144,0.502,Drug_D,0.479
+DOC01128,Delhi NCR,Delhi,Diabetologist,78,0.868,Drug_B,0.507
+DOC01129,Maharashtra,Nashik,General Physician,125,0.202,Drug_C,0.242
+DOC01130,Delhi NCR,Delhi,Cardiologist,73,0.214,Drug_B,0.299
+DOC01131,Telangana,Warangal,Endocrinologist,50,0.628,Drug_C,0.201
+DOC01132,Rajasthan,Udaipur,Diabetologist,69,0.531,Drug_D,0.393
+DOC01133,Maharashtra,Nashik,Diabetologist,119,0.583,Drug_B,0.248
+DOC01134,Maharashtra,Pune,General Physician,290,0.493,Drug_C,0.541
+DOC01135,Maharashtra,Nashik,Endocrinologist,50,0.572,Drug_B,0.323
+DOC01136,West Bengal,Siliguri,Diabetologist,229,0.705,Drug_B,0.431
+DOC01137,Tamil Nadu,Madurai,General Physician,200,0.51,Drug_D,0.388
+DOC01138,Delhi NCR,Delhi,Diabetologist,129,0.304,Drug_C,0.361
+DOC01139,Rajasthan,Jodhpur,Cardiologist,121,0.366,Drug_C,0.288
+DOC01140,West Bengal,Kolkata,Diabetologist,138,0.895,Drug_B,0.626
+DOC01141,Rajasthan,Jodhpur,Internal Medicine,112,0.501,Drug_D,0.368
+DOC01142,Karnataka,Hubballi,Cardiologist,86,0.715,Drug_B,0.288
+DOC01143,Delhi NCR,Delhi,General Physician,90,0.604,Drug_B,0.297
+DOC01144,Gujarat,Ahmedabad,Internal Medicine,212,0.882,Drug_B,0.582
+DOC01145,Telangana,Hyderabad,Diabetologist,130,0.521,Drug_D,0.31
+DOC01146,Telangana,Warangal,Endocrinologist,121,0.124,Drug_B,0.209
+DOC01147,West Bengal,Siliguri,Internal Medicine,69,0.629,Drug_C,0.374
+DOC01148,Rajasthan,Udaipur,General Physician,91,0.566,Drug_C,0.379
+DOC01149,Delhi NCR,Gurugram,Internal Medicine,163,0.58,Drug_B,0.51
+DOC01150,Delhi NCR,Noida,Diabetologist,180,0.761,Drug_D,0.417
+DOC01151,Karnataka,Bengaluru,Internal Medicine,93,0.748,Drug_D,0.467
+DOC01152,Delhi NCR,Gurugram,General Physician,53,0.472,Drug_B,0.351
+DOC01153,Delhi NCR,Gurugram,Internal Medicine,192,0.088,Drug_D,0.382
+DOC01154,Karnataka,Bengaluru,General Physician,108,0.902,Drug_B,0.442
+DOC01155,Maharashtra,Nagpur,Internal Medicine,89,0.4,Drug_B,0.232
+DOC01156,West Bengal,Kolkata,Diabetologist,81,0.224,Drug_B,0.312
+DOC01157,Karnataka,Bengaluru,Diabetologist,158,0.942,Drug_C,0.548
+DOC01158,Rajasthan,Jaipur,Diabetologist,179,0.605,Drug_B,0.404
+DOC01159,Maharashtra,Pune,General Physician,139,0.778,Drug_C,0.39
+DOC01160,Maharashtra,Nagpur,Endocrinologist,408,0.599,Drug_C,0.584
+DOC01161,Tamil Nadu,Coimbatore,Internal Medicine,91,0.486,Drug_C,0.407
+DOC01162,Tamil Nadu,Chennai,General Physician,269,0.826,Drug_B,0.527
+DOC01163,Telangana,Warangal,Internal Medicine,418,0.778,Drug_C,0.76
+DOC01164,Rajasthan,Jodhpur,Internal Medicine,201,0.536,Drug_D,0.561
+DOC01165,West Bengal,Kolkata,Internal Medicine,103,0.476,Drug_B,0.453
+DOC01166,Delhi NCR,Gurugram,Diabetologist,77,0.527,Drug_D,0.404
+DOC01167,Tamil Nadu,Coimbatore,Internal Medicine,604,0.47,Drug_B,0.75
+DOC01168,Gujarat,Surat,General Physician,59,0.717,Drug_C,0.488
+DOC01169,Rajasthan,Jaipur,General Physician,286,0.857,Drug_B,0.496
+DOC01170,Tamil Nadu,Madurai,Internal Medicine,143,0.827,Drug_B,0.359
+DOC01171,Tamil Nadu,Madurai,Internal Medicine,213,0.165,Drug_D,0.37
+DOC01172,Delhi NCR,Noida,Endocrinologist,117,0.642,Drug_B,0.489
+DOC01173,Delhi NCR,Delhi,Diabetologist,78,0.336,Drug_D,0.39
+DOC01174,Rajasthan,Jaipur,Diabetologist,53,0.638,Drug_B,0.122
+DOC01175,Telangana,Warangal,General Physician,76,0.647,Drug_D,0.323
+DOC01176,Tamil Nadu,Madurai,Endocrinologist,151,0.656,Drug_B,0.352
+DOC01177,Delhi NCR,Gurugram,Diabetologist,70,0.61,Drug_C,0.34
+DOC01178,West Bengal,Kolkata,Internal Medicine,321,0.586,Drug_B,0.628
+DOC01179,Karnataka,Bengaluru,Diabetologist,153,0.372,Drug_B,0.411
+DOC01180,Karnataka,Hubballi,Cardiologist,275,0.893,Drug_B,0.611
+DOC01181,Delhi NCR,Delhi,Internal Medicine,81,0.919,Drug_D,0.49
+DOC01182,Rajasthan,Jaipur,Diabetologist,66,0.781,Drug_B,0.551
+DOC01183,Tamil Nadu,Madurai,Diabetologist,118,0.506,Drug_D,0.364
+DOC01184,Delhi NCR,Gurugram,Cardiologist,107,0.595,Drug_D,0.444
+DOC01185,Tamil Nadu,Madurai,Diabetologist,352,0.659,Drug_D,0.473
+DOC01186,Gujarat,Ahmedabad,Internal Medicine,80,0.581,Drug_D,0.352
+DOC01187,Delhi NCR,Noida,Internal Medicine,271,0.813,Drug_C,0.458
+DOC01188,Gujarat,Vadodara,Internal Medicine,96,0.423,Drug_D,0.265
+DOC01189,Gujarat,Vadodara,Diabetologist,152,0.944,Drug_B,0.471
+DOC01190,Maharashtra,Nashik,Cardiologist,331,0.779,Drug_B,0.571
+DOC01191,Rajasthan,Udaipur,Cardiologist,146,0.572,Drug_C,0.386
+DOC01192,West Bengal,Kolkata,Internal Medicine,166,0.343,Drug_B,0.394
+DOC01193,Delhi NCR,Delhi,Diabetologist,86,0.725,Drug_B,0.286
+DOC01194,Tamil Nadu,Coimbatore,Internal Medicine,76,0.712,Drug_B,0.213
+DOC01195,Maharashtra,Nashik,Diabetologist,139,0.641,Drug_C,0.485
+DOC01196,Rajasthan,Udaipur,Cardiologist,329,0.882,Drug_C,0.575
+DOC01197,Gujarat,Ahmedabad,General Physician,168,0.34,Drug_B,0.386
+DOC01198,West Bengal,Siliguri,Endocrinologist,162,0.756,Drug_C,0.488
+DOC01199,Rajasthan,Jaipur,Internal Medicine,367,0.622,Drug_D,0.573
+DOC01200,Tamil Nadu,Madurai,Endocrinologist,60,0.718,Drug_C,0.546
+DOC01201,Karnataka,Bengaluru,Cardiologist,283,0.578,Drug_B,0.457
+DOC01202,Rajasthan,Udaipur,Internal Medicine,533,0.561,Drug_B,0.697
+DOC01203,Maharashtra,Nagpur,Diabetologist,50,0.544,Drug_D,0.263
+DOC01204,Telangana,Hyderabad,Internal Medicine,90,0.682,Drug_B,0.37
+DOC01205,West Bengal,Kolkata,Internal Medicine,216,0.614,Drug_D,0.439
+DOC01206,Telangana,Hyderabad,Internal Medicine,350,0.428,Drug_C,0.536
+DOC01207,Tamil Nadu,Chennai,Cardiologist,205,0.406,Drug_B,0.296
+DOC01208,West Bengal,Siliguri,Internal Medicine,716,0.868,Drug_C,0.876
+DOC01209,Delhi NCR,Gurugram,Endocrinologist,150,0.578,Drug_C,0.419
+DOC01210,Gujarat,Surat,General Physician,224,0.178,Drug_B,0.382
+DOC01211,Maharashtra,Pune,Endocrinologist,72,0.454,Drug_B,0.288
+DOC01212,Tamil Nadu,Chennai,Internal Medicine,138,0.908,Drug_C,0.388
+DOC01213,Tamil Nadu,Chennai,Cardiologist,66,0.557,Drug_C,0.325
+DOC01214,Rajasthan,Jodhpur,Endocrinologist,79,0.905,Drug_B,0.458
+DOC01215,Gujarat,Vadodara,General Physician,191,0.335,Drug_C,0.459
+DOC01216,West Bengal,Kolkata,Internal Medicine,215,0.263,Drug_B,0.408
+DOC01217,Karnataka,Bengaluru,Endocrinologist,181,0.471,Drug_B,0.424
+DOC01218,Maharashtra,Nagpur,Internal Medicine,623,0.756,Drug_D,0.912
+DOC01219,Gujarat,Vadodara,Endocrinologist,201,0.429,Drug_C,0.294
+DOC01220,Gujarat,Ahmedabad,Cardiologist,482,0.624,Drug_B,0.874
+DOC01221,Rajasthan,Jaipur,Cardiologist,362,0.64,Drug_B,0.581
+DOC01222,Karnataka,Hubballi,Diabetologist,73,0.315,Drug_B,0.318
+DOC01223,Gujarat,Ahmedabad,Diabetologist,251,0.496,Drug_C,0.477
+DOC01224,Maharashtra,Nagpur,Endocrinologist,149,0.72,Drug_C,0.485
+DOC01225,Tamil Nadu,Chennai,Cardiologist,57,0.509,Drug_C,0.355
+DOC01226,Rajasthan,Udaipur,Cardiologist,155,0.794,Drug_B,0.438
+DOC01227,Karnataka,Hubballi,Endocrinologist,96,0.669,Drug_B,0.404
+DOC01228,West Bengal,Kolkata,Endocrinologist,68,0.976,Drug_C,0.404
+DOC01229,West Bengal,Kolkata,Internal Medicine,53,0.857,Drug_D,0.303
+DOC01230,Karnataka,Mysuru,General Physician,111,0.425,Drug_B,0.282
+DOC01231,Maharashtra,Mumbai,Diabetologist,147,0.408,Drug_B,0.475
+DOC01232,Karnataka,Hubballi,General Physician,65,0.458,Drug_C,0.235
+DOC01233,Rajasthan,Udaipur,General Physician,187,0.19,Drug_B,0.312
+DOC01234,Rajasthan,Udaipur,Diabetologist,148,0.914,Drug_D,0.478
+DOC01235,Gujarat,Vadodara,Diabetologist,54,0.492,Drug_B,0.28
+DOC01236,Delhi NCR,Delhi,General Physician,82,0.604,Drug_C,0.203
+DOC01237,Delhi NCR,Delhi,Endocrinologist,98,0.369,Drug_C,0.281
+DOC01238,Telangana,Hyderabad,Endocrinologist,156,0.469,Drug_C,0.374
+DOC01239,Rajasthan,Jaipur,Internal Medicine,105,0.674,Drug_C,0.333
+DOC01240,Telangana,Hyderabad,General Physician,179,0.743,Drug_C,0.466
+DOC01241,Rajasthan,Jodhpur,Endocrinologist,90,0.771,Drug_C,0.517
+DOC01242,Gujarat,Surat,Diabetologist,107,0.209,Drug_D,0.292
+DOC01243,Karnataka,Hubballi,Internal Medicine,99,0.065,Drug_B,0.341
+DOC01244,Telangana,Warangal,Internal Medicine,57,0.487,Drug_C,0.493
+DOC01245,West Bengal,Siliguri,Internal Medicine,376,0.482,Drug_C,0.602
+DOC01246,Rajasthan,Udaipur,Endocrinologist,94,0.652,Drug_D,0.359
+DOC01247,Karnataka,Hubballi,General Physician,201,0.215,Drug_D,0.42
+DOC01248,West Bengal,Kolkata,General Physician,200,0.672,Drug_B,0.582
+DOC01249,Gujarat,Surat,Cardiologist,67,0.24,Drug_C,0.153
+DOC01250,Tamil Nadu,Madurai,Internal Medicine,73,0.625,Drug_B,0.405
+DOC01251,Gujarat,Ahmedabad,General Physician,50,0.607,Drug_C,0.254
+DOC01252,Karnataka,Bengaluru,Cardiologist,89,0.832,Drug_B,0.487
+DOC01253,Gujarat,Surat,Diabetologist,103,0.716,Drug_B,0.443
+DOC01254,Karnataka,Hubballi,Internal Medicine,54,0.75,Drug_C,0.261
+DOC01255,Karnataka,Bengaluru,Internal Medicine,293,0.604,Drug_D,0.599
+DOC01256,Telangana,Hyderabad,General Physician,101,0.723,Drug_B,0.321
+DOC01257,Karnataka,Mysuru,Diabetologist,145,0.564,Drug_B,0.421
+DOC01258,Delhi NCR,Delhi,General Physician,178,0.868,Drug_D,0.411
+DOC01259,Maharashtra,Pune,Internal Medicine,102,0.748,Drug_D,0.458
+DOC01260,Rajasthan,Jodhpur,Diabetologist,71,0.364,Drug_B,0.228
+DOC01261,West Bengal,Siliguri,General Physician,88,0.342,Drug_C,0.277
+DOC01262,Rajasthan,Jaipur,General Physician,649,0.795,Drug_C,0.922
+DOC01263,Telangana,Warangal,Endocrinologist,227,0.684,Drug_B,0.57
+DOC01264,Maharashtra,Pune,Internal Medicine,81,0.884,Drug_B,0.335
+DOC01265,Tamil Nadu,Coimbatore,Internal Medicine,102,0.778,Drug_C,0.397
+DOC01266,Delhi NCR,Gurugram,Endocrinologist,243,0.469,Drug_C,0.411
+DOC01267,Tamil Nadu,Coimbatore,Endocrinologist,160,0.894,Drug_B,0.566
+DOC01268,Tamil Nadu,Chennai,Endocrinologist,134,0.46,Drug_B,0.35
+DOC01269,Karnataka,Hubballi,Endocrinologist,170,0.452,Drug_C,0.406
+DOC01270,Gujarat,Ahmedabad,Internal Medicine,109,0.647,Drug_B,0.397
+DOC01271,Rajasthan,Jodhpur,Internal Medicine,94,0.54,Drug_D,0.402
+DOC01272,Tamil Nadu,Coimbatore,General Physician,275,0.583,Drug_B,0.463
+DOC01273,West Bengal,Kolkata,Internal Medicine,154,0.736,Drug_B,0.436
+DOC01274,Maharashtra,Nagpur,Endocrinologist,170,0.337,Drug_B,0.414
+DOC01275,Karnataka,Mysuru,Diabetologist,287,0.476,Drug_B,0.473
+DOC01276,Delhi NCR,Gurugram,General Physician,81,0.625,Drug_D,0.605
+DOC01277,Karnataka,Bengaluru,General Physician,230,0.512,Drug_B,0.476
+DOC01278,Delhi NCR,Noida,Diabetologist,95,0.616,Drug_B,0.396
+DOC01279,Tamil Nadu,Chennai,Endocrinologist,428,0.296,Drug_B,0.635
+DOC01280,Tamil Nadu,Madurai,Internal Medicine,414,0.398,Drug_B,0.563
+DOC01281,Gujarat,Ahmedabad,Internal Medicine,82,0.808,Drug_C,0.423
+DOC01282,West Bengal,Siliguri,Diabetologist,144,0.322,Drug_B,0.4
+DOC01283,Rajasthan,Jodhpur,Endocrinologist,338,0.392,Drug_C,0.697
+DOC01284,Maharashtra,Nashik,Diabetologist,135,0.226,Drug_B,0.278
+DOC01285,Delhi NCR,Delhi,General Physician,260,0.603,Drug_C,0.479
+DOC01286,Maharashtra,Mumbai,Internal Medicine,302,0.367,Drug_D,0.485
+DOC01287,Rajasthan,Jaipur,General Physician,107,0.693,Drug_B,0.491
+DOC01288,Tamil Nadu,Coimbatore,Internal Medicine,153,0.62,Drug_B,0.327
+DOC01289,Delhi NCR,Gurugram,Diabetologist,127,0.293,Drug_B,0.175
+DOC01290,Delhi NCR,Gurugram,Diabetologist,216,0.328,Drug_B,0.358
+DOC01291,Rajasthan,Jodhpur,Endocrinologist,57,0.462,Drug_D,0.282
+DOC01292,Tamil Nadu,Coimbatore,Internal Medicine,320,0.658,Drug_B,0.542
+DOC01293,Karnataka,Hubballi,Internal Medicine,132,0.685,Drug_D,0.485
+DOC01294,Maharashtra,Mumbai,General Physician,99,0.664,Drug_C,0.569
+DOC01295,Maharashtra,Nagpur,Internal Medicine,132,0.655,Drug_C,0.508
+DOC01296,Gujarat,Vadodara,Endocrinologist,581,0.832,Drug_D,0.836
+DOC01297,Delhi NCR,Delhi,Endocrinologist,192,0.539,Drug_C,0.315
+DOC01298,Telangana,Hyderabad,General Physician,310,0.676,Drug_B,0.673
+DOC01299,Maharashtra,Pune,Internal Medicine,224,0.451,Drug_B,0.39
+DOC01300,Rajasthan,Jodhpur,Diabetologist,62,0.848,Drug_D,0.265
+DOC01301,Delhi NCR,Delhi,Cardiologist,53,0.588,Drug_B,0.296
+DOC01302,Telangana,Hyderabad,Internal Medicine,131,0.381,Drug_C,0.336
+DOC01303,Gujarat,Ahmedabad,Cardiologist,281,0.548,Drug_B,0.611
+DOC01304,West Bengal,Siliguri,Endocrinologist,104,0.801,Drug_B,0.592
+DOC01305,Maharashtra,Pune,Internal Medicine,144,0.139,Drug_D,0.208
+DOC01306,Rajasthan,Jodhpur,Endocrinologist,299,0.829,Drug_B,0.601
+DOC01307,Karnataka,Bengaluru,Diabetologist,100,0.758,Drug_D,0.42
+DOC01308,Delhi NCR,Noida,Diabetologist,186,0.589,Drug_D,0.507
+DOC01309,Gujarat,Vadodara,Diabetologist,207,0.844,Drug_C,0.583
+DOC01310,Tamil Nadu,Coimbatore,Internal Medicine,50,0.589,Drug_B,0.095
+DOC01311,Delhi NCR,Noida,Internal Medicine,114,0.093,Drug_B,0.214
+DOC01312,Maharashtra,Nagpur,Diabetologist,50,0.486,Drug_B,0.316
+DOC01313,Maharashtra,Mumbai,Endocrinologist,103,0.579,Drug_D,0.316
+DOC01314,Maharashtra,Nashik,Diabetologist,81,0.77,Drug_B,0.37
+DOC01315,Karnataka,Mysuru,General Physician,97,0.657,Drug_B,0.469
+DOC01316,Gujarat,Surat,Endocrinologist,50,0.282,Drug_D,0.174
+DOC01317,Rajasthan,Udaipur,Internal Medicine,122,0.777,Drug_B,0.456
+DOC01318,Tamil Nadu,Madurai,Internal Medicine,177,0.623,Drug_D,0.399
+DOC01319,Maharashtra,Nagpur,Internal Medicine,229,0.734,Drug_B,0.571
+DOC01320,West Bengal,Kolkata,Endocrinologist,90,0.864,Drug_C,0.404
+DOC01321,Karnataka,Hubballi,Internal Medicine,153,0.641,Drug_B,0.339
+DOC01322,Maharashtra,Mumbai,Endocrinologist,118,0.458,Drug_D,0.381
+DOC01323,Tamil Nadu,Madurai,General Physician,128,0.678,Drug_B,0.356
+DOC01324,Gujarat,Vadodara,Endocrinologist,129,0.889,Drug_B,0.452
+DOC01325,Karnataka,Bengaluru,Internal Medicine,167,0.749,Drug_D,0.432
+DOC01326,Telangana,Warangal,General Physician,415,0.448,Drug_C,0.546
+DOC01327,Karnataka,Hubballi,Internal Medicine,83,0.539,Drug_B,0.379
+DOC01328,Maharashtra,Nashik,Diabetologist,423,0.175,Drug_C,0.597
+DOC01329,Delhi NCR,Gurugram,Internal Medicine,449,0.537,Drug_B,0.552
+DOC01330,Karnataka,Bengaluru,General Physician,163,0.219,Drug_D,0.35
+DOC01331,Delhi NCR,Delhi,Cardiologist,92,0.923,Drug_B,0.536
+DOC01332,West Bengal,Kolkata,Internal Medicine,73,0.553,Drug_D,0.378
+DOC01333,Karnataka,Bengaluru,Endocrinologist,152,0.681,Drug_C,0.326
+DOC01334,Tamil Nadu,Madurai,Endocrinologist,195,0.283,Drug_C,0.354
+DOC01335,Telangana,Hyderabad,Diabetologist,514,0.554,Drug_B,0.701
+DOC01336,Delhi NCR,Delhi,Internal Medicine,271,0.336,Drug_B,0.433
+DOC01337,Maharashtra,Nashik,General Physician,128,0.386,Drug_D,0.288
+DOC01338,Gujarat,Surat,Internal Medicine,85,0.688,Drug_D,0.346
+DOC01339,Tamil Nadu,Madurai,Endocrinologist,111,0.693,Drug_B,0.506
+DOC01340,Telangana,Hyderabad,Internal Medicine,101,0.565,Drug_C,0.248
+DOC01341,West Bengal,Kolkata,Diabetologist,138,0.448,Drug_C,0.428
+DOC01342,Maharashtra,Nagpur,Diabetologist,166,0.641,Drug_B,0.419
+DOC01343,Maharashtra,Nashik,Endocrinologist,122,0.957,Drug_B,0.471
+DOC01344,Maharashtra,Nashik,General Physician,236,0.816,Drug_D,0.668
+DOC01345,Telangana,Hyderabad,Endocrinologist,99,0.426,Drug_B,0.325
+DOC01346,West Bengal,Kolkata,Diabetologist,79,0.44,Drug_B,0.252
+DOC01347,West Bengal,Kolkata,Diabetologist,110,0.569,Drug_C,0.424
+DOC01348,Tamil Nadu,Chennai,Internal Medicine,172,0.19,Drug_D,0.293
+DOC01349,Tamil Nadu,Madurai,Endocrinologist,110,0.291,Drug_D,0.318
+DOC01350,Karnataka,Mysuru,Cardiologist,234,0.289,Drug_D,0.396
+DOC01351,Telangana,Hyderabad,Internal Medicine,109,0.642,Drug_B,0.416
+DOC01352,Delhi NCR,Gurugram,Endocrinologist,235,0.72,Drug_B,0.532
+DOC01353,West Bengal,Siliguri,Endocrinologist,72,0.278,Drug_C,0.268
+DOC01354,Maharashtra,Mumbai,Internal Medicine,103,0.55,Drug_B,0.497
+DOC01355,Delhi NCR,Noida,Endocrinologist,54,0.775,Drug_B,0.268
+DOC01356,Rajasthan,Udaipur,Internal Medicine,286,0.947,Drug_C,0.524
+DOC01357,Delhi NCR,Gurugram,Internal Medicine,130,0.454,Drug_B,0.381
+DOC01358,Delhi NCR,Delhi,Diabetologist,156,0.498,Drug_B,0.517
+DOC01359,Gujarat,Ahmedabad,Diabetologist,51,0.815,Drug_C,0.219
+DOC01360,West Bengal,Kolkata,Endocrinologist,281,0.451,Drug_D,0.475
+DOC01361,Tamil Nadu,Chennai,Internal Medicine,151,0.39,Drug_C,0.227
+DOC01362,Delhi NCR,Delhi,Internal Medicine,131,0.704,Drug_D,0.496
+DOC01363,West Bengal,Siliguri,Diabetologist,97,0.796,Drug_C,0.388
+DOC01364,West Bengal,Siliguri,General Physician,294,0.515,Drug_D,0.651
+DOC01365,Karnataka,Bengaluru,Cardiologist,107,0.941,Drug_B,0.5
+DOC01366,Tamil Nadu,Madurai,Internal Medicine,186,0.581,Drug_C,0.446
+DOC01367,Gujarat,Ahmedabad,General Physician,138,0.462,Drug_B,0.294
+DOC01368,Telangana,Hyderabad,Internal Medicine,355,0.528,Drug_B,0.552
+DOC01369,Karnataka,Mysuru,Endocrinologist,129,0.806,Drug_B,0.388
+DOC01370,Tamil Nadu,Coimbatore,Endocrinologist,204,0.449,Drug_C,0.523
+DOC01371,Tamil Nadu,Madurai,Cardiologist,146,0.743,Drug_D,0.423
+DOC01372,West Bengal,Siliguri,Endocrinologist,122,0.714,Drug_B,0.369
+DOC01373,Gujarat,Vadodara,General Physician,107,0.534,Drug_B,0.19
+DOC01374,Telangana,Warangal,Internal Medicine,237,0.606,Drug_B,0.455
+DOC01375,Delhi NCR,Gurugram,Diabetologist,199,0.369,Drug_D,0.36
+DOC01376,West Bengal,Kolkata,Internal Medicine,100,0.785,Drug_B,0.453
+DOC01377,Gujarat,Surat,General Physician,143,0.765,Drug_D,0.63
+DOC01378,Telangana,Hyderabad,Diabetologist,454,0.393,Drug_D,0.566
+DOC01379,Maharashtra,Nagpur,General Physician,138,0.737,Drug_B,0.458
+DOC01380,Tamil Nadu,Madurai,Diabetologist,67,0.653,Drug_B,0.294
+DOC01381,Delhi NCR,Noida,Internal Medicine,169,0.375,Drug_B,0.314
+DOC01382,Telangana,Hyderabad,Internal Medicine,96,0.803,Drug_B,0.526
+DOC01383,Tamil Nadu,Coimbatore,Internal Medicine,200,0.762,Drug_B,0.626
+DOC01384,Rajasthan,Jodhpur,General Physician,50,0.569,Drug_D,0.292
+DOC01385,Rajasthan,Jodhpur,Cardiologist,190,0.498,Drug_B,0.408
+DOC01386,Telangana,Hyderabad,Endocrinologist,98,0.871,Drug_D,0.499
+DOC01387,Telangana,Hyderabad,General Physician,102,0.728,Drug_D,0.399
+DOC01388,Rajasthan,Jaipur,Cardiologist,179,0.84,Drug_D,0.501
+DOC01389,Maharashtra,Mumbai,General Physician,120,0.234,Drug_B,0.386
+DOC01390,Karnataka,Hubballi,Internal Medicine,51,0.602,Drug_B,0.366
+DOC01391,West Bengal,Kolkata,Cardiologist,100,0.431,Drug_D,0.374
+DOC01392,Gujarat,Vadodara,Diabetologist,170,0.855,Drug_C,0.495
+DOC01393,Tamil Nadu,Madurai,Internal Medicine,409,0.315,Drug_B,0.442
+DOC01394,Tamil Nadu,Coimbatore,Internal Medicine,86,0.685,Drug_D,0.471
+DOC01395,West Bengal,Siliguri,Diabetologist,428,0.414,Drug_D,0.528
+DOC01396,West Bengal,Siliguri,Diabetologist,297,0.776,Drug_B,0.668
+DOC01397,Telangana,Warangal,Internal Medicine,50,0.73,Drug_C,0.458
+DOC01398,Delhi NCR,Gurugram,Internal Medicine,214,0.357,Drug_C,0.441
+DOC01399,Gujarat,Vadodara,Diabetologist,140,0.6,Drug_C,0.376
+DOC01400,Tamil Nadu,Madurai,Endocrinologist,145,0.584,Drug_B,0.474
+DOC01401,Rajasthan,Udaipur,General Physician,260,0.567,Drug_D,0.45
+DOC01402,Delhi NCR,Noida,Diabetologist,210,0.455,Drug_B,0.375
+DOC01403,Karnataka,Bengaluru,Internal Medicine,172,0.915,Drug_B,0.575
+DOC01404,Rajasthan,Udaipur,General Physician,256,0.856,Drug_C,0.625
+DOC01405,Tamil Nadu,Chennai,Internal Medicine,132,0.765,Drug_B,0.536
+DOC01406,Rajasthan,Jodhpur,Endocrinologist,175,0.454,Drug_D,0.522
+DOC01407,Tamil Nadu,Coimbatore,General Physician,92,0.744,Drug_D,0.556
+DOC01408,Karnataka,Hubballi,Internal Medicine,120,0.817,Drug_C,0.465
+DOC01409,Delhi NCR,Noida,Internal Medicine,248,0.8,Drug_C,0.485
+DOC01410,Maharashtra,Nashik,General Physician,182,0.555,Drug_B,0.483
+DOC01411,Tamil Nadu,Coimbatore,Cardiologist,139,0.884,Drug_B,0.505
+DOC01412,Delhi NCR,Gurugram,Endocrinologist,163,0.489,Drug_C,0.419
+DOC01413,Gujarat,Surat,General Physician,204,0.531,Drug_D,0.17
+DOC01414,Rajasthan,Jaipur,Diabetologist,125,0.833,Drug_C,0.454
+DOC01415,Maharashtra,Pune,Endocrinologist,305,0.947,Drug_B,0.628
+DOC01416,Delhi NCR,Delhi,General Physician,330,0.743,Drug_B,0.807
+DOC01417,Gujarat,Vadodara,Internal Medicine,350,0.843,Drug_D,0.754
+DOC01418,Tamil Nadu,Madurai,Internal Medicine,175,0.761,Drug_C,0.559
+DOC01419,Karnataka,Hubballi,Internal Medicine,242,0.789,Drug_C,0.449
+DOC01420,Gujarat,Surat,Diabetologist,139,0.536,Drug_B,0.556
+DOC01421,Tamil Nadu,Coimbatore,Internal Medicine,149,0.669,Drug_D,0.477
+DOC01422,Gujarat,Vadodara,Endocrinologist,187,0.68,Drug_C,0.389
+DOC01423,Tamil Nadu,Coimbatore,Internal Medicine,184,0.129,Drug_B,0.296
+DOC01424,Rajasthan,Udaipur,Diabetologist,68,0.864,Drug_B,0.384
+DOC01425,West Bengal,Siliguri,Internal Medicine,85,0.639,Drug_B,0.385
+DOC01426,Rajasthan,Udaipur,Cardiologist,505,0.595,Drug_D,0.738
+DOC01427,Maharashtra,Nagpur,Endocrinologist,87,0.503,Drug_B,0.308
+DOC01428,West Bengal,Siliguri,Cardiologist,193,0.491,Drug_B,0.488
+DOC01429,Delhi NCR,Noida,Internal Medicine,122,0.266,Drug_B,0.357
+DOC01430,Tamil Nadu,Chennai,Internal Medicine,113,0.525,Drug_B,0.351
+DOC01431,Telangana,Warangal,Internal Medicine,155,0.531,Drug_D,0.538
+DOC01432,Rajasthan,Jaipur,General Physician,222,0.409,Drug_B,0.525
+DOC01433,West Bengal,Siliguri,Internal Medicine,50,0.883,Drug_C,0.384
+DOC01434,Rajasthan,Jaipur,Diabetologist,50,0.376,Drug_B,0.327
+DOC01435,West Bengal,Kolkata,Endocrinologist,159,0.273,Drug_B,0.31
+DOC01436,Maharashtra,Nashik,Endocrinologist,57,0.406,Drug_C,0.328
+DOC01437,Rajasthan,Udaipur,Internal Medicine,56,0.818,Drug_B,0.447
+DOC01438,Tamil Nadu,Chennai,Internal Medicine,152,0.686,Drug_B,0.337
+DOC01439,Gujarat,Vadodara,Endocrinologist,190,0.461,Drug_B,0.37
+DOC01440,West Bengal,Kolkata,Internal Medicine,343,0.815,Drug_D,0.576
+DOC01441,Maharashtra,Nashik,General Physician,136,0.604,Drug_B,0.332
+DOC01442,Rajasthan,Jodhpur,Endocrinologist,93,0.095,Drug_D,0.315
+DOC01443,Tamil Nadu,Madurai,Cardiologist,192,0.716,Drug_C,0.446
+DOC01444,Maharashtra,Nashik,Internal Medicine,326,0.593,Drug_C,0.52
+DOC01445,Rajasthan,Jaipur,Endocrinologist,79,0.372,Drug_C,0.371
+DOC01446,Rajasthan,Jaipur,Cardiologist,130,0.397,Drug_B,0.419
+DOC01447,Delhi NCR,Gurugram,Endocrinologist,194,0.546,Drug_C,0.496
+DOC01448,Maharashtra,Mumbai,General Physician,129,0.494,Drug_C,0.351
+DOC01449,Maharashtra,Mumbai,Cardiologist,61,0.51,Drug_B,0.295
+DOC01450,Maharashtra,Pune,Endocrinologist,116,0.422,Drug_D,0.391
+DOC01451,Telangana,Hyderabad,Internal Medicine,104,0.578,Drug_B,0.414
+DOC01452,Karnataka,Bengaluru,Diabetologist,170,0.136,Drug_D,0.338
+DOC01453,West Bengal,Siliguri,Internal Medicine,362,0.283,Drug_B,0.598
+DOC01454,Maharashtra,Mumbai,Diabetologist,66,0.52,Drug_D,0.145
+DOC01455,Rajasthan,Jaipur,General Physician,172,0.157,Drug_D,0.229
+DOC01456,Maharashtra,Mumbai,Internal Medicine,458,0.598,Drug_C,0.698
+DOC01457,Telangana,Hyderabad,Cardiologist,110,0.269,Drug_B,0.369
+DOC01458,Tamil Nadu,Chennai,Endocrinologist,86,0.563,Drug_C,0.26
+DOC01459,West Bengal,Kolkata,Endocrinologist,361,0.878,Drug_C,0.715
+DOC01460,Delhi NCR,Gurugram,Internal Medicine,232,0.826,Drug_C,0.654
+DOC01461,Telangana,Hyderabad,Cardiologist,50,0.334,Drug_B,0.343
+DOC01462,Karnataka,Mysuru,General Physician,185,0.767,Drug_D,0.465
+DOC01463,Tamil Nadu,Chennai,Diabetologist,112,0.363,Drug_B,0.505
+DOC01464,Rajasthan,Jaipur,Diabetologist,192,0.813,Drug_B,0.502
+DOC01465,Karnataka,Bengaluru,Internal Medicine,177,0.866,Drug_C,0.449
+DOC01466,Karnataka,Hubballi,General Physician,141,0.919,Drug_D,0.445
+DOC01467,Rajasthan,Jodhpur,Diabetologist,82,0.668,Drug_B,0.378
+DOC01468,Rajasthan,Jodhpur,General Physician,134,0.471,Drug_C,0.401
+DOC01469,Karnataka,Hubballi,General Physician,159,0.418,Drug_C,0.305
+DOC01470,West Bengal,Kolkata,Endocrinologist,164,0.945,Drug_D,0.446
+DOC01471,Gujarat,Surat,General Physician,322,0.497,Drug_B,0.542
+DOC01472,Delhi NCR,Noida,Endocrinologist,271,0.176,Drug_B,0.562
+DOC01473,Telangana,Warangal,Endocrinologist,104,0.649,Drug_B,0.312
+DOC01474,Delhi NCR,Gurugram,General Physician,97,0.531,Drug_B,0.333
+DOC01475,Delhi NCR,Gurugram,General Physician,202,0.727,Drug_D,0.536
+DOC01476,Rajasthan,Jodhpur,Diabetologist,277,0.863,Drug_B,0.513
+DOC01477,Tamil Nadu,Coimbatore,Endocrinologist,350,0.303,Drug_C,0.584
+DOC01478,Karnataka,Bengaluru,General Physician,62,0.946,Drug_B,0.357
+DOC01479,Karnataka,Hubballi,Endocrinologist,149,0.699,Drug_C,0.386
+DOC01480,West Bengal,Kolkata,Internal Medicine,88,0.155,Drug_D,0.266
+DOC01481,West Bengal,Siliguri,Endocrinologist,190,0.58,Drug_C,0.633
+DOC01482,Gujarat,Ahmedabad,Endocrinologist,236,0.781,Drug_B,0.479
+DOC01483,West Bengal,Siliguri,Endocrinologist,68,0.691,Drug_B,0.405
+DOC01484,Karnataka,Mysuru,Internal Medicine,503,0.338,Drug_B,0.578
+DOC01485,Delhi NCR,Noida,General Physician,142,0.667,Drug_D,0.542
+DOC01486,Gujarat,Surat,Diabetologist,74,0.693,Drug_C,0.349
+DOC01487,West Bengal,Kolkata,Internal Medicine,257,0.751,Drug_B,0.687
+DOC01488,West Bengal,Kolkata,Internal Medicine,158,0.544,Drug_B,0.443
+DOC01489,Gujarat,Surat,Diabetologist,260,0.73,Drug_C,0.567
+DOC01490,Gujarat,Vadodara,General Physician,259,0.327,Drug_B,0.547
+DOC01491,Tamil Nadu,Chennai,Internal Medicine,125,0.447,Drug_D,0.532
+DOC01492,Gujarat,Vadodara,Internal Medicine,389,0.606,Drug_D,0.535
+DOC01493,Karnataka,Hubballi,Diabetologist,391,0.386,Drug_B,0.539
+DOC01494,Delhi NCR,Noida,Internal Medicine,169,0.712,Drug_D,0.454
+DOC01495,West Bengal,Kolkata,Diabetologist,319,0.749,Drug_C,0.597
+DOC01496,Delhi NCR,Delhi,Internal Medicine,288,0.81,Drug_D,0.577
+DOC01497,West Bengal,Siliguri,Diabetologist,115,0.274,Drug_C,0.33
+DOC01498,Maharashtra,Mumbai,Diabetologist,132,0.904,Drug_C,0.632
+DOC01499,West Bengal,Kolkata,General Physician,153,0.903,Drug_B,0.497
+DOC01500,Tamil Nadu,Madurai,General Physician,216,0.702,Drug_B,0.499
+DOC01501,Tamil Nadu,Madurai,Internal Medicine,81,0.117,Drug_B,0.313
+DOC01502,Maharashtra,Nagpur,General Physician,117,0.69,Drug_D,0.446
+DOC01503,Rajasthan,Jodhpur,Internal Medicine,95,0.853,Drug_B,0.353
+DOC01504,Tamil Nadu,Madurai,Internal Medicine,398,0.847,Drug_D,0.697
+DOC01505,Maharashtra,Nashik,Endocrinologist,89,0.375,Drug_B,0.408
+DOC01506,Delhi NCR,Gurugram,Internal Medicine,219,0.506,Drug_B,0.491
+DOC01507,Delhi NCR,Gurugram,Internal Medicine,82,0.508,Drug_B,0.294
+DOC01508,Maharashtra,Nagpur,Cardiologist,102,0.332,Drug_D,0.442
+DOC01509,Tamil Nadu,Madurai,Diabetologist,293,0.724,Drug_C,0.509
+DOC01510,Karnataka,Hubballi,Internal Medicine,66,0.778,Drug_D,0.457
+DOC01511,Rajasthan,Jodhpur,Endocrinologist,104,0.243,Drug_C,0.395
+DOC01512,Delhi NCR,Delhi,Endocrinologist,65,0.193,Drug_B,0.201
+DOC01513,Tamil Nadu,Madurai,Cardiologist,269,0.812,Drug_C,0.521
+DOC01514,Karnataka,Hubballi,Internal Medicine,119,0.461,Drug_B,0.544
+DOC01515,Telangana,Hyderabad,Internal Medicine,128,0.563,Drug_C,0.45
+DOC01516,Delhi NCR,Delhi,Internal Medicine,129,0.729,Drug_C,0.427
+DOC01517,Karnataka,Mysuru,Endocrinologist,226,0.81,Drug_C,0.6
+DOC01518,Maharashtra,Nagpur,Cardiologist,178,0.614,Drug_B,0.442
+DOC01519,Maharashtra,Nashik,Diabetologist,232,0.558,Drug_B,0.4
+DOC01520,Rajasthan,Jodhpur,Internal Medicine,159,0.833,Drug_B,0.401
+DOC01521,Gujarat,Surat,Endocrinologist,78,0.871,Drug_D,0.319
+DOC01522,West Bengal,Siliguri,Endocrinologist,167,0.32,Drug_B,0.327
+DOC01523,Gujarat,Vadodara,Endocrinologist,378,0.382,Drug_B,0.409
+DOC01524,Rajasthan,Jodhpur,Endocrinologist,212,0.289,Drug_B,0.332
+DOC01525,Tamil Nadu,Chennai,Internal Medicine,91,0.29,Drug_C,0.334
+DOC01526,Delhi NCR,Delhi,Endocrinologist,89,0.549,Drug_B,0.33
+DOC01527,Maharashtra,Pune,Diabetologist,264,0.537,Drug_B,0.634
+DOC01528,Karnataka,Mysuru,General Physician,72,0.445,Drug_C,0.187
+DOC01529,Gujarat,Ahmedabad,Internal Medicine,122,0.596,Drug_B,0.426
+DOC01530,Maharashtra,Pune,Diabetologist,123,0.25,Drug_D,0.394
+DOC01531,Rajasthan,Jodhpur,Internal Medicine,108,0.864,Drug_B,0.527
+DOC01532,Gujarat,Vadodara,Cardiologist,189,0.602,Drug_B,0.388
+DOC01533,Karnataka,Mysuru,Internal Medicine,50,0.647,Drug_B,0.368
+DOC01534,West Bengal,Kolkata,Diabetologist,197,0.595,Drug_C,0.425
+DOC01535,Rajasthan,Udaipur,Endocrinologist,50,0.762,Drug_C,0.497
+DOC01536,Maharashtra,Mumbai,Internal Medicine,69,0.272,Drug_C,0.289
+DOC01537,Delhi NCR,Noida,General Physician,92,0.731,Drug_D,0.46
+DOC01538,Karnataka,Mysuru,Diabetologist,89,0.419,Drug_D,0.41
+DOC01539,Karnataka,Mysuru,Diabetologist,135,0.352,Drug_C,0.344
+DOC01540,Karnataka,Hubballi,Cardiologist,107,0.323,Drug_C,0.348
+DOC01541,Maharashtra,Mumbai,Endocrinologist,155,0.83,Drug_B,0.437
+DOC01542,Rajasthan,Jodhpur,Internal Medicine,116,0.357,Drug_B,0.267
+DOC01543,Tamil Nadu,Madurai,Endocrinologist,218,0.572,Drug_C,0.525
+DOC01544,Rajasthan,Jaipur,Internal Medicine,257,0.698,Drug_B,0.642
+DOC01545,Rajasthan,Udaipur,Cardiologist,115,0.561,Drug_B,0.293
+DOC01546,Tamil Nadu,Coimbatore,Cardiologist,348,0.778,Drug_D,0.691
+DOC01547,Tamil Nadu,Madurai,Endocrinologist,140,0.446,Drug_B,0.423
+DOC01548,Rajasthan,Udaipur,Endocrinologist,242,0.61,Drug_C,0.412
+DOC01549,Gujarat,Surat,Diabetologist,110,0.332,Drug_C,0.245
+DOC01550,Telangana,Warangal,Diabetologist,234,0.643,Drug_B,0.574
+DOC01551,Rajasthan,Udaipur,Cardiologist,50,0.27,Drug_C,0.153
+DOC01552,Maharashtra,Mumbai,Diabetologist,351,0.634,Drug_D,0.531
+DOC01553,Tamil Nadu,Chennai,Endocrinologist,365,0.156,Drug_B,0.515
+DOC01554,Maharashtra,Pune,General Physician,105,0.266,Drug_B,0.257
+DOC01555,Gujarat,Ahmedabad,Internal Medicine,130,0.311,Drug_B,0.47
+DOC01556,Delhi NCR,Noida,Diabetologist,93,0.543,Drug_C,0.36
+DOC01557,Rajasthan,Jodhpur,Diabetologist,168,0.619,Drug_B,0.51
+DOC01558,Delhi NCR,Delhi,Internal Medicine,109,0.45,Drug_D,0.353
+DOC01559,Rajasthan,Jaipur,Diabetologist,97,0.698,Drug_B,0.44
+DOC01560,Maharashtra,Nagpur,Internal Medicine,186,0.91,Drug_D,0.433
+DOC01561,Maharashtra,Pune,Diabetologist,185,0.797,Drug_D,0.473
+DOC01562,Karnataka,Mysuru,General Physician,285,0.232,Drug_B,0.427
+DOC01563,Delhi NCR,Delhi,Endocrinologist,87,0.374,Drug_B,0.351
+DOC01564,West Bengal,Kolkata,Endocrinologist,183,0.474,Drug_B,0.445
+DOC01565,Delhi NCR,Delhi,General Physician,142,0.877,Drug_D,0.528
+DOC01566,Karnataka,Hubballi,General Physician,144,0.618,Drug_B,0.518
+DOC01567,Gujarat,Surat,General Physician,426,0.556,Drug_C,0.835
+DOC01568,Maharashtra,Pune,General Physician,150,0.656,Drug_D,0.642
+DOC01569,Gujarat,Ahmedabad,Endocrinologist,109,0.247,Drug_B,0.206
+DOC01570,Tamil Nadu,Coimbatore,Internal Medicine,137,0.659,Drug_C,0.393
+DOC01571,Gujarat,Surat,General Physician,223,0.339,Drug_B,0.361
+DOC01572,Rajasthan,Jaipur,Diabetologist,135,0.642,Drug_C,0.461
+DOC01573,Rajasthan,Udaipur,Internal Medicine,257,0.642,Drug_C,0.504
+DOC01574,Maharashtra,Mumbai,Internal Medicine,50,0.747,Drug_B,0.426
+DOC01575,West Bengal,Kolkata,General Physician,100,0.385,Drug_C,0.328
+DOC01576,Rajasthan,Jodhpur,General Physician,82,0.276,Drug_D,0.315
+DOC01577,Maharashtra,Pune,Internal Medicine,347,0.505,Drug_C,0.58
+DOC01578,Maharashtra,Mumbai,General Physician,134,0.543,Drug_C,0.28
+DOC01579,West Bengal,Kolkata,Endocrinologist,80,0.922,Drug_C,0.435
+DOC01580,West Bengal,Siliguri,Cardiologist,240,0.595,Drug_D,0.605
+DOC01581,Gujarat,Ahmedabad,Cardiologist,76,0.767,Drug_D,0.435
+DOC01582,Telangana,Hyderabad,Endocrinologist,60,0.389,Drug_D,0.307
+DOC01583,Maharashtra,Pune,Endocrinologist,134,0.956,Drug_C,0.453
+DOC01584,Tamil Nadu,Coimbatore,General Physician,80,0.531,Drug_B,0.402
+DOC01585,Telangana,Hyderabad,Cardiologist,248,0.535,Drug_B,0.461
+DOC01586,West Bengal,Siliguri,General Physician,100,0.941,Drug_B,0.365
+DOC01587,Rajasthan,Jodhpur,Endocrinologist,105,0.359,Drug_C,0.342
+DOC01588,Tamil Nadu,Madurai,Cardiologist,183,0.798,Drug_B,0.421
+DOC01589,Maharashtra,Pune,Internal Medicine,56,0.74,Drug_C,0.477
+DOC01590,Maharashtra,Nagpur,Cardiologist,105,0.498,Drug_B,0.403
+DOC01591,Tamil Nadu,Chennai,General Physician,84,0.338,Drug_D,0.232
+DOC01592,Karnataka,Bengaluru,Internal Medicine,80,0.561,Drug_B,0.504
+DOC01593,Tamil Nadu,Coimbatore,Diabetologist,226,0.627,Drug_B,0.442
+DOC01594,Telangana,Warangal,Internal Medicine,96,0.605,Drug_D,0.369
+DOC01595,Karnataka,Bengaluru,Endocrinologist,138,0.674,Drug_C,0.362
+DOC01596,Rajasthan,Jodhpur,Endocrinologist,66,0.752,Drug_C,0.335
+DOC01597,Tamil Nadu,Madurai,Diabetologist,137,0.262,Drug_C,0.22
+DOC01598,Delhi NCR,Gurugram,General Physician,71,0.639,Drug_C,0.484
+DOC01599,Karnataka,Hubballi,Cardiologist,121,0.54,Drug_D,0.327
+DOC01600,Maharashtra,Nagpur,Diabetologist,141,0.723,Drug_B,0.374
+DOC01601,Delhi NCR,Noida,Diabetologist,250,0.836,Drug_D,0.631
+DOC01602,Delhi NCR,Delhi,Cardiologist,365,0.555,Drug_D,0.637
+DOC01603,Delhi NCR,Noida,Internal Medicine,297,0.371,Drug_B,0.417
+DOC01604,Maharashtra,Mumbai,Internal Medicine,75,0.914,Drug_B,0.265
+DOC01605,Maharashtra,Nashik,General Physician,102,0.891,Drug_B,0.469
+DOC01606,Karnataka,Bengaluru,Diabetologist,69,0.695,Drug_B,0.414
+DOC01607,Gujarat,Ahmedabad,Internal Medicine,102,0.438,Drug_B,0.407
+DOC01608,West Bengal,Siliguri,Cardiologist,246,0.825,Drug_B,0.458
+DOC01609,Rajasthan,Jodhpur,General Physician,157,0.731,Drug_D,0.45
+DOC01610,Karnataka,Hubballi,Diabetologist,99,0.588,Drug_B,0.5
+DOC01611,West Bengal,Siliguri,Endocrinologist,200,0.671,Drug_C,0.378
+DOC01612,Maharashtra,Mumbai,Diabetologist,275,0.58,Drug_C,0.575
+DOC01613,West Bengal,Siliguri,General Physician,129,0.636,Drug_B,0.352
+DOC01614,Maharashtra,Pune,Internal Medicine,92,0.519,Drug_B,0.435
+DOC01615,Rajasthan,Jodhpur,Internal Medicine,256,0.451,Drug_C,0.414
+DOC01616,Maharashtra,Nagpur,Endocrinologist,261,0.369,Drug_B,0.303
+DOC01617,West Bengal,Siliguri,Internal Medicine,260,0.772,Drug_C,0.585
+DOC01618,Telangana,Hyderabad,Internal Medicine,113,0.448,Drug_C,0.354
+DOC01619,Karnataka,Mysuru,General Physician,191,0.628,Drug_B,0.452
+DOC01620,Delhi NCR,Delhi,General Physician,99,0.691,Drug_D,0.383
+DOC01621,West Bengal,Siliguri,Internal Medicine,399,0.941,Drug_D,0.757
+DOC01622,Rajasthan,Jaipur,General Physician,141,0.593,Drug_B,0.506
+DOC01623,Karnataka,Hubballi,Internal Medicine,291,0.419,Drug_D,0.449
+DOC01624,Maharashtra,Nagpur,General Physician,74,0.579,Drug_B,0.405
+DOC01625,West Bengal,Siliguri,Cardiologist,166,0.692,Drug_D,0.391
+DOC01626,Maharashtra,Nashik,Cardiologist,189,0.269,Drug_C,0.353
+DOC01627,Maharashtra,Pune,Diabetologist,201,0.77,Drug_B,0.464
+DOC01628,Karnataka,Mysuru,Internal Medicine,270,0.657,Drug_D,0.511
+DOC01629,Delhi NCR,Noida,Cardiologist,233,0.848,Drug_D,0.538
+DOC01630,Gujarat,Vadodara,Diabetologist,178,0.211,Drug_C,0.292
+DOC01631,Tamil Nadu,Chennai,Endocrinologist,142,0.754,Drug_B,0.557
+DOC01632,Rajasthan,Jaipur,Internal Medicine,50,0.431,Drug_C,0.267
+DOC01633,Delhi NCR,Gurugram,Cardiologist,208,0.727,Drug_C,0.528
+DOC01634,West Bengal,Siliguri,Diabetologist,140,0.78,Drug_C,0.412
+DOC01635,Maharashtra,Nashik,Internal Medicine,178,0.598,Drug_C,0.46
+DOC01636,West Bengal,Kolkata,Endocrinologist,192,0.838,Drug_D,0.336
+DOC01637,Delhi NCR,Gurugram,Diabetologist,50,0.454,Drug_C,0.198
+DOC01638,Maharashtra,Pune,Diabetologist,142,0.584,Drug_D,0.363
+DOC01639,Delhi NCR,Delhi,Diabetologist,184,0.657,Drug_C,0.538
+DOC01640,Delhi NCR,Delhi,Internal Medicine,65,0.736,Drug_C,0.515
+DOC01641,Delhi NCR,Noida,Endocrinologist,181,0.816,Drug_D,0.454
+DOC01642,Maharashtra,Nagpur,General Physician,200,0.514,Drug_D,0.371
+DOC01643,West Bengal,Siliguri,Internal Medicine,179,0.82,Drug_C,0.402
+DOC01644,Delhi NCR,Delhi,Endocrinologist,61,0.7,Drug_B,0.415
+DOC01645,Maharashtra,Mumbai,Diabetologist,156,0.553,Drug_B,0.377
+DOC01646,Karnataka,Bengaluru,Cardiologist,135,0.384,Drug_B,0.316
+DOC01647,West Bengal,Kolkata,Diabetologist,113,0.542,Drug_B,0.213
+DOC01648,Maharashtra,Nagpur,Internal Medicine,117,0.538,Drug_D,0.383
+DOC01649,West Bengal,Siliguri,Endocrinologist,513,0.705,Drug_C,0.562
+DOC01650,Karnataka,Bengaluru,Endocrinologist,112,0.903,Drug_C,0.272
+DOC01651,Tamil Nadu,Coimbatore,Endocrinologist,294,0.762,Drug_B,0.459
+DOC01652,Maharashtra,Nashik,Internal Medicine,173,0.627,Drug_B,0.433
+DOC01653,Gujarat,Surat,Cardiologist,52,0.89,Drug_C,0.485
+DOC01654,Delhi NCR,Delhi,Diabetologist,61,0.202,Drug_B,0.268
+DOC01655,Telangana,Hyderabad,Endocrinologist,133,0.494,Drug_D,0.451
+DOC01656,Tamil Nadu,Coimbatore,General Physician,177,0.492,Drug_B,0.277
+DOC01657,Maharashtra,Pune,General Physician,136,0.751,Drug_D,0.393
+DOC01658,Delhi NCR,Noida,General Physician,61,0.516,Drug_B,0.409
+DOC01659,West Bengal,Kolkata,Diabetologist,300,0.608,Drug_D,0.507
+DOC01660,Maharashtra,Nagpur,General Physician,362,0.619,Drug_D,0.589
+DOC01661,West Bengal,Kolkata,General Physician,187,0.473,Drug_C,0.394
+DOC01662,Tamil Nadu,Coimbatore,Endocrinologist,116,0.64,Drug_C,0.435
+DOC01663,Rajasthan,Udaipur,Endocrinologist,182,0.399,Drug_C,0.298
+DOC01664,Telangana,Warangal,Diabetologist,517,0.484,Drug_C,0.806
+DOC01665,West Bengal,Kolkata,Diabetologist,146,0.256,Drug_C,0.352
+DOC01666,Maharashtra,Pune,General Physician,116,0.927,Drug_B,0.271
+DOC01667,Delhi NCR,Delhi,General Physician,155,0.661,Drug_B,0.384
+DOC01668,Rajasthan,Jodhpur,Diabetologist,142,0.317,Drug_B,0.134
+DOC01669,Gujarat,Surat,Diabetologist,118,0.562,Drug_C,0.23
+DOC01670,Gujarat,Ahmedabad,Diabetologist,300,0.743,Drug_C,0.597
+DOC01671,Maharashtra,Nagpur,Internal Medicine,133,0.406,Drug_B,0.382
+DOC01672,West Bengal,Kolkata,Internal Medicine,93,0.595,Drug_C,0.402
+DOC01673,Delhi NCR,Gurugram,Cardiologist,127,0.875,Drug_C,0.461
+DOC01674,Tamil Nadu,Coimbatore,Endocrinologist,66,0.326,Drug_B,0.263
+DOC01675,Gujarat,Vadodara,Internal Medicine,77,0.255,Drug_D,0.344
+DOC01676,Maharashtra,Nagpur,Cardiologist,526,0.514,Drug_D,0.652
+DOC01677,Rajasthan,Udaipur,Internal Medicine,131,0.496,Drug_C,0.437
+DOC01678,Maharashtra,Mumbai,Endocrinologist,181,0.639,Drug_B,0.47
+DOC01679,Tamil Nadu,Chennai,Internal Medicine,123,0.271,Drug_C,0.258
+DOC01680,Delhi NCR,Gurugram,Diabetologist,91,0.37,Drug_B,0.242
+DOC01681,Rajasthan,Jodhpur,Internal Medicine,273,0.456,Drug_C,0.428
+DOC01682,Rajasthan,Jodhpur,Internal Medicine,116,0.571,Drug_D,0.319
+DOC01683,Karnataka,Bengaluru,Endocrinologist,271,0.411,Drug_B,0.561
+DOC01684,Karnataka,Hubballi,Internal Medicine,108,0.542,Drug_B,0.31
+DOC01685,Gujarat,Ahmedabad,Internal Medicine,230,0.646,Drug_D,0.466
+DOC01686,West Bengal,Siliguri,General Physician,159,0.209,Drug_B,0.236
+DOC01687,Maharashtra,Nagpur,Cardiologist,203,0.622,Drug_C,0.505
+DOC01688,Karnataka,Mysuru,Internal Medicine,267,0.711,Drug_B,0.468
+DOC01689,Rajasthan,Jodhpur,General Physician,139,0.865,Drug_D,0.497
+DOC01690,Rajasthan,Jaipur,Cardiologist,264,0.599,Drug_B,0.624
+DOC01691,Delhi NCR,Noida,Internal Medicine,74,0.352,Drug_D,0.233
+DOC01692,Karnataka,Hubballi,Endocrinologist,150,0.525,Drug_C,0.575
+DOC01693,Rajasthan,Udaipur,Diabetologist,142,0.457,Drug_C,0.442
+DOC01694,Tamil Nadu,Madurai,General Physician,205,0.93,Drug_B,0.429
+DOC01695,Rajasthan,Udaipur,Cardiologist,150,0.203,Drug_D,0.35
+DOC01696,Tamil Nadu,Madurai,Endocrinologist,183,0.739,Drug_C,0.405
+DOC01697,Rajasthan,Jodhpur,General Physician,168,0.689,Drug_D,0.474
+DOC01698,Maharashtra,Nagpur,Cardiologist,129,0.749,Drug_D,0.499
+DOC01699,Maharashtra,Nagpur,Internal Medicine,375,0.69,Drug_B,0.545
+DOC01700,Tamil Nadu,Chennai,Internal Medicine,185,0.63,Drug_C,0.522
+DOC01701,Maharashtra,Mumbai,Cardiologist,136,0.704,Drug_B,0.379
+DOC01702,Maharashtra,Mumbai,Cardiologist,272,0.768,Drug_C,0.377
+DOC01703,Tamil Nadu,Madurai,Endocrinologist,115,0.816,Drug_D,0.487
+DOC01704,Tamil Nadu,Chennai,Internal Medicine,66,0.67,Drug_C,0.269
+DOC01705,West Bengal,Siliguri,Endocrinologist,127,0.61,Drug_B,0.413
+DOC01706,Karnataka,Bengaluru,Internal Medicine,104,0.273,Drug_B,0.387
+DOC01707,Rajasthan,Jodhpur,General Physician,76,0.548,Drug_B,0.273
+DOC01708,Rajasthan,Jaipur,Diabetologist,196,0.63,Drug_D,0.37
+DOC01709,Karnataka,Bengaluru,Diabetologist,122,0.465,Drug_B,0.391
+DOC01710,Telangana,Warangal,Endocrinologist,190,0.403,Drug_D,0.5
+DOC01711,Karnataka,Bengaluru,General Physician,504,0.859,Drug_B,0.859
+DOC01712,Delhi NCR,Gurugram,General Physician,84,0.483,Drug_B,0.359
+DOC01713,West Bengal,Siliguri,Diabetologist,359,0.219,Drug_C,0.5
+DOC01714,Maharashtra,Pune,Cardiologist,119,0.307,Drug_C,0.415
+DOC01715,Tamil Nadu,Madurai,General Physician,259,0.564,Drug_D,0.638
+DOC01716,Karnataka,Bengaluru,Endocrinologist,316,0.77,Drug_D,0.672
+DOC01717,Tamil Nadu,Madurai,Internal Medicine,191,0.644,Drug_B,0.52
+DOC01718,Maharashtra,Nashik,Internal Medicine,405,0.925,Drug_C,0.734
+DOC01719,Telangana,Hyderabad,General Physician,312,0.478,Drug_B,0.526
+DOC01720,Tamil Nadu,Chennai,Internal Medicine,171,0.711,Drug_B,0.481
+DOC01721,Rajasthan,Jaipur,Endocrinologist,175,0.872,Drug_B,0.541
+DOC01722,West Bengal,Siliguri,Internal Medicine,241,0.224,Drug_B,0.528
+DOC01723,West Bengal,Kolkata,Diabetologist,133,0.137,Drug_D,0.269
+DOC01724,Karnataka,Bengaluru,General Physician,64,0.599,Drug_C,0.392
+DOC01725,Maharashtra,Mumbai,Internal Medicine,343,0.493,Drug_B,0.587
+DOC01726,West Bengal,Kolkata,Internal Medicine,422,0.213,Drug_C,0.648
+DOC01727,Gujarat,Ahmedabad,Internal Medicine,59,0.56,Drug_B,0.372
+DOC01728,West Bengal,Siliguri,General Physician,138,0.754,Drug_C,0.401
+DOC01729,Gujarat,Vadodara,Endocrinologist,222,0.484,Drug_B,0.362
+DOC01730,Telangana,Hyderabad,Diabetologist,173,0.552,Drug_D,0.471
+DOC01731,Gujarat,Ahmedabad,Endocrinologist,125,0.465,Drug_D,0.254
+DOC01732,Rajasthan,Jaipur,General Physician,83,0.66,Drug_C,0.359
+DOC01733,Telangana,Hyderabad,Diabetologist,464,0.892,Drug_B,0.726
+DOC01734,West Bengal,Kolkata,Internal Medicine,236,0.727,Drug_D,0.545
+DOC01735,West Bengal,Kolkata,Internal Medicine,149,0.575,Drug_C,0.415
+DOC01736,Karnataka,Hubballi,Internal Medicine,107,0.578,Drug_C,0.388
+DOC01737,Tamil Nadu,Coimbatore,Internal Medicine,187,0.748,Drug_B,0.43
+DOC01738,West Bengal,Siliguri,Endocrinologist,190,0.632,Drug_B,0.357
+DOC01739,Delhi NCR,Noida,General Physician,201,0.825,Drug_C,0.465
+DOC01740,West Bengal,Kolkata,Endocrinologist,177,0.284,Drug_C,0.338
+DOC01741,Tamil Nadu,Coimbatore,Endocrinologist,284,0.266,Drug_C,0.381
+DOC01742,Karnataka,Hubballi,Internal Medicine,409,0.445,Drug_D,0.598
+DOC01743,Karnataka,Mysuru,Internal Medicine,368,0.493,Drug_C,0.648
+DOC01744,Maharashtra,Nagpur,General Physician,182,0.591,Drug_B,0.524
+DOC01745,Gujarat,Vadodara,General Physician,50,0.765,Drug_B,0.494
+DOC01746,Telangana,Hyderabad,General Physician,97,0.092,Drug_B,0.238
+DOC01747,Rajasthan,Jodhpur,Diabetologist,86,0.824,Drug_D,0.425
+DOC01748,Rajasthan,Jaipur,Diabetologist,148,0.248,Drug_B,0.293
+DOC01749,Karnataka,Bengaluru,Internal Medicine,126,0.32,Drug_B,0.303
+DOC01750,Tamil Nadu,Coimbatore,Cardiologist,184,0.742,Drug_C,0.558
+DOC01751,West Bengal,Kolkata,Internal Medicine,121,0.213,Drug_C,0.237
+DOC01752,Maharashtra,Mumbai,Internal Medicine,244,0.878,Drug_B,0.51
+DOC01753,Karnataka,Mysuru,Diabetologist,394,0.591,Drug_D,0.582
+DOC01754,Delhi NCR,Gurugram,Internal Medicine,241,0.81,Drug_B,0.663
+DOC01755,Telangana,Hyderabad,Diabetologist,346,0.388,Drug_C,0.505
+DOC01756,Rajasthan,Jodhpur,Endocrinologist,97,0.554,Drug_D,0.299
+DOC01757,Maharashtra,Pune,Endocrinologist,541,0.466,Drug_D,0.701
+DOC01758,Tamil Nadu,Coimbatore,Endocrinologist,113,0.378,Drug_B,0.452
+DOC01759,Maharashtra,Nashik,Internal Medicine,71,0.4,Drug_D,0.293
+DOC01760,Tamil Nadu,Madurai,Internal Medicine,281,0.659,Drug_D,0.625
+DOC01761,Maharashtra,Nagpur,Endocrinologist,287,0.618,Drug_B,0.581
+DOC01762,Rajasthan,Udaipur,Endocrinologist,89,0.666,Drug_B,0.397
+DOC01763,West Bengal,Siliguri,General Physician,88,0.579,Drug_B,0.32
+DOC01764,Rajasthan,Jaipur,Diabetologist,177,0.791,Drug_C,0.637
+DOC01765,Telangana,Warangal,General Physician,87,0.66,Drug_D,0.52
+DOC01766,Karnataka,Mysuru,Endocrinologist,259,0.68,Drug_B,0.538
+DOC01767,Gujarat,Ahmedabad,General Physician,187,0.362,Drug_C,0.497
+DOC01768,Gujarat,Surat,Diabetologist,277,0.761,Drug_B,0.632
+DOC01769,Gujarat,Vadodara,Internal Medicine,109,0.481,Drug_C,0.243
+DOC01770,West Bengal,Kolkata,Internal Medicine,136,0.683,Drug_D,0.343
+DOC01771,Delhi NCR,Gurugram,Diabetologist,95,0.707,Drug_C,0.516
+DOC01772,West Bengal,Kolkata,General Physician,118,0.439,Drug_D,0.338
+DOC01773,Tamil Nadu,Chennai,General Physician,97,0.554,Drug_C,0.289
+DOC01774,Delhi NCR,Delhi,Internal Medicine,68,0.818,Drug_B,0.42
+DOC01775,Telangana,Hyderabad,Cardiologist,402,0.908,Drug_B,0.747
+DOC01776,Rajasthan,Jaipur,Endocrinologist,70,0.847,Drug_B,0.425
+DOC01777,Delhi NCR,Delhi,Cardiologist,221,0.438,Drug_D,0.438
+DOC01778,Gujarat,Surat,General Physician,301,0.674,Drug_C,0.604
+DOC01779,Gujarat,Surat,Diabetologist,116,0.394,Drug_B,0.311
+DOC01780,Karnataka,Bengaluru,General Physician,157,0.96,Drug_B,0.522
+DOC01781,Karnataka,Bengaluru,Internal Medicine,324,0.713,Drug_D,0.51
+DOC01782,Karnataka,Hubballi,Endocrinologist,106,0.823,Drug_D,0.49
+DOC01783,West Bengal,Siliguri,General Physician,92,0.628,Drug_D,0.509
+DOC01784,Gujarat,Surat,General Physician,236,0.745,Drug_C,0.653
+DOC01785,Gujarat,Surat,Internal Medicine,182,0.161,Drug_C,0.296
+DOC01786,Delhi NCR,Noida,Endocrinologist,153,0.496,Drug_C,0.486
+DOC01787,Gujarat,Surat,Internal Medicine,206,0.68,Drug_C,0.601
+DOC01788,Karnataka,Hubballi,General Physician,167,0.963,Drug_D,0.43
+DOC01789,Maharashtra,Mumbai,Cardiologist,402,0.543,Drug_D,0.583
+DOC01790,Gujarat,Surat,Internal Medicine,383,0.539,Drug_C,0.556
+DOC01791,Gujarat,Vadodara,Endocrinologist,140,0.322,Drug_B,0.347
+DOC01792,Gujarat,Surat,Cardiologist,89,0.213,Drug_D,0.245
+DOC01793,Delhi NCR,Noida,Cardiologist,89,0.642,Drug_D,0.445
+DOC01794,Telangana,Hyderabad,General Physician,152,0.25,Drug_B,0.165
+DOC01795,Gujarat,Ahmedabad,Cardiologist,252,0.231,Drug_D,0.408
+DOC01796,Gujarat,Ahmedabad,Internal Medicine,76,0.897,Drug_C,0.462
+DOC01797,West Bengal,Siliguri,Endocrinologist,139,0.648,Drug_C,0.269
+DOC01798,Rajasthan,Udaipur,Cardiologist,150,0.28,Drug_C,0.255
+DOC01799,West Bengal,Kolkata,Internal Medicine,190,0.463,Drug_D,0.458
+DOC01800,Karnataka,Mysuru,Endocrinologist,92,0.466,Drug_D,0.413
+DOC01801,Rajasthan,Udaipur,Endocrinologist,72,0.4,Drug_B,0.283
+DOC01802,Karnataka,Hubballi,Internal Medicine,538,0.725,Drug_B,0.83
+DOC01803,Tamil Nadu,Madurai,General Physician,250,0.336,Drug_D,0.448
+DOC01804,Rajasthan,Udaipur,Internal Medicine,341,0.448,Drug_B,0.491
+DOC01805,Tamil Nadu,Coimbatore,Diabetologist,130,0.873,Drug_C,0.634
+DOC01806,Rajasthan,Jodhpur,Internal Medicine,209,0.732,Drug_B,0.479
+DOC01807,Gujarat,Vadodara,Internal Medicine,151,0.123,Drug_C,0.316
+DOC01808,Rajasthan,Jaipur,Endocrinologist,215,0.726,Drug_B,0.372
+DOC01809,Maharashtra,Nagpur,Diabetologist,242,0.581,Drug_B,0.376
+DOC01810,Gujarat,Ahmedabad,General Physician,270,0.851,Drug_C,0.611
+DOC01811,Gujarat,Ahmedabad,Internal Medicine,230,0.363,Drug_D,0.6
+DOC01812,Rajasthan,Udaipur,Internal Medicine,197,0.52,Drug_B,0.442
+DOC01813,Tamil Nadu,Coimbatore,Diabetologist,188,0.665,Drug_B,0.474
+DOC01814,Tamil Nadu,Coimbatore,Endocrinologist,154,0.517,Drug_C,0.512
+DOC01815,Telangana,Hyderabad,Internal Medicine,290,0.68,Drug_B,0.441
+DOC01816,Telangana,Warangal,Diabetologist,160,0.822,Drug_B,0.513
+DOC01817,Delhi NCR,Gurugram,Endocrinologist,223,0.677,Drug_D,0.45
+DOC01818,Gujarat,Surat,Internal Medicine,73,0.789,Drug_D,0.324
+DOC01819,West Bengal,Kolkata,General Physician,167,0.35,Drug_C,0.5
+DOC01820,Rajasthan,Jodhpur,Internal Medicine,107,0.721,Drug_B,0.548
+DOC01821,Telangana,Hyderabad,General Physician,118,0.531,Drug_B,0.427
+DOC01822,Delhi NCR,Noida,General Physician,94,0.561,Drug_C,0.342
+DOC01823,Gujarat,Ahmedabad,Internal Medicine,217,0.73,Drug_B,0.48
+DOC01824,Maharashtra,Nagpur,Endocrinologist,285,0.301,Drug_B,0.441
+DOC01825,Gujarat,Ahmedabad,Cardiologist,206,0.683,Drug_B,0.49
+DOC01826,West Bengal,Siliguri,Internal Medicine,197,0.804,Drug_B,0.528
+DOC01827,Delhi NCR,Delhi,Endocrinologist,50,0.684,Drug_D,0.502
+DOC01828,Tamil Nadu,Madurai,Internal Medicine,173,0.522,Drug_B,0.287
+DOC01829,Delhi NCR,Gurugram,General Physician,111,0.421,Drug_B,0.292
+DOC01830,Karnataka,Bengaluru,General Physician,107,0.129,Drug_C,0.278
+DOC01831,Tamil Nadu,Coimbatore,Internal Medicine,275,0.522,Drug_B,0.431
+DOC01832,Maharashtra,Pune,Diabetologist,341,0.34,Drug_B,0.383
+DOC01833,Gujarat,Surat,Diabetologist,112,0.916,Drug_D,0.262
+DOC01834,Gujarat,Vadodara,Cardiologist,312,0.83,Drug_D,0.729
+DOC01835,Telangana,Warangal,Diabetologist,149,0.957,Drug_B,0.363
+DOC01836,Karnataka,Bengaluru,Diabetologist,412,0.24,Drug_D,0.454
+DOC01837,Maharashtra,Mumbai,Internal Medicine,301,0.597,Drug_C,0.567
+DOC01838,Gujarat,Vadodara,Endocrinologist,117,0.792,Drug_B,0.494
+DOC01839,West Bengal,Kolkata,Diabetologist,76,0.521,Drug_C,0.483
+DOC01840,Maharashtra,Pune,Diabetologist,188,0.688,Drug_B,0.504
+DOC01841,Karnataka,Hubballi,Endocrinologist,387,0.553,Drug_B,0.729
+DOC01842,Delhi NCR,Delhi,Endocrinologist,302,0.361,Drug_B,0.447
+DOC01843,Telangana,Warangal,Cardiologist,181,0.493,Drug_C,0.4
+DOC01844,Rajasthan,Udaipur,Diabetologist,377,0.295,Drug_B,0.575
+DOC01845,Delhi NCR,Noida,Cardiologist,92,0.12,Drug_B,0.421
+DOC01846,Gujarat,Surat,Internal Medicine,423,0.814,Drug_C,0.704
+DOC01847,Telangana,Hyderabad,Endocrinologist,181,0.531,Drug_B,0.414
+DOC01848,Rajasthan,Jodhpur,Internal Medicine,141,0.578,Drug_D,0.299
+DOC01849,Karnataka,Hubballi,Diabetologist,167,0.631,Drug_D,0.522
+DOC01850,Delhi NCR,Noida,Endocrinologist,212,0.352,Drug_D,0.418
+DOC01851,Rajasthan,Jodhpur,Diabetologist,109,0.566,Drug_C,0.41
+DOC01852,Delhi NCR,Noida,Diabetologist,379,0.659,Drug_D,0.632
+DOC01853,Tamil Nadu,Coimbatore,Cardiologist,232,0.719,Drug_C,0.633
+DOC01854,West Bengal,Kolkata,Diabetologist,68,0.499,Drug_D,0.318
+DOC01855,Rajasthan,Udaipur,Internal Medicine,360,0.685,Drug_D,0.457
+DOC01856,Maharashtra,Pune,Internal Medicine,168,0.643,Drug_C,0.451
+DOC01857,Rajasthan,Udaipur,Diabetologist,160,0.736,Drug_B,0.557
+DOC01858,Rajasthan,Jaipur,Endocrinologist,215,0.446,Drug_B,0.51
+DOC01859,Rajasthan,Jaipur,General Physician,218,0.458,Drug_B,0.304
+DOC01860,Telangana,Hyderabad,General Physician,202,0.692,Drug_B,0.542
+DOC01861,Telangana,Hyderabad,Endocrinologist,84,0.723,Drug_B,0.396
+DOC01862,Gujarat,Surat,General Physician,365,0.342,Drug_B,0.586
+DOC01863,Delhi NCR,Noida,Internal Medicine,112,0.747,Drug_B,0.471
+DOC01864,Gujarat,Vadodara,Diabetologist,126,0.77,Drug_B,0.448
+DOC01865,Gujarat,Ahmedabad,Internal Medicine,50,0.355,Drug_B,0.208
+DOC01866,Rajasthan,Jaipur,Diabetologist,124,0.744,Drug_C,0.358
+DOC01867,Rajasthan,Jodhpur,Internal Medicine,122,0.736,Drug_C,0.457
+DOC01868,West Bengal,Siliguri,Diabetologist,79,0.633,Drug_B,0.262
+DOC01869,Karnataka,Mysuru,Diabetologist,214,0.354,Drug_D,0.335
+DOC01870,Tamil Nadu,Madurai,Cardiologist,120,0.438,Drug_B,0.216
+DOC01871,Rajasthan,Udaipur,Diabetologist,195,0.83,Drug_C,0.475
+DOC01872,Maharashtra,Mumbai,Diabetologist,123,0.63,Drug_B,0.407
+DOC01873,Karnataka,Hubballi,Internal Medicine,172,0.683,Drug_D,0.468
+DOC01874,Tamil Nadu,Madurai,Endocrinologist,111,0.768,Drug_C,0.459
+DOC01875,Karnataka,Hubballi,General Physician,151,0.724,Drug_C,0.513
+DOC01876,West Bengal,Kolkata,Diabetologist,125,0.381,Drug_D,0.371
+DOC01877,Maharashtra,Nagpur,Internal Medicine,262,0.354,Drug_B,0.393
+DOC01878,Tamil Nadu,Coimbatore,General Physician,150,0.613,Drug_D,0.468
+DOC01879,West Bengal,Kolkata,General Physician,175,0.483,Drug_B,0.422
+DOC01880,Rajasthan,Jaipur,Cardiologist,146,0.877,Drug_D,0.498
+DOC01881,Delhi NCR,Delhi,Internal Medicine,104,0.879,Drug_B,0.565
+DOC01882,Rajasthan,Jodhpur,Endocrinologist,61,0.529,Drug_B,0.305
+DOC01883,Maharashtra,Pune,Diabetologist,241,0.553,Drug_D,0.394
+DOC01884,Delhi NCR,Noida,Diabetologist,87,0.55,Drug_B,0.424
+DOC01885,Tamil Nadu,Coimbatore,Endocrinologist,201,0.242,Drug_D,0.441
+DOC01886,Delhi NCR,Noida,Cardiologist,151,0.946,Drug_B,0.406
+DOC01887,Gujarat,Ahmedabad,Endocrinologist,178,0.642,Drug_B,0.392
+DOC01888,Tamil Nadu,Chennai,General Physician,138,0.615,Drug_C,0.353
+DOC01889,Tamil Nadu,Madurai,Diabetologist,155,0.558,Drug_C,0.385
+DOC01890,Telangana,Warangal,Internal Medicine,147,0.438,Drug_C,0.287
+DOC01891,Delhi NCR,Gurugram,Internal Medicine,206,0.884,Drug_B,0.607
+DOC01892,Rajasthan,Jaipur,Cardiologist,384,0.591,Drug_D,0.447
+DOC01893,Tamil Nadu,Madurai,Diabetologist,240,0.717,Drug_D,0.519
+DOC01894,Maharashtra,Nashik,Internal Medicine,240,0.686,Drug_C,0.411
+DOC01895,Tamil Nadu,Chennai,Endocrinologist,106,0.936,Drug_C,0.315
+DOC01896,Maharashtra,Mumbai,Internal Medicine,177,0.447,Drug_D,0.38
+DOC01897,Telangana,Warangal,Cardiologist,100,0.559,Drug_B,0.272
+DOC01898,Maharashtra,Nashik,Diabetologist,135,0.758,Drug_D,0.467
+DOC01899,Maharashtra,Mumbai,Internal Medicine,162,0.873,Drug_B,0.589
+DOC01900,Karnataka,Mysuru,Cardiologist,57,0.402,Drug_C,0.292
+DOC01901,West Bengal,Kolkata,Endocrinologist,50,0.592,Drug_B,0.288
+DOC01902,Gujarat,Vadodara,General Physician,77,0.817,Drug_B,0.478
+DOC01903,Maharashtra,Nashik,General Physician,88,0.502,Drug_B,0.363
+DOC01904,Karnataka,Hubballi,Internal Medicine,106,0.581,Drug_B,0.35
+DOC01905,Maharashtra,Mumbai,Internal Medicine,82,0.479,Drug_C,0.288
+DOC01906,Maharashtra,Mumbai,General Physician,565,0.72,Drug_C,0.82
+DOC01907,Tamil Nadu,Madurai,Internal Medicine,139,0.741,Drug_B,0.317
+DOC01908,Rajasthan,Jodhpur,Diabetologist,111,0.798,Drug_C,0.492
+DOC01909,Telangana,Hyderabad,Internal Medicine,95,0.255,Drug_B,0.398
+DOC01910,Delhi NCR,Gurugram,Internal Medicine,137,0.315,Drug_B,0.432
+DOC01911,Tamil Nadu,Coimbatore,General Physician,234,0.408,Drug_C,0.457
+DOC01912,Tamil Nadu,Madurai,Diabetologist,74,0.815,Drug_B,0.325
+DOC01913,Tamil Nadu,Madurai,Endocrinologist,251,0.531,Drug_B,0.576
+DOC01914,Gujarat,Surat,Internal Medicine,225,0.487,Drug_D,0.46
+DOC01915,Delhi NCR,Noida,Cardiologist,61,0.504,Drug_B,0.438
+DOC01916,Tamil Nadu,Madurai,Diabetologist,247,0.703,Drug_C,0.568
+DOC01917,Delhi NCR,Noida,Internal Medicine,107,0.61,Drug_C,0.434
+DOC01918,Karnataka,Hubballi,Endocrinologist,89,0.323,Drug_C,0.338
+DOC01919,West Bengal,Kolkata,Endocrinologist,469,0.731,Drug_C,0.679
+DOC01920,Tamil Nadu,Chennai,Diabetologist,78,0.758,Drug_D,0.407
+DOC01921,Karnataka,Mysuru,Internal Medicine,175,0.477,Drug_D,0.567
+DOC01922,West Bengal,Kolkata,Endocrinologist,99,0.474,Drug_C,0.351
+DOC01923,Telangana,Warangal,Diabetologist,195,0.767,Drug_D,0.475
+DOC01924,Telangana,Warangal,General Physician,53,0.29,Drug_B,0.173
+DOC01925,Delhi NCR,Delhi,Internal Medicine,205,0.556,Drug_B,0.439
+DOC01926,Karnataka,Hubballi,Internal Medicine,164,0.355,Drug_B,0.188
+DOC01927,West Bengal,Kolkata,Cardiologist,115,0.73,Drug_B,0.532
+DOC01928,Rajasthan,Jodhpur,Internal Medicine,153,0.502,Drug_C,0.465
+DOC01929,Tamil Nadu,Madurai,General Physician,144,0.389,Drug_B,0.494
+DOC01930,Delhi NCR,Gurugram,Internal Medicine,109,0.884,Drug_B,0.508
+DOC01931,Gujarat,Ahmedabad,Diabetologist,247,0.733,Drug_C,0.521
+DOC01932,Tamil Nadu,Coimbatore,General Physician,72,0.817,Drug_C,0.588
+DOC01933,West Bengal,Kolkata,General Physician,282,0.294,Drug_B,0.404
+DOC01934,Karnataka,Hubballi,Internal Medicine,180,0.832,Drug_D,0.585
+DOC01935,Delhi NCR,Noida,Internal Medicine,193,0.847,Drug_C,0.48
+DOC01936,Maharashtra,Nagpur,Endocrinologist,459,0.539,Drug_B,0.72
+DOC01937,Tamil Nadu,Coimbatore,Internal Medicine,150,0.24,Drug_C,0.362
+DOC01938,Maharashtra,Pune,Endocrinologist,502,0.25,Drug_B,0.593
+DOC01939,Gujarat,Ahmedabad,General Physician,183,0.425,Drug_B,0.469
+DOC01940,Tamil Nadu,Madurai,Internal Medicine,352,0.723,Drug_B,0.606
+DOC01941,Maharashtra,Nagpur,Diabetologist,88,0.212,Drug_B,0.313
+DOC01942,Maharashtra,Nagpur,Diabetologist,502,0.877,Drug_D,0.779
+DOC01943,West Bengal,Siliguri,General Physician,479,0.723,Drug_C,0.688
+DOC01944,West Bengal,Siliguri,Endocrinologist,226,0.676,Drug_B,0.348
+DOC01945,Maharashtra,Pune,Endocrinologist,96,0.502,Drug_B,0.256
+DOC01946,West Bengal,Kolkata,Diabetologist,167,0.64,Drug_B,0.648
+DOC01947,Gujarat,Vadodara,Internal Medicine,205,0.459,Drug_B,0.415
+DOC01948,Tamil Nadu,Madurai,Internal Medicine,210,0.669,Drug_C,0.524
+DOC01949,Telangana,Warangal,Endocrinologist,282,0.528,Drug_C,0.458
+DOC01950,West Bengal,Kolkata,General Physician,232,0.761,Drug_B,0.533
+DOC01951,Karnataka,Mysuru,Internal Medicine,210,0.646,Drug_D,0.516
+DOC01952,Delhi NCR,Noida,Endocrinologist,207,0.41,Drug_D,0.485
+DOC01953,Maharashtra,Nashik,General Physician,123,0.053,Drug_B,0.199
+DOC01954,Tamil Nadu,Madurai,Endocrinologist,100,0.479,Drug_D,0.408
+DOC01955,Telangana,Warangal,Internal Medicine,140,0.792,Drug_B,0.307
+DOC01956,Delhi NCR,Delhi,Endocrinologist,351,0.091,Drug_B,0.439
+DOC01957,West Bengal,Siliguri,Endocrinologist,234,0.799,Drug_C,0.58
+DOC01958,Maharashtra,Pune,Cardiologist,67,0.373,Drug_B,0.276
+DOC01959,Delhi NCR,Delhi,Diabetologist,175,0.534,Drug_B,0.428
+DOC01960,Rajasthan,Jodhpur,Endocrinologist,232,0.787,Drug_C,0.632
+DOC01961,Tamil Nadu,Chennai,Diabetologist,223,0.374,Drug_B,0.387
+DOC01962,Delhi NCR,Delhi,Diabetologist,209,0.45,Drug_B,0.295
+DOC01963,Tamil Nadu,Chennai,Diabetologist,81,0.325,Drug_D,0.329
+DOC01964,Maharashtra,Nagpur,Internal Medicine,123,0.846,Drug_D,0.379
+DOC01965,Delhi NCR,Noida,Endocrinologist,348,0.374,Drug_B,0.51
+DOC01966,Rajasthan,Udaipur,General Physician,183,0.522,Drug_B,0.5
+DOC01967,Rajasthan,Udaipur,Cardiologist,480,0.517,Drug_D,0.457
+DOC01968,Telangana,Hyderabad,Internal Medicine,188,0.663,Drug_B,0.437
+DOC01969,Tamil Nadu,Coimbatore,Diabetologist,245,0.206,Drug_B,0.444
+DOC01970,West Bengal,Kolkata,Internal Medicine,256,0.728,Drug_D,0.621
+DOC01971,Maharashtra,Nagpur,Cardiologist,128,0.739,Drug_C,0.486
+DOC01972,Gujarat,Surat,Diabetologist,144,0.529,Drug_C,0.462
+DOC01973,Maharashtra,Pune,Endocrinologist,68,0.72,Drug_D,0.453
+DOC01974,Maharashtra,Mumbai,General Physician,193,0.785,Drug_B,0.479
+DOC01975,Maharashtra,Nagpur,General Physician,111,0.385,Drug_C,0.34
+DOC01976,Telangana,Warangal,General Physician,132,0.658,Drug_C,0.451
+DOC01977,Karnataka,Mysuru,Cardiologist,119,0.403,Drug_D,0.295
+DOC01978,Telangana,Hyderabad,Endocrinologist,300,0.717,Drug_D,0.481
+DOC01979,Karnataka,Hubballi,Endocrinologist,268,0.513,Drug_D,0.605
+DOC01980,Delhi NCR,Gurugram,General Physician,167,0.276,Drug_B,0.231
+DOC01981,Tamil Nadu,Coimbatore,Diabetologist,215,0.881,Drug_C,0.649
+DOC01982,Maharashtra,Mumbai,Diabetologist,64,0.585,Drug_D,0.278
+DOC01983,Gujarat,Surat,Internal Medicine,160,0.923,Drug_B,0.537
+DOC01984,Rajasthan,Jaipur,Internal Medicine,96,0.452,Drug_B,0.294
+DOC01985,Maharashtra,Nagpur,Diabetologist,141,0.461,Drug_B,0.417
+DOC01986,Karnataka,Bengaluru,Cardiologist,102,0.649,Drug_C,0.418
+DOC01987,Tamil Nadu,Madurai,General Physician,189,0.4,Drug_B,0.346
+DOC01988,Maharashtra,Nagpur,Internal Medicine,145,0.816,Drug_B,0.415
+DOC01989,West Bengal,Kolkata,Diabetologist,156,0.271,Drug_C,0.462
+DOC01990,Maharashtra,Nagpur,Internal Medicine,182,0.523,Drug_B,0.341
+DOC01991,Karnataka,Bengaluru,Internal Medicine,259,0.279,Drug_C,0.621
+DOC01992,Delhi NCR,Gurugram,Diabetologist,727,0.798,Drug_B,0.934
+DOC01993,West Bengal,Siliguri,Cardiologist,93,0.759,Drug_D,0.484
+DOC01994,Gujarat,Vadodara,General Physician,161,0.856,Drug_D,0.554
+DOC01995,Delhi NCR,Gurugram,Diabetologist,131,0.591,Drug_B,0.438
+DOC01996,Tamil Nadu,Coimbatore,General Physician,72,0.622,Drug_B,0.468
+DOC01997,Telangana,Warangal,Cardiologist,139,0.45,Drug_D,0.563
+DOC01998,West Bengal,Siliguri,Diabetologist,122,0.937,Drug_B,0.37
+DOC01999,Telangana,Warangal,Internal Medicine,141,0.637,Drug_C,0.498
+DOC02000,Maharashtra,Nashik,Diabetologist,192,0.413,Drug_D,0.338
+DOC02001,Telangana,Hyderabad,Internal Medicine,181,0.512,Drug_D,0.335
+DOC02002,Tamil Nadu,Madurai,Cardiologist,399,0.487,Drug_B,0.377
+DOC02003,West Bengal,Siliguri,General Physician,132,0.321,Drug_D,0.455
+DOC02004,Tamil Nadu,Chennai,Endocrinologist,379,0.388,Drug_D,0.529
+DOC02005,Maharashtra,Mumbai,General Physician,290,0.669,Drug_D,0.483
+DOC02006,Maharashtra,Mumbai,Diabetologist,107,0.839,Drug_D,0.329
+DOC02007,Tamil Nadu,Chennai,Cardiologist,50,0.895,Drug_D,0.351
+DOC02008,Karnataka,Mysuru,Cardiologist,311,0.816,Drug_C,0.502
+DOC02009,Rajasthan,Jodhpur,Cardiologist,155,0.728,Drug_C,0.53
+DOC02010,Karnataka,Hubballi,Internal Medicine,96,0.485,Drug_C,0.262
+DOC02011,Delhi NCR,Delhi,Endocrinologist,99,0.792,Drug_D,0.404
+DOC02012,Maharashtra,Nagpur,General Physician,119,0.266,Drug_C,0.36
+DOC02013,Maharashtra,Pune,General Physician,294,0.513,Drug_C,0.507
+DOC02014,West Bengal,Kolkata,Diabetologist,119,0.953,Drug_C,0.454
+DOC02015,Karnataka,Hubballi,General Physician,153,0.244,Drug_B,0.446
+DOC02016,West Bengal,Siliguri,Endocrinologist,95,0.719,Drug_B,0.436
+DOC02017,Tamil Nadu,Chennai,Internal Medicine,104,0.28,Drug_D,0.334
+DOC02018,Rajasthan,Jaipur,General Physician,234,0.396,Drug_C,0.37
+DOC02019,Delhi NCR,Gurugram,Diabetologist,89,0.925,Drug_B,0.495
+DOC02020,Telangana,Hyderabad,Internal Medicine,120,0.276,Drug_B,0.359
+DOC02021,Gujarat,Ahmedabad,General Physician,99,0.467,Drug_B,0.197
+DOC02022,Gujarat,Vadodara,Endocrinologist,244,0.606,Drug_C,0.444
+DOC02023,Telangana,Warangal,Cardiologist,62,0.263,Drug_B,0.211
+DOC02024,Gujarat,Ahmedabad,Endocrinologist,301,0.581,Drug_D,0.639
+DOC02025,Tamil Nadu,Coimbatore,Endocrinologist,342,0.666,Drug_B,0.601
+DOC02026,Maharashtra,Mumbai,Internal Medicine,454,0.541,Drug_B,0.791
+DOC02027,Tamil Nadu,Madurai,Endocrinologist,267,0.072,Drug_C,0.487
+DOC02028,Maharashtra,Pune,General Physician,246,0.729,Drug_D,0.53
+DOC02029,West Bengal,Kolkata,Endocrinologist,192,0.679,Drug_B,0.549
+DOC02030,Rajasthan,Jaipur,Internal Medicine,104,0.453,Drug_D,0.33
+DOC02031,Maharashtra,Pune,Endocrinologist,317,0.814,Drug_C,0.449
+DOC02032,Delhi NCR,Noida,General Physician,126,0.867,Drug_B,0.435
+DOC02033,West Bengal,Siliguri,General Physician,239,0.444,Drug_C,0.44
+DOC02034,Rajasthan,Udaipur,General Physician,219,0.235,Drug_B,0.368
+DOC02035,Gujarat,Ahmedabad,General Physician,121,0.705,Drug_B,0.48
+DOC02036,Tamil Nadu,Madurai,Internal Medicine,61,0.461,Drug_C,0.417
+DOC02037,Maharashtra,Nagpur,Internal Medicine,315,0.43,Drug_B,0.563
+DOC02038,Rajasthan,Jaipur,Diabetologist,180,0.599,Drug_B,0.511
+DOC02039,West Bengal,Kolkata,Diabetologist,219,0.601,Drug_B,0.57
+DOC02040,Telangana,Hyderabad,General Physician,150,0.446,Drug_B,0.322
+DOC02041,West Bengal,Kolkata,Internal Medicine,90,0.501,Drug_D,0.383
+DOC02042,Gujarat,Ahmedabad,General Physician,152,0.466,Drug_B,0.461
+DOC02043,Rajasthan,Jaipur,Cardiologist,294,0.31,Drug_D,0.291
+DOC02044,Maharashtra,Mumbai,Diabetologist,50,0.508,Drug_C,0.297
+DOC02045,Maharashtra,Nashik,General Physician,132,0.757,Drug_C,0.478
+DOC02046,West Bengal,Kolkata,Endocrinologist,58,0.465,Drug_C,0.346
+DOC02047,Tamil Nadu,Madurai,Diabetologist,89,0.404,Drug_C,0.256
+DOC02048,Karnataka,Bengaluru,Endocrinologist,446,0.63,Drug_B,0.706
+DOC02049,Rajasthan,Jaipur,General Physician,163,0.815,Drug_D,0.417
+DOC02050,Maharashtra,Pune,Cardiologist,185,0.812,Drug_C,0.535
+DOC02051,Rajasthan,Jaipur,Internal Medicine,264,0.749,Drug_C,0.469
+DOC02052,Rajasthan,Jodhpur,Endocrinologist,143,0.566,Drug_C,0.492
+DOC02053,Rajasthan,Jodhpur,Cardiologist,408,0.863,Drug_D,0.613
+DOC02054,Telangana,Hyderabad,Internal Medicine,122,0.785,Drug_B,0.531
+DOC02055,West Bengal,Kolkata,Diabetologist,109,0.825,Drug_D,0.469
+DOC02056,West Bengal,Siliguri,General Physician,528,0.598,Drug_B,0.719
+DOC02057,West Bengal,Kolkata,Diabetologist,176,0.453,Drug_B,0.444
+DOC02058,Maharashtra,Nashik,Diabetologist,50,0.55,Drug_B,0.357
+DOC02059,Telangana,Warangal,General Physician,105,0.644,Drug_B,0.429
+DOC02060,Telangana,Warangal,General Physician,326,0.766,Drug_D,0.524
+DOC02061,Rajasthan,Jaipur,Internal Medicine,201,0.482,Drug_D,0.372
+DOC02062,Rajasthan,Udaipur,Diabetologist,94,0.511,Drug_D,0.348
+DOC02063,West Bengal,Siliguri,General Physician,221,0.796,Drug_D,0.516
+DOC02064,Telangana,Warangal,Endocrinologist,223,0.305,Drug_C,0.416
+DOC02065,West Bengal,Kolkata,Endocrinologist,95,0.864,Drug_C,0.55
+DOC02066,Delhi NCR,Delhi,General Physician,426,0.416,Drug_B,0.577
+DOC02067,Gujarat,Vadodara,Internal Medicine,145,0.659,Drug_B,0.434
+DOC02068,West Bengal,Kolkata,Endocrinologist,333,0.855,Drug_C,0.545
+DOC02069,Maharashtra,Pune,Endocrinologist,454,0.894,Drug_C,0.885
+DOC02070,West Bengal,Siliguri,Endocrinologist,75,0.599,Drug_B,0.209
+DOC02071,West Bengal,Siliguri,Endocrinologist,90,0.736,Drug_C,0.421
+DOC02072,Maharashtra,Pune,Internal Medicine,128,0.566,Drug_B,0.631
+DOC02073,Tamil Nadu,Coimbatore,Internal Medicine,98,0.396,Drug_C,0.362
+DOC02074,Maharashtra,Nashik,Cardiologist,393,0.436,Drug_D,0.456
+DOC02075,West Bengal,Kolkata,Diabetologist,70,0.239,Drug_C,0.348
+DOC02076,Tamil Nadu,Chennai,Internal Medicine,75,0.497,Drug_C,0.413
+DOC02077,Gujarat,Vadodara,Diabetologist,96,0.719,Drug_B,0.367
+DOC02078,West Bengal,Siliguri,Cardiologist,436,0.877,Drug_D,0.683
+DOC02079,Maharashtra,Nagpur,Diabetologist,94,0.25,Drug_B,0.433
+DOC02080,Telangana,Hyderabad,Diabetologist,73,0.622,Drug_D,0.431
+DOC02081,Gujarat,Surat,Internal Medicine,129,0.736,Drug_D,0.454
+DOC02082,Tamil Nadu,Coimbatore,Diabetologist,75,0.381,Drug_B,0.204
+DOC02083,Delhi NCR,Noida,Endocrinologist,211,0.545,Drug_B,0.525
+DOC02084,Telangana,Warangal,Cardiologist,182,0.49,Drug_C,0.295
+DOC02085,Rajasthan,Udaipur,General Physician,110,0.475,Drug_B,0.374
+DOC02086,Rajasthan,Udaipur,Endocrinologist,164,0.248,Drug_C,0.377
+DOC02087,Gujarat,Surat,Internal Medicine,97,0.819,Drug_C,0.485
+DOC02088,Delhi NCR,Noida,General Physician,258,0.695,Drug_B,0.414
+DOC02089,Maharashtra,Nagpur,Internal Medicine,139,0.723,Drug_C,0.491
+DOC02090,Rajasthan,Jaipur,Internal Medicine,56,0.731,Drug_D,0.551
+DOC02091,Rajasthan,Udaipur,Endocrinologist,426,0.69,Drug_D,0.675
+DOC02092,Rajasthan,Jodhpur,Internal Medicine,127,0.638,Drug_D,0.32
+DOC02093,Tamil Nadu,Chennai,Diabetologist,181,0.443,Drug_D,0.399
+DOC02094,Maharashtra,Nagpur,Diabetologist,73,0.603,Drug_D,0.304
+DOC02095,Telangana,Hyderabad,Cardiologist,144,0.582,Drug_D,0.371
+DOC02096,Gujarat,Ahmedabad,Internal Medicine,100,0.719,Drug_C,0.355
+DOC02097,Delhi NCR,Noida,General Physician,58,0.725,Drug_B,0.486
+DOC02098,Maharashtra,Pune,General Physician,104,0.791,Drug_B,0.272
+DOC02099,Tamil Nadu,Coimbatore,Internal Medicine,173,0.847,Drug_D,0.539
+DOC02100,Tamil Nadu,Coimbatore,Internal Medicine,149,0.623,Drug_B,0.467
+DOC02101,Maharashtra,Nashik,Endocrinologist,128,0.786,Drug_B,0.389
+DOC02102,Delhi NCR,Delhi,Diabetologist,64,0.573,Drug_B,0.446
+DOC02103,Karnataka,Hubballi,Endocrinologist,126,0.907,Drug_C,0.563
+DOC02104,Karnataka,Hubballi,Endocrinologist,319,0.675,Drug_C,0.598
+DOC02105,Delhi NCR,Gurugram,Endocrinologist,97,0.842,Drug_B,0.477
+DOC02106,Maharashtra,Nagpur,General Physician,52,0.792,Drug_B,0.427
+DOC02107,Gujarat,Surat,Endocrinologist,263,0.681,Drug_C,0.398
+DOC02108,Maharashtra,Nagpur,General Physician,155,0.782,Drug_B,0.67
+DOC02109,Tamil Nadu,Madurai,General Physician,293,0.375,Drug_C,0.47
+DOC02110,Maharashtra,Pune,Endocrinologist,67,0.755,Drug_D,0.367
+DOC02111,Delhi NCR,Delhi,General Physician,170,0.783,Drug_C,0.386
+DOC02112,Delhi NCR,Gurugram,Diabetologist,123,0.448,Drug_D,0.409
+DOC02113,Maharashtra,Mumbai,Internal Medicine,182,0.938,Drug_B,0.562
+DOC02114,Telangana,Warangal,Diabetologist,150,0.765,Drug_D,0.268
+DOC02115,Tamil Nadu,Madurai,General Physician,179,0.348,Drug_D,0.489
+DOC02116,Karnataka,Hubballi,Diabetologist,226,0.231,Drug_D,0.395
+DOC02117,Rajasthan,Udaipur,Internal Medicine,50,0.714,Drug_C,0.393
+DOC02118,Telangana,Hyderabad,Internal Medicine,175,0.598,Drug_B,0.321
+DOC02119,Telangana,Hyderabad,Internal Medicine,133,0.565,Drug_D,0.304
+DOC02120,Delhi NCR,Delhi,Endocrinologist,85,0.797,Drug_B,0.283
+DOC02121,West Bengal,Siliguri,General Physician,79,0.326,Drug_B,0.339
+DOC02122,Maharashtra,Pune,Endocrinologist,201,0.87,Drug_D,0.442
+DOC02123,Maharashtra,Nagpur,Endocrinologist,134,0.67,Drug_D,0.399
+DOC02124,Gujarat,Surat,Internal Medicine,147,0.674,Drug_C,0.52
+DOC02125,Maharashtra,Mumbai,Internal Medicine,167,0.818,Drug_B,0.573
+DOC02126,Maharashtra,Nashik,Cardiologist,250,0.752,Drug_C,0.604
+DOC02127,Karnataka,Hubballi,Diabetologist,100,0.626,Drug_C,0.341
+DOC02128,West Bengal,Kolkata,General Physician,138,0.643,Drug_B,0.242
+DOC02129,Telangana,Warangal,Endocrinologist,245,0.806,Drug_D,0.497
+DOC02130,Maharashtra,Nagpur,Diabetologist,251,0.53,Drug_B,0.455
+DOC02131,Karnataka,Bengaluru,Cardiologist,55,0.351,Drug_B,0.259
+DOC02132,Gujarat,Ahmedabad,Diabetologist,199,0.805,Drug_B,0.506
+DOC02133,Maharashtra,Nagpur,Endocrinologist,89,0.773,Drug_D,0.353
+DOC02134,Delhi NCR,Noida,Diabetologist,157,0.392,Drug_C,0.291
+DOC02135,Delhi NCR,Delhi,Internal Medicine,415,0.302,Drug_B,0.548
+DOC02136,Tamil Nadu,Chennai,Cardiologist,165,0.814,Drug_C,0.561
+DOC02137,Karnataka,Bengaluru,Internal Medicine,50,0.213,Drug_B,0.224
+DOC02138,Maharashtra,Mumbai,Cardiologist,220,0.476,Drug_B,0.443
+DOC02139,Karnataka,Hubballi,Internal Medicine,50,0.978,Drug_D,0.478
+DOC02140,Tamil Nadu,Chennai,Diabetologist,149,0.63,Drug_B,0.449
+DOC02141,Karnataka,Hubballi,General Physician,215,0.675,Drug_B,0.444
+DOC02142,Delhi NCR,Gurugram,Diabetologist,337,0.509,Drug_B,0.621
+DOC02143,Karnataka,Mysuru,Cardiologist,84,0.657,Drug_B,0.364
+DOC02144,West Bengal,Kolkata,Internal Medicine,102,0.812,Drug_C,0.478
+DOC02145,Karnataka,Mysuru,General Physician,62,0.579,Drug_B,0.308
+DOC02146,Telangana,Warangal,Diabetologist,437,0.823,Drug_B,0.766
+DOC02147,Karnataka,Bengaluru,Diabetologist,212,0.661,Drug_C,0.602
+DOC02148,Delhi NCR,Noida,Internal Medicine,104,0.633,Drug_B,0.441
+DOC02149,Tamil Nadu,Madurai,Internal Medicine,152,0.544,Drug_D,0.401
+DOC02150,Delhi NCR,Noida,General Physician,200,0.51,Drug_D,0.505
+DOC02151,Tamil Nadu,Coimbatore,Internal Medicine,63,0.67,Drug_B,0.342
+DOC02152,Rajasthan,Jodhpur,Internal Medicine,86,0.325,Drug_C,0.291
+DOC02153,West Bengal,Siliguri,Diabetologist,171,0.578,Drug_B,0.461
+DOC02154,Tamil Nadu,Coimbatore,Cardiologist,183,0.608,Drug_B,0.488
+DOC02155,Gujarat,Vadodara,General Physician,276,0.485,Drug_B,0.534
+DOC02156,Gujarat,Ahmedabad,Diabetologist,273,0.874,Drug_C,0.566
+DOC02157,Delhi NCR,Noida,Endocrinologist,168,0.678,Drug_D,0.419
+DOC02158,Delhi NCR,Delhi,General Physician,278,0.688,Drug_D,0.631
+DOC02159,Karnataka,Bengaluru,Diabetologist,362,0.76,Drug_C,0.487
+DOC02160,Maharashtra,Nashik,Diabetologist,172,0.438,Drug_C,0.34
+DOC02161,Tamil Nadu,Madurai,General Physician,283,0.943,Drug_C,0.608
+DOC02162,Maharashtra,Mumbai,Internal Medicine,57,0.64,Drug_C,0.455
+DOC02163,Maharashtra,Nagpur,Diabetologist,100,0.771,Drug_D,0.494
+DOC02164,Gujarat,Vadodara,Internal Medicine,94,0.295,Drug_B,0.345
+DOC02165,West Bengal,Siliguri,Diabetologist,100,0.448,Drug_D,0.393
+DOC02166,Tamil Nadu,Chennai,Cardiologist,114,0.94,Drug_C,0.492
+DOC02167,Karnataka,Mysuru,Internal Medicine,134,0.117,Drug_D,0.284
+DOC02168,Rajasthan,Udaipur,Internal Medicine,156,0.499,Drug_D,0.456
+DOC02169,Rajasthan,Jaipur,Cardiologist,88,0.391,Drug_D,0.307
+DOC02170,Tamil Nadu,Madurai,Cardiologist,61,0.553,Drug_B,0.336
+DOC02171,Maharashtra,Pune,General Physician,169,0.78,Drug_D,0.537
+DOC02172,Gujarat,Ahmedabad,Internal Medicine,50,0.494,Drug_C,0.341
+DOC02173,Maharashtra,Nashik,Internal Medicine,282,0.547,Drug_C,0.385
+DOC02174,Telangana,Warangal,Internal Medicine,331,0.351,Drug_D,0.531
+DOC02175,Delhi NCR,Delhi,Internal Medicine,94,0.537,Drug_B,0.414
+DOC02176,Delhi NCR,Noida,Endocrinologist,175,0.398,Drug_C,0.46
+DOC02177,Tamil Nadu,Coimbatore,Internal Medicine,156,0.577,Drug_B,0.387
+DOC02178,Tamil Nadu,Coimbatore,Cardiologist,242,0.177,Drug_B,0.261
+DOC02179,Karnataka,Hubballi,Internal Medicine,172,0.486,Drug_D,0.459
+DOC02180,Gujarat,Ahmedabad,Internal Medicine,99,0.811,Drug_D,0.302
+DOC02181,Karnataka,Bengaluru,Endocrinologist,94,0.68,Drug_C,0.343
+DOC02182,Maharashtra,Mumbai,Internal Medicine,235,0.872,Drug_C,0.531
+DOC02183,West Bengal,Kolkata,Diabetologist,146,0.226,Drug_C,0.358
+DOC02184,Karnataka,Bengaluru,Internal Medicine,274,0.526,Drug_B,0.511
+DOC02185,Gujarat,Ahmedabad,General Physician,266,0.096,Drug_C,0.246
+DOC02186,Maharashtra,Nashik,Cardiologist,125,0.51,Drug_C,0.434
+DOC02187,West Bengal,Kolkata,General Physician,50,0.632,Drug_D,0.384
+DOC02188,Delhi NCR,Gurugram,Diabetologist,493,0.463,Drug_D,0.586
+DOC02189,Tamil Nadu,Coimbatore,General Physician,210,0.5,Drug_D,0.482
+DOC02190,Karnataka,Mysuru,Cardiologist,57,0.487,Drug_B,0.259
+DOC02191,West Bengal,Siliguri,Endocrinologist,393,0.467,Drug_D,0.527
+DOC02192,Telangana,Warangal,Endocrinologist,191,0.329,Drug_C,0.405
+DOC02193,Rajasthan,Jodhpur,General Physician,196,0.689,Drug_C,0.466
+DOC02194,Gujarat,Surat,Cardiologist,148,0.586,Drug_B,0.579
+DOC02195,Tamil Nadu,Coimbatore,Diabetologist,122,0.507,Drug_C,0.314
+DOC02196,Delhi NCR,Noida,Internal Medicine,193,0.484,Drug_B,0.384
+DOC02197,West Bengal,Kolkata,Internal Medicine,50,0.49,Drug_D,0.251
+DOC02198,Maharashtra,Nashik,Diabetologist,228,0.848,Drug_C,0.705
+DOC02199,Delhi NCR,Noida,Diabetologist,235,0.541,Drug_D,0.559
+DOC02200,West Bengal,Siliguri,Diabetologist,50,0.485,Drug_B,0.376
+DOC02201,Maharashtra,Mumbai,General Physician,222,0.413,Drug_B,0.502
+DOC02202,Tamil Nadu,Chennai,General Physician,346,0.781,Drug_C,0.623
+DOC02203,Maharashtra,Nagpur,Diabetologist,126,0.672,Drug_B,0.556
+DOC02204,Rajasthan,Jaipur,Endocrinologist,167,0.476,Drug_B,0.442
+DOC02205,Maharashtra,Pune,General Physician,100,0.885,Drug_D,0.507
+DOC02206,Rajasthan,Jodhpur,Internal Medicine,122,0.938,Drug_C,0.557
+DOC02207,Gujarat,Vadodara,General Physician,79,0.584,Drug_C,0.321
+DOC02208,Rajasthan,Jaipur,General Physician,364,0.72,Drug_B,0.622
+DOC02209,Rajasthan,Jaipur,Internal Medicine,119,0.21,Drug_C,0.417
+DOC02210,Rajasthan,Jaipur,Endocrinologist,96,0.262,Drug_B,0.281
+DOC02211,West Bengal,Siliguri,Internal Medicine,131,0.547,Drug_B,0.372
+DOC02212,Telangana,Warangal,Diabetologist,194,0.679,Drug_C,0.351
+DOC02213,Delhi NCR,Gurugram,Internal Medicine,262,0.643,Drug_D,0.46
+DOC02214,Gujarat,Surat,Cardiologist,89,0.321,Drug_B,0.126
+DOC02215,Karnataka,Mysuru,Diabetologist,130,0.386,Drug_B,0.316
+DOC02216,Gujarat,Vadodara,Endocrinologist,91,0.716,Drug_B,0.383
+DOC02217,Karnataka,Bengaluru,Diabetologist,69,0.439,Drug_B,0.3
+DOC02218,Maharashtra,Pune,Endocrinologist,213,0.332,Drug_B,0.637
+DOC02219,Delhi NCR,Gurugram,Internal Medicine,50,0.632,Drug_C,0.273
+DOC02220,Delhi NCR,Gurugram,General Physician,103,0.225,Drug_C,0.416
+DOC02221,Karnataka,Hubballi,Internal Medicine,129,0.61,Drug_B,0.597
+DOC02222,Karnataka,Hubballi,General Physician,96,0.491,Drug_B,0.483
+DOC02223,Tamil Nadu,Chennai,Internal Medicine,107,0.667,Drug_D,0.448
+DOC02224,Gujarat,Vadodara,Diabetologist,50,0.695,Drug_B,0.299
+DOC02225,Maharashtra,Pune,General Physician,453,0.582,Drug_B,0.81
+DOC02226,Delhi NCR,Noida,General Physician,144,0.501,Drug_C,0.5
+DOC02227,Telangana,Warangal,General Physician,307,0.698,Drug_D,0.554
+DOC02228,Gujarat,Surat,Internal Medicine,251,0.438,Drug_D,0.582
+DOC02229,Gujarat,Vadodara,Internal Medicine,119,0.667,Drug_C,0.369
+DOC02230,West Bengal,Siliguri,Internal Medicine,183,0.335,Drug_B,0.297
+DOC02231,Telangana,Hyderabad,Internal Medicine,201,0.168,Drug_D,0.247
+DOC02232,Delhi NCR,Delhi,Diabetologist,265,0.613,Drug_B,0.495
+DOC02233,Maharashtra,Nashik,Endocrinologist,65,0.763,Drug_D,0.464
+DOC02234,Karnataka,Bengaluru,Cardiologist,151,0.429,Drug_D,0.433
+DOC02235,Karnataka,Bengaluru,Diabetologist,338,0.302,Drug_B,0.402
+DOC02236,Maharashtra,Nashik,General Physician,195,0.632,Drug_B,0.422
+DOC02237,Tamil Nadu,Chennai,Endocrinologist,117,0.391,Drug_C,0.389
+DOC02238,Tamil Nadu,Madurai,General Physician,184,0.501,Drug_B,0.369
+DOC02239,Telangana,Hyderabad,Endocrinologist,71,0.381,Drug_B,0.421
+DOC02240,West Bengal,Kolkata,Cardiologist,105,0.571,Drug_C,0.333
+DOC02241,West Bengal,Siliguri,General Physician,180,0.506,Drug_B,0.331
+DOC02242,Gujarat,Ahmedabad,Diabetologist,159,0.418,Drug_B,0.452
+DOC02243,Maharashtra,Pune,General Physician,171,0.379,Drug_C,0.394
+DOC02244,Delhi NCR,Noida,Endocrinologist,217,0.878,Drug_B,0.501
+DOC02245,Gujarat,Vadodara,Internal Medicine,300,0.901,Drug_D,0.493
+DOC02246,Karnataka,Hubballi,Endocrinologist,435,0.626,Drug_C,0.682
+DOC02247,Telangana,Hyderabad,Internal Medicine,195,0.649,Drug_B,0.444
+DOC02248,Gujarat,Ahmedabad,General Physician,118,0.789,Drug_C,0.529
+DOC02249,Delhi NCR,Delhi,Endocrinologist,179,0.461,Drug_C,0.541
+DOC02250,West Bengal,Siliguri,Diabetologist,106,0.771,Drug_D,0.386
+DOC02251,Maharashtra,Mumbai,Cardiologist,172,0.684,Drug_C,0.533
+DOC02252,West Bengal,Siliguri,Internal Medicine,115,0.125,Drug_B,0.074
+DOC02253,West Bengal,Kolkata,Internal Medicine,236,0.407,Drug_B,0.558
+DOC02254,Gujarat,Vadodara,Diabetologist,63,0.527,Drug_B,0.153
+DOC02255,Telangana,Hyderabad,General Physician,89,0.736,Drug_D,0.355
+DOC02256,Telangana,Warangal,Diabetologist,279,0.713,Drug_D,0.487
+DOC02257,Karnataka,Bengaluru,Endocrinologist,284,0.635,Drug_B,0.507
+DOC02258,Tamil Nadu,Coimbatore,Internal Medicine,98,0.686,Drug_C,0.29
+DOC02259,Rajasthan,Jaipur,Internal Medicine,141,0.453,Drug_C,0.395
+DOC02260,Telangana,Hyderabad,Endocrinologist,85,0.54,Drug_C,0.318
+DOC02261,Tamil Nadu,Chennai,General Physician,163,0.827,Drug_D,0.581
+DOC02262,West Bengal,Kolkata,Diabetologist,60,0.306,Drug_C,0.211
+DOC02263,Karnataka,Bengaluru,General Physician,51,0.43,Drug_B,0.395
+DOC02264,Rajasthan,Udaipur,Internal Medicine,190,0.661,Drug_B,0.422
+DOC02265,Rajasthan,Jaipur,General Physician,112,0.519,Drug_C,0.522
+DOC02266,Gujarat,Surat,Endocrinologist,410,0.496,Drug_B,0.433
+DOC02267,Tamil Nadu,Madurai,Internal Medicine,576,0.462,Drug_B,0.72
+DOC02268,Karnataka,Mysuru,Internal Medicine,135,0.672,Drug_B,0.574
+DOC02269,Rajasthan,Udaipur,Internal Medicine,125,0.081,Drug_C,0.256
+DOC02270,Telangana,Hyderabad,Endocrinologist,171,0.51,Drug_B,0.461
+DOC02271,Karnataka,Bengaluru,General Physician,140,0.799,Drug_D,0.504
+DOC02272,Rajasthan,Jaipur,Internal Medicine,227,0.689,Drug_B,0.511
+DOC02273,Maharashtra,Nashik,Internal Medicine,239,0.311,Drug_B,0.501
+DOC02274,West Bengal,Siliguri,General Physician,145,0.717,Drug_B,0.42
+DOC02275,Rajasthan,Udaipur,General Physician,53,0.353,Drug_B,0.391
+DOC02276,Tamil Nadu,Chennai,General Physician,384,0.719,Drug_C,0.49
+DOC02277,Gujarat,Ahmedabad,General Physician,89,0.872,Drug_B,0.531
+DOC02278,Rajasthan,Jodhpur,Diabetologist,433,0.75,Drug_C,0.704
+DOC02279,West Bengal,Kolkata,General Physician,101,0.244,Drug_C,0.229
+DOC02280,Tamil Nadu,Chennai,Diabetologist,79,0.784,Drug_B,0.467
+DOC02281,Maharashtra,Mumbai,Internal Medicine,133,0.679,Drug_B,0.364
+DOC02282,Karnataka,Hubballi,Cardiologist,159,0.459,Drug_D,0.412
+DOC02283,Telangana,Hyderabad,Internal Medicine,133,0.784,Drug_B,0.457
+DOC02284,Maharashtra,Pune,Internal Medicine,386,0.481,Drug_B,0.612
+DOC02285,Tamil Nadu,Madurai,Diabetologist,88,0.857,Drug_B,0.341
+DOC02286,Delhi NCR,Delhi,Cardiologist,159,0.696,Drug_B,0.492
+DOC02287,Tamil Nadu,Coimbatore,General Physician,233,0.289,Drug_C,0.322
+DOC02288,Delhi NCR,Noida,Endocrinologist,50,0.488,Drug_B,0.362
+DOC02289,Maharashtra,Pune,Diabetologist,116,0.565,Drug_C,0.37
+DOC02290,Delhi NCR,Noida,Endocrinologist,169,0.399,Drug_C,0.478
+DOC02291,Telangana,Hyderabad,Endocrinologist,50,0.643,Drug_B,0.448
+DOC02292,Tamil Nadu,Coimbatore,General Physician,108,0.335,Drug_C,0.286
+DOC02293,Maharashtra,Pune,Internal Medicine,75,0.619,Drug_B,0.452
+DOC02294,Karnataka,Mysuru,Internal Medicine,52,0.835,Drug_D,0.244
+DOC02295,West Bengal,Kolkata,Diabetologist,335,0.407,Drug_B,0.491
+DOC02296,Delhi NCR,Delhi,Cardiologist,163,0.459,Drug_B,0.477
+DOC02297,West Bengal,Kolkata,Diabetologist,104,0.258,Drug_C,0.258
+DOC02298,Telangana,Warangal,Cardiologist,243,0.476,Drug_D,0.559
+DOC02299,Tamil Nadu,Madurai,Endocrinologist,151,0.326,Drug_C,0.375
+DOC02300,Telangana,Hyderabad,Diabetologist,153,0.316,Drug_B,0.356
+DOC02301,Telangana,Warangal,Internal Medicine,156,0.665,Drug_D,0.369
+DOC02302,Karnataka,Mysuru,Internal Medicine,66,0.759,Drug_B,0.297
+DOC02303,Rajasthan,Jaipur,Internal Medicine,159,0.48,Drug_C,0.346
+DOC02304,Delhi NCR,Delhi,General Physician,379,0.832,Drug_B,0.479
+DOC02305,Tamil Nadu,Chennai,Internal Medicine,187,0.652,Drug_B,0.516
+DOC02306,Maharashtra,Mumbai,Endocrinologist,173,0.583,Drug_C,0.489
+DOC02307,Telangana,Warangal,General Physician,122,0.238,Drug_B,0.299
+DOC02308,Maharashtra,Nagpur,General Physician,153,0.359,Drug_B,0.305
+DOC02309,Delhi NCR,Delhi,Internal Medicine,131,0.754,Drug_D,0.322
+DOC02310,West Bengal,Siliguri,Endocrinologist,129,0.17,Drug_B,0.18
+DOC02311,Maharashtra,Nagpur,Diabetologist,95,0.274,Drug_C,0.301
+DOC02312,Delhi NCR,Gurugram,Diabetologist,282,0.789,Drug_B,0.629
+DOC02313,West Bengal,Kolkata,Internal Medicine,310,0.666,Drug_B,0.585
+DOC02314,Rajasthan,Udaipur,General Physician,250,0.483,Drug_D,0.541
+DOC02315,West Bengal,Kolkata,Internal Medicine,441,0.512,Drug_B,0.606
+DOC02316,Telangana,Warangal,Internal Medicine,104,0.819,Drug_B,0.436
+DOC02317,Maharashtra,Nagpur,Internal Medicine,225,0.414,Drug_D,0.502
+DOC02318,West Bengal,Kolkata,General Physician,156,0.747,Drug_B,0.502
+DOC02319,Delhi NCR,Delhi,Internal Medicine,209,0.755,Drug_B,0.444
+DOC02320,Maharashtra,Mumbai,Internal Medicine,174,0.635,Drug_B,0.375
+DOC02321,Maharashtra,Pune,Internal Medicine,167,0.779,Drug_B,0.457
+DOC02322,Gujarat,Vadodara,Internal Medicine,164,0.494,Drug_D,0.3
+DOC02323,Telangana,Warangal,Endocrinologist,159,0.402,Drug_B,0.309
+DOC02324,Rajasthan,Jodhpur,Diabetologist,189,0.356,Drug_B,0.299
+DOC02325,Tamil Nadu,Chennai,General Physician,321,0.957,Drug_B,0.586
+DOC02326,Tamil Nadu,Chennai,Diabetologist,59,0.66,Drug_B,0.463
+DOC02327,Tamil Nadu,Coimbatore,Internal Medicine,327,0.669,Drug_D,0.636
+DOC02328,Gujarat,Ahmedabad,General Physician,50,0.772,Drug_C,0.381
+DOC02329,West Bengal,Kolkata,Internal Medicine,276,0.624,Drug_C,0.578
+DOC02330,Rajasthan,Udaipur,Diabetologist,127,0.903,Drug_C,0.383
+DOC02331,Tamil Nadu,Coimbatore,Diabetologist,219,0.637,Drug_D,0.447
+DOC02332,Telangana,Hyderabad,Internal Medicine,81,0.467,Drug_B,0.294
+DOC02333,Gujarat,Vadodara,Internal Medicine,141,0.605,Drug_B,0.365
+DOC02334,Maharashtra,Mumbai,Diabetologist,70,0.747,Drug_D,0.194
+DOC02335,Maharashtra,Mumbai,Diabetologist,50,0.926,Drug_B,0.428
+DOC02336,Karnataka,Hubballi,General Physician,145,0.299,Drug_C,0.532
+DOC02337,Maharashtra,Nagpur,General Physician,378,0.578,Drug_B,0.589
+DOC02338,Tamil Nadu,Chennai,Internal Medicine,244,0.543,Drug_D,0.497
+DOC02339,Delhi NCR,Gurugram,Diabetologist,137,0.552,Drug_B,0.276
+DOC02340,Telangana,Hyderabad,Endocrinologist,401,0.74,Drug_C,0.643
+DOC02341,Maharashtra,Pune,Cardiologist,179,0.075,Drug_C,0.348
+DOC02342,Maharashtra,Pune,General Physician,126,0.464,Drug_B,0.283
+DOC02343,Karnataka,Mysuru,Diabetologist,68,0.752,Drug_C,0.356
+DOC02344,West Bengal,Siliguri,Cardiologist,57,0.599,Drug_B,0.287
+DOC02345,Karnataka,Bengaluru,Cardiologist,138,0.481,Drug_B,0.423
+DOC02346,Rajasthan,Jodhpur,Endocrinologist,256,0.474,Drug_B,0.571
+DOC02347,Telangana,Warangal,Internal Medicine,222,0.468,Drug_D,0.412
+DOC02348,West Bengal,Siliguri,Diabetologist,88,0.633,Drug_B,0.488
+DOC02349,Gujarat,Surat,General Physician,480,0.606,Drug_B,0.597
+DOC02350,Delhi NCR,Noida,Internal Medicine,293,0.352,Drug_D,0.503
+DOC02351,Karnataka,Bengaluru,General Physician,53,0.724,Drug_D,0.357
+DOC02352,Karnataka,Hubballi,Endocrinologist,126,0.68,Drug_D,0.364
+DOC02353,Maharashtra,Pune,Diabetologist,149,0.538,Drug_B,0.498
+DOC02354,Maharashtra,Nashik,General Physician,110,0.741,Drug_C,0.358
+DOC02355,Tamil Nadu,Chennai,Internal Medicine,98,0.8,Drug_B,0.478
+DOC02356,Tamil Nadu,Madurai,Internal Medicine,158,0.447,Drug_B,0.344
+DOC02357,Telangana,Warangal,Diabetologist,294,0.222,Drug_C,0.38
+DOC02358,Telangana,Warangal,General Physician,159,0.769,Drug_B,0.392
+DOC02359,Maharashtra,Mumbai,Endocrinologist,313,0.747,Drug_B,0.638
+DOC02360,Rajasthan,Jaipur,General Physician,191,0.513,Drug_D,0.485
+DOC02361,Maharashtra,Mumbai,Internal Medicine,230,0.922,Drug_B,0.447
+DOC02362,Tamil Nadu,Coimbatore,General Physician,107,0.574,Drug_B,0.319
+DOC02363,West Bengal,Siliguri,Endocrinologist,144,0.534,Drug_C,0.394
+DOC02364,Gujarat,Surat,Diabetologist,120,0.43,Drug_C,0.342
+DOC02365,Tamil Nadu,Coimbatore,General Physician,133,0.776,Drug_B,0.433
+DOC02366,Karnataka,Hubballi,General Physician,75,0.642,Drug_B,0.412
+DOC02367,Delhi NCR,Gurugram,General Physician,91,0.738,Drug_B,0.341
+DOC02368,Delhi NCR,Delhi,Internal Medicine,219,0.678,Drug_B,0.527
+DOC02369,Gujarat,Vadodara,Internal Medicine,60,0.456,Drug_B,0.213
+DOC02370,Telangana,Warangal,Endocrinologist,124,0.33,Drug_B,0.207
+DOC02371,Delhi NCR,Delhi,General Physician,92,0.529,Drug_B,0.434
+DOC02372,Karnataka,Hubballi,General Physician,97,0.57,Drug_C,0.41
+DOC02373,Telangana,Warangal,Endocrinologist,136,0.884,Drug_B,0.521
+DOC02374,Gujarat,Surat,Internal Medicine,64,0.683,Drug_D,0.391
+DOC02375,Telangana,Hyderabad,Internal Medicine,222,0.722,Drug_B,0.508
+DOC02376,Gujarat,Ahmedabad,Endocrinologist,81,0.77,Drug_C,0.465
+DOC02377,Delhi NCR,Gurugram,Diabetologist,617,0.319,Drug_D,0.717
+DOC02378,West Bengal,Siliguri,Endocrinologist,148,0.304,Drug_D,0.294
+DOC02379,West Bengal,Kolkata,Endocrinologist,208,0.245,Drug_B,0.437
+DOC02380,Tamil Nadu,Madurai,Cardiologist,193,0.337,Drug_D,0.391
+DOC02381,Maharashtra,Nagpur,Endocrinologist,146,0.734,Drug_D,0.46
+DOC02382,Telangana,Warangal,Endocrinologist,50,0.572,Drug_B,0.33
+DOC02383,Gujarat,Surat,Endocrinologist,90,0.926,Drug_C,0.421
+DOC02384,Maharashtra,Pune,Internal Medicine,220,0.881,Drug_B,0.455
+DOC02385,Tamil Nadu,Coimbatore,Diabetologist,135,0.862,Drug_D,0.602
+DOC02386,Rajasthan,Udaipur,General Physician,266,0.322,Drug_C,0.368
+DOC02387,Maharashtra,Pune,Internal Medicine,208,0.4,Drug_B,0.426
+DOC02388,Telangana,Hyderabad,Cardiologist,194,0.571,Drug_C,0.577
+DOC02389,Maharashtra,Pune,Cardiologist,143,0.143,Drug_B,0.313
+DOC02390,Tamil Nadu,Madurai,General Physician,92,0.939,Drug_D,0.609
+DOC02391,Telangana,Warangal,Endocrinologist,133,0.85,Drug_B,0.37
+DOC02392,Telangana,Hyderabad,Cardiologist,118,0.602,Drug_B,0.454
+DOC02393,Maharashtra,Nagpur,Diabetologist,182,0.436,Drug_C,0.445
+DOC02394,Telangana,Warangal,Internal Medicine,142,0.4,Drug_C,0.548
+DOC02395,Gujarat,Surat,Internal Medicine,106,0.938,Drug_D,0.406
+DOC02396,West Bengal,Kolkata,Diabetologist,76,0.402,Drug_D,0.289
+DOC02397,Delhi NCR,Delhi,Cardiologist,193,0.465,Drug_B,0.409
+DOC02398,Maharashtra,Nagpur,Diabetologist,115,0.653,Drug_D,0.332
+DOC02399,Maharashtra,Mumbai,General Physician,407,0.224,Drug_B,0.613
+DOC02400,Gujarat,Ahmedabad,Internal Medicine,98,0.582,Drug_D,0.336
